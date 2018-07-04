@@ -37,3 +37,12 @@ You'll want to make sure you have the right version of Java.
 
 1. Install sbt (scala's interactive build tool). Go [here](https://www.scala-lang.org/download/) to download and install sbt. Scala will come included. The installer should do all the system path stuff for you.
 2. Go to CLI and enter "sbt sbtVersion"
+
+### Directory Structure
+```
+├── client
+└── server
+```
+
+* ***client*** - Client side code
+* ***server*** - Server side code

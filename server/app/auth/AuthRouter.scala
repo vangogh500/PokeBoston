@@ -1,7 +1,5 @@
 package auth
 
-import javax.inject.Inject
-
-object AuthRouter @Inject()(controller: PostController) extends SimpleRouter {
-
-}
+import javax.inject._
+import play.api._
+import play.api.mvc._
