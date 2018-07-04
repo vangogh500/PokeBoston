@@ -5,7 +5,9 @@ Server side for Poke Boston app.
 To boot up the project, navigate to the server directory in the project and enter "sbt" into your CLI. From here you'll have access to the following commands:
 * **compile** - This will compile code.
 * **run** - This will compile and run (boot up) the server on localhost. You can type in localhost:9000 on your browser to test. You may need to compile code in client folder for anything to show up however.
+* **~run** - Same as run but will listen to changes in code.
 * **test** - This will run all the test files and will print a summary of results
+* **~test** - Same as test but will liten to changes in code.
 * **doc** - This will produce scaladoc that can then be viewed on your browser. Open "target/scala-_/api/index.html" in a browser.
 
 ### Directory Structure
@@ -35,3 +37,9 @@ To boot up the project, navigate to the server directory in the project and ente
 * ***target*** - All code and docs will be compiled to here.
 * ***test*** - All test code will go here.
 * ***build.sbt*** - Defines project settings, dependencies
+
+### Dependencies
+You won't have to worry about installing any of these (sbt will do it for you), but here are some resources about the frameworks/libraries used:
+* [Play](https://www.playframework.com/) - Popular backend framework for java and scala
+* [GraphQL](https://graphql.org/) - Popular/better alternative to REST API
+* [Sangria](https://github.com/sangria-graphql/sangria) - GraphQL for scala
