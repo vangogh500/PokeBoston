@@ -1,7 +1,7 @@
 # Poke Boston
 Geolocation based pokemon game for the greater Boston area.
 
-## Setting up local machine
+## Setting up local environment
 
 ### 1. CLI
 Any command line interface works. If you are using windows, I use [ConEmu](https://conemu.github.io/) (it allows for multitab and other useful features).
@@ -28,6 +28,9 @@ You'll want to make sure you have the right version of Java.
 		3. Create a new variable under "System variables" called "JAVA_HOME" and set it equal to the absolute path to the Java 8 JDK folder (for me this was ).
 		4. Edit "Path" variable under "User variables" and add %JAVA_HOME%\bin.
 		5. Save settings.
+
+![Set up system variables on Windows](https://raw.githubusercontent.com/vangogh500/PokeBoston/master/env_setup1.png)
+
 4. Reopen CLI and make sure commands work.
 
 ### 4. Scala & SBT
