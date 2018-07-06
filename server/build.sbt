@@ -1,10 +1,15 @@
-name := """server"""
-organization := "com.vangogh500.pokeboston"
+import scala.sys.process._
 
-version := "1.0-SNAPSHOT"
+name := """server"""
+organization := "com.pokeboston"
 scalaVersion := "2.12.6"
 
-enablePlugins(PlayScala)
+version := {
+  val branch = "git rev-parse --abbrev-ref HEAD".!!.trim
+  val commit = "git rev-parse --short HEAD".!!.trim
+  val buildTime = (new java.text.SimpleDateFormat("yyyyMMdd-HHmmss")).format(new java.util.Date())
+  "%s-%s-%s".format(branch, commit, buildTime)
+}
 
 libraryDependencies ++= {
   Seq(
@@ -12,6 +17,11 @@ libraryDependencies ++= {
     "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
   )
 }
+
+lazy val auth = (project in file("modules/auth")).enablePlugins(PlayScala)
+
+lazy val main = (project in file(".")).enablePlugins(PlayScala).dependsOn(auth).aggregate(auth)
+
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "com.example.controllers._"
