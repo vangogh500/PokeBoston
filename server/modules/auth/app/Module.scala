@@ -5,7 +5,7 @@ import play.api.{Configuration, Environment}
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync, AWSCognitoIdentityProviderAsyncClientBuilder}
 import com.amazonaws.regions.{Regions}
 
-import services.{AuthService, AWSCognitoAuthService}
+import v1.services.{AuthService, AWSCognitoAuthService}
 
 /**
  * Guice module for auth service.
