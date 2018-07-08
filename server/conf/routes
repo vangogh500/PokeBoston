@@ -5,4 +5,4 @@
 GET     /                           controllers.Assets.at(path="/public", file="index.html")
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
-->     /api                         api.Routes
+->     /auth                         auth.Routes

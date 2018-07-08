@@ -18,7 +18,22 @@ libraryDependencies ++= {
   )
 }
 
-lazy val auth = (project in file("modules/auth")).enablePlugins(PlayScala)
+javaOptions ++= Seq(
+  "-Daws.accessKeyId=AKIAIQBLZSXTCI2AIVLA",
+  "-Daws.secretKey=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"
+)
+
+lazy val auth = (project in file("modules/auth")).enablePlugins(PlayScala).settings(
+  libraryDependencies ++= {
+    val sangria = "1.4.1"
+    val aws = "1.11.362"
+    Seq(
+      guice,
+      "org.sangria-graphql" %% "sangria" % sangria,
+      "com.amazonaws" % "aws-java-sdk-cognitoidp" % aws
+    )
+  }
+)
 
 lazy val main = (project in file(".")).enablePlugins(PlayScala).dependsOn(auth).aggregate(auth)
 
