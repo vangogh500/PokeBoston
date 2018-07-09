@@ -3,6 +3,7 @@ package services
 
 import scala.concurrent.{Future}
 import models.AuthServiceResponse
+import sangria.macros.derive.{deriveContextObjectType, IncludeMethods}
 
 /**
  * Defines an auth service
