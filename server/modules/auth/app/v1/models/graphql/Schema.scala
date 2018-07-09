@@ -1,5 +1,6 @@
 package v1
 package models
+package graphql
 
 import sangria.schema._
 

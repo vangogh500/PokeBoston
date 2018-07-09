@@ -16,7 +16,7 @@ import models.AuthServiceResponse
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(authService: AuthService, action: DefaultActionBuilder) extends Controller {
+class HomeController @Inject()(authService: AuthService) extends InjectedController {
 
   /**
    * Create an Action to render an HTML page.
@@ -25,7 +25,7 @@ class HomeController @Inject()(authService: AuthService, action: DefaultActionBu
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
-  def index() = action.async { implicit request: Request[AnyContent] =>
+  def index() = Action.async { implicit request: Request[AnyContent] =>
     authService.login("vangogh@gmail.com", "112345WAD%") transform {
       case Success(res) => Success(Ok(res.toString))
       case Failure(e) => Success(Ok(e.toString))
