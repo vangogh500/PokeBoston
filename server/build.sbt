@@ -19,8 +19,8 @@ libraryDependencies ++= {
 }
 
 javaOptions ++= Seq(
-  "-Daws.accessKeyId=AKIAIQBLZSXTCI2AIVLA",
-  "-Daws.secretKey=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"
+  "-Daws.accessKeyId=AKIAJX2PFWEB36WB4U3Q",
+  "-Daws.secretKey=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"
 )
 
 lazy val auth = (project in file("modules/auth")).enablePlugins(PlayScala).settings(
