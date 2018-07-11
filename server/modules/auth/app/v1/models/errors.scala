@@ -1,7 +1,22 @@
 package v1
 package models
 
+/**
+ * Custom errors
+ */
 package object errors {
-  sealed trait AuthServiceException extends Exception
-  case object ClientAuthException extends AuthServiceException
+  /**
+   * Auth service exception
+   */
+  sealed trait AuthServiceException
+  /**
+   * Client auth exception - Client does not have permission (equivalent to 401)
+   * @param msg Description
+   */
+  case class ClientAuthException(msg: String) extends Exception(msg) with AuthServiceException
+  /**
+   * Server side exception - Something went wrong on the server (equivalent to 500)
+   * @param msg Description
+   */
+  case class ServerException(msg: String) extends Exception(msg) with AuthServiceException
 }

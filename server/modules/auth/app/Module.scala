@@ -5,7 +5,7 @@ import play.api.{Configuration, Environment}
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync, AWSCognitoIdentityProviderAsyncClientBuilder}
 import com.amazonaws.regions.{Regions}
 
-import v1.services.{AuthService, AWSCognitoAuthService}
+import v1.services.{AuthService, AWSCognitoAuthService, GQLServiceBuilder, SangriaGQLServiceBuilder}
 
 /**
  * Guice module for auth service.
@@ -18,5 +18,8 @@ class AuthModule(environment: Environment, configuration: Configuration) extends
 
     bind(classOf[AuthService])
       .to(classOf[AWSCognitoAuthService])
+
+    bind(classOf[GQLServiceBuilder])
+      .toInstance(SangriaGQLServiceBuilder)
   }
 }

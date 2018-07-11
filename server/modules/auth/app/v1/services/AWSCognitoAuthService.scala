@@ -3,12 +3,13 @@ package services
 
 import javax.inject._
 // implicits
-import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.ExecutionContext
 import lib.native.JavaScalaInterop._
 import scala.collection.JavaConverters._
 // models
 import scala.util.{Success, Failure}
-import models.errors.ClientAuthException
+import scala.concurrent.Future
+import models.errors._
 import models.AuthServiceResponse
 import com.amazonaws.services.cognitoidp.model.{AdminInitiateAuthRequest, AuthFlowType, UserNotFoundException, NotAuthorizedException}
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
@@ -18,7 +19,7 @@ import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
  * @param cognitoClient CognitoClient wrapper used
  */
 @Singleton
-class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderAsync) extends AuthService {
+class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderAsync)(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = {
     val params = Map[String, String](
       "USERNAME" -> email,
@@ -38,14 +39,17 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
           refreshToken = Some(awsAuthRes.getRefreshToken())
         ))
       case Failure(e) => e match {
-        case _: UserNotFoundException => Failure(ClientAuthException)
-        case _: NotAuthorizedException => Failure(ClientAuthException)
-        case _ => Failure(e)
+        case e: UserNotFoundException => Failure(ClientAuthException(e.getMessage()))
+        case e: NotAuthorizedException => Failure(ClientAuthException(e.getMessage()))
+        case _ => Failure(ServerException(e.getMessage()))
       }
     }
   }
 
-  def register(email: String, password: String) {
-
+  def register(email: String, password: String) = Future {
+    AuthServiceResponse(
+      accessToken = Some("test"),
+      refreshToken = Some("test")
+    )
   }
 }

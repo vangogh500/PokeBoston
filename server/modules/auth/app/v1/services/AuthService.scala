@@ -1,9 +1,9 @@
 package v1
 package services
 
+import sangria.macros.derive._
 import scala.concurrent.{Future}
 import models.AuthServiceResponse
-import sangria.macros.derive.{deriveContextObjectType, IncludeMethods}
 
 /**
  * Defines an auth service
@@ -11,10 +11,16 @@ import sangria.macros.derive.{deriveContextObjectType, IncludeMethods}
 trait AuthService {
   /**
    * Login business logic
+   * @param email Email
+   * @param password Password
    */
+  @GraphQLField
   def login(email: String, password: String): Future[AuthServiceResponse]
   /**
    * Registration business logic.
+   * @param email Email
+   * @param password Password
    */
-  def register(email: String, password: String): Unit
+  @GraphQLField
+  def register(email: String, password: String): Future[AuthServiceResponse]
 }

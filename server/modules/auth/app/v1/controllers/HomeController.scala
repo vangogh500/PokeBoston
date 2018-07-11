@@ -2,13 +2,17 @@ package v1
 package controllers
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.{Future}
+import sangria.marshalling.playJson._
+import play.api.libs.json._
+import sangria.execution._
+import sangria.parser.{SyntaxError, QueryParser}
 import javax.inject._
 import play.api._
 import play.api.mvc._
 import scala.util.{Success, Failure}
+import scala.concurrent.Future
 
-import services.AuthService
+import services.{AuthService, GQLServiceBuilder}
 import models.AuthServiceResponse
 
 /**
@@ -16,8 +20,9 @@ import models.AuthServiceResponse
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(authService: AuthService) extends InjectedController {
+class HomeController @Inject()(gqlServiceBuilder: GQLServiceBuilder, authService: AuthService) extends InjectedController {
 
+  private val gqlService = gqlServiceBuilder.build(authService)
   /**
    * Create an Action to render an HTML page.
    *
@@ -25,10 +30,7 @@ class HomeController @Inject()(authService: AuthService) extends InjectedControl
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
-  def index() = Action.async { implicit request: Request[AnyContent] =>
-    authService.login("vangogh@gmail.com", "112345WAD%") transform {
-      case Success(res) => Success(Ok(res.toString))
-      case Failure(e) => Success(Ok(e.toString))
-    }
+  def index() = Action.async(parse.json) { request =>
+    gqlService.execute(request.body).map(Ok(_))
   }
 }
