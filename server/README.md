@@ -1,6 +1,9 @@
 # Poke Boston (Server)
 Server side for Poke Boston app.
 
+### Setting up local environment
+####AWS credentials
+
 ### Commands
 To boot up the project, navigate to the server directory in the project and enter "sbt" into your CLI. From here you'll have access to the following commands:
 * **compile** - This will compile code.

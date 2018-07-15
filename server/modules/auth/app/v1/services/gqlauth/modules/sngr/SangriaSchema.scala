@@ -1,8 +1,10 @@
+package com.pokeboston.auth
 package v1
-package models
-package sngql
+package services
+package gqlauth
+package modules.sngr
 
-import services.AuthService
+import services.auth.AuthService
 import implicits._
 
 import sangria.schema._

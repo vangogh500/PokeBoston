@@ -1,8 +1,9 @@
+package com.pokeboston.auth
 package v1
-package models
+package services
 
 /**
- * Custom errors
+ * v1 errors
  */
 package object errors {
   /**

@@ -1,5 +1,5 @@
-package v1
-package lib.native
+package com.pokeboston.auth
+package v1.lib.native
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import java.util.concurrent.{Future => JFuture}

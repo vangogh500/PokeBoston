@@ -1,12 +1,14 @@
+package com.pokeboston.auth
 package v1
 package services
+package gqlauth.services.auth
 
+import scala.concurrent.ExecutionContext
 import sangria.macros.derive._
 import scala.concurrent.{Future}
-import models.AuthServiceResponse
 
 /**
- * Defines an auth service
+ * Defines an auth service specification for v1
  */
 trait AuthService {
   /**

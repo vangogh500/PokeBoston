@@ -1,35 +1,37 @@
+package com.pokeboston.auth
 package v1
 package services
+package gqlauth.services.auth
+package modules.cognito
 
 import javax.inject._
 // implicits
 import scala.concurrent.ExecutionContext
-import lib.native.JavaScalaInterop._
 import scala.collection.JavaConverters._
+import lib.native.JavaScalaInterop._
+// specs
+import errors._
 // models
 import scala.util.{Success, Failure}
+import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException}
+//lib
 import scala.concurrent.Future
-import models.errors._
-import models.AuthServiceResponse
-import com.amazonaws.services.cognitoidp.model.{AdminInitiateAuthRequest, AuthFlowType, UserNotFoundException, NotAuthorizedException}
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
+
 
 /**
  * Implementation of auth service using AWS cognito.
- * @param cognitoClient CognitoClient wrapper used
+ * @param cognitoClient CognitoClient used
+ * @param reqBuilder Cognito client request builder
  */
 @Singleton
-class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderAsync)(implicit ec: ExecutionContext) extends AuthService {
+class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderAsync, reqBuilder: CognitoRequestBuilder)(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = {
     val params = Map[String, String](
       "USERNAME" -> email,
       "PASSWORD" -> password
     )
-    val req = new AdminInitiateAuthRequest()
-      .withClientId("7q65cifvqaedpman6mi8pvk18h")
-      .withUserPoolId("us-east-1_qiIUxYjmN")
-      .withAuthFlow(AuthFlowType.ADMIN_NO_SRP_AUTH)
-      .withAuthParameters(params.asJava)
+    val req = reqBuilder.build.withAuthParameters(params.asJava)
 
     cognitoClient.adminInitiateAuthAsync(req).asScala transform {
       case Success(res) =>

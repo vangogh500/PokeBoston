@@ -4,4 +4,4 @@
 # ~~~~
 
 # An example controller showing a sample home page
-POST     /v1                           v1.controllers.HomeController.index
+POST     /v1                           com.pokeboston.auth.v1.controllers.HomeController.index

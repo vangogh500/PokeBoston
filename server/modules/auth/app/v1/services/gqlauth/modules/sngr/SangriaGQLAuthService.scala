@@ -1,5 +1,8 @@
+package com.pokeboston.auth
 package v1
 package services
+package gqlauth
+package modules.sngr
 
 import sangria.marshalling.playJson._
 import scala.util.{Success, Failure}
@@ -7,14 +10,13 @@ import scala.concurrent.{Future, ExecutionContext}
 import play.api.libs.json._
 import sangria.execution._
 import sangria.parser.{SyntaxError, QueryParser}
-
-import models.sngql.{SangriaSchema, SangriaContext, SangriaExceptionHandler}
+import services.auth.AuthService
 
 /**
  * Implementation of GQL service using Sangria
  * @param authService Auth service to use
  */
-case class SangriaGQLService(authService: AuthService) extends GQLService(authService) {
+case class SangriaGQLAuthService(authService: AuthService) extends GQLAuthService(authService) {
   /**
    * Executes reqBody
    * @param reqBody Request body to execute

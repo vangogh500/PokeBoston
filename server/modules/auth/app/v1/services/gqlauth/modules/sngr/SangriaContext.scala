@@ -1,6 +1,8 @@
+package com.pokeboston.auth
 package v1
-package models
-package sngql
+package services
+package gqlauth
+package modules.sngr
 
 /**
  * Sangria context

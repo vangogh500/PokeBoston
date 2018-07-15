@@ -1,9 +1,11 @@
+package com.pokeboston.auth
 package v1
-package models
-package sngql
+package services
+package gqlauth
+package modules.sngr
 
-import errors._
 import sangria.execution.{ExceptionHandler, HandledException}
+import errors._
 
 /**
  * Sangria exception handler

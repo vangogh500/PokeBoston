@@ -1,26 +1,22 @@
+package com.pokeboston.auth
 package v1
 package controllers
 
 import scala.concurrent.ExecutionContext.Implicits.global
-import sangria.marshalling.playJson._
 import play.api.libs.json._
-import sangria.execution._
-import sangria.parser.{SyntaxError, QueryParser}
 import javax.inject._
 import play.api._
 import play.api.mvc._
-import scala.util.{Success, Failure}
-import scala.concurrent.Future
 
-import services.{AuthService, GQLServiceBuilder}
-import models.AuthServiceResponse
+import services.gqlauth.{GQLAuthServiceBuilder}
+import v1.services.gqlauth.services.auth.{AuthService}
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(gqlServiceBuilder: GQLServiceBuilder, authService: AuthService) extends InjectedController {
+class HomeController @Inject()(gqlServiceBuilder: GQLAuthServiceBuilder, authService: AuthService) extends InjectedController {
 
   private val gqlService = gqlServiceBuilder.build(authService)
   /**

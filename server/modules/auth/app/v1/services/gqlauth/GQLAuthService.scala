@@ -1,14 +1,17 @@
+package com.pokeboston.auth
 package v1
 package services
+package gqlauth
 
+import services.auth.{AuthService}
 import scala.concurrent.{Future, ExecutionContext}
 import play.api.libs.json.JsValue
 
 /**
- * Defines a GQL service
+ * Defines a GQL service for v1
  * @param authService Authorization service to use
  */
-abstract class GQLService(authService: AuthService) {
+abstract class GQLAuthService(authService: AuthService) {
   /**
    * GQL execution business logic
    * @param reqBody Request body to execute
