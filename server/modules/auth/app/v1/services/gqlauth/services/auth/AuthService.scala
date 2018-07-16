@@ -15,6 +15,8 @@ trait AuthService {
    * Login business logic
    * @param email Email
    * @param password Password
+   * @throws ClientAuthException If supplied authorization is not valid
+   * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
   def login(email: String, password: String): Future[AuthServiceResponse]
@@ -22,6 +24,8 @@ trait AuthService {
    * Registration business logic.
    * @param email Email
    * @param password Password
+   * @throws ClientAuthException If supplied authorization is not valid
+   * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
   def register(email: String, password: String): Future[AuthServiceResponse]

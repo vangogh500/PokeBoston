@@ -17,10 +17,10 @@ import scala.util.{Success, Failure}
 import scala.concurrent.Future
 
 /**
- * Implementation of auth service using mock
+ * Implementation of auth service using mock (works offline)
  */
 @Singleton
-class AWSCognitoAuthService @Inject()(implicit ec: ExecutionContext) extends AuthService {
+class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = {
     MockDB.find()
   }
