@@ -16,6 +16,7 @@ object SangriaExceptionHandler {
    * Creates an instance of a sangria exception handler
    */
   def apply() = ExceptionHandler {
+    case (m, ClientSyntaxException(msg)) => HandledException(msg)
     case (m, ClientAuthException(msg)) ⇒ HandledException(msg)
     case (m, ServerException(msg)) ⇒ HandledException(msg)
   }

@@ -21,8 +21,11 @@ import scala.concurrent.Future
  */
 @Singleton
 class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthService {
-  def login(email: String, password: String) = {
-    MockDB.find()
+  def login(email: String, password: String) = Future {
+    AuthServiceResponse(
+      accessToken = Some("test"),
+      refreshToken = Some("test")
+    )
   }
 
   def register(email: String, password: String) = Future {

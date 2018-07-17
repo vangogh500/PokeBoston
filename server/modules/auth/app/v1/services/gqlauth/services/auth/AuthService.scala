@@ -15,6 +15,7 @@ trait AuthService {
    * Login business logic
    * @param email Email
    * @param password Password
+   * @throws ClientSyntaxException If email or password syntax is incorrect
    * @throws ClientAuthException If supplied authorization is not valid
    * @throws ServerException If server fails to authorize credentials
    */
@@ -24,6 +25,7 @@ trait AuthService {
    * Registration business logic.
    * @param email Email
    * @param password Password
+   * @throws ClientSyntaxException If email or password syntax is incorrect
    * @throws ClientAuthException If supplied authorization is not valid
    * @throws ServerException If server fails to authorize credentials
    */

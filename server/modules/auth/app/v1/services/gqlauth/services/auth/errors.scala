@@ -11,6 +11,11 @@ package object errors {
    */
   sealed trait AuthServiceException
   /**
+   * Client syntax exception - The request was not of right syntax (invalid email, password)
+   * @param msg Description
+   */
+  case class ClientSyntaxException(msg: String) extends Exception(msg) with AuthServiceException
+  /**
    * Client auth exception - Client does not have permission (equivalent to 401)
    * @param msg Description
    */

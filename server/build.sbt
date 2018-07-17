@@ -20,11 +20,13 @@ libraryDependencies ++= {
 
 lazy val auth = (project in file("modules/auth")).enablePlugins(PlayScala).settings(
   libraryDependencies ++= {
+    val play = "3.1.2"
     val sangria = "1.4.1"
     val sangria_play_json = "1.0.4"
     val aws = "1.11.362"
     Seq(
       guice,
+      "org.scalatestplus.play" %% "scalatestplus-play" % play % Test,
       "org.sangria-graphql" %% "sangria" % sangria,
       "org.sangria-graphql" %% "sangria-play-json" % sangria_play_json,
       "com.amazonaws" % "aws-java-sdk-cognitoidp" % aws
