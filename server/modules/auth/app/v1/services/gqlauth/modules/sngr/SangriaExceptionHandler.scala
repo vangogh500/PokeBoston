@@ -5,7 +5,7 @@ package gqlauth
 package modules.sngr
 
 import sangria.execution.{ExceptionHandler, HandledException}
-import errors._
+import services.auth.errors._
 
 /**
  * Sangria exception handler

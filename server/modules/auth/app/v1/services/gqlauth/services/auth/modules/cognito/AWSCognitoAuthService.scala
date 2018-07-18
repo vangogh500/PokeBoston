@@ -11,6 +11,7 @@ import scala.collection.JavaConverters._
 import lib.native.JavaScalaInterop._
 // specs
 import errors._
+import validators._
 // models
 import scala.util.{Success, Failure}
 import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException}
@@ -27,6 +28,8 @@ import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
 @Singleton
 class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderAsync, reqBuilder: CognitoRequestBuilder)(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = {
+    if(!EmailValidator.validate(email)) Future { throw ClientSyntaxException("Invalid email") }
+    if(!PasswordValidator.validate(password)) Future { throw ClientSyntaxException("Invalid password") }
     val params = Map[String, String](
       "USERNAME" -> email,
       "PASSWORD" -> password
