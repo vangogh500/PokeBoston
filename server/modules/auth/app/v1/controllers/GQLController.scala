@@ -8,17 +8,15 @@ import javax.inject._
 import play.api._
 import play.api.mvc._
 
-import services.gqlauth.{GQLAuthServiceBuilder}
-import v1.services.gqlauth.services.auth.{AuthService}
+import services.gqlauth.{GQLAuthService}
+import v1.services.auth.{AuthService}
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(gqlServiceBuilder: GQLAuthServiceBuilder, authService: AuthService) extends InjectedController {
-
-  private val gqlService = gqlServiceBuilder.build(authService)
+class GQLController @Inject()(gqlService: GQLAuthService) extends InjectedController {
   /**
    * Create an Action to render an HTML page.
    *
@@ -27,6 +25,8 @@ class HomeController @Inject()(gqlServiceBuilder: GQLAuthServiceBuilder, authSer
    * a path of `/`.
    */
   def index() = Action.async(parse.json) { request =>
-    gqlService.execute(request.body).map(Ok(_))
+    gqlService.execute(request.body).map { result =>
+      Ok(result)
+    }
   }
 }

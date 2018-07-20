@@ -4,7 +4,7 @@ package services
 package gqlauth
 package modules.sngr
 
-import services.auth.AuthService
+import auth.AuthService
 import implicits._
 
 import sangria.schema._

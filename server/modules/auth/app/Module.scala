@@ -4,10 +4,10 @@ import com.google.inject.AbstractModule
 import com.google.inject.name.Names
 import play.api.{Configuration, Environment}
 
-import v1.services.gqlauth.{GQLAuthServiceBuilder}
-import v1.services.gqlauth.modules.sngr.{SangriaGQLAuthServiceBuilder}
-import v1.services.gqlauth.services.auth.{AuthService}
-import v1.services.gqlauth.services.auth.modules.cognito.{AWSCognitoAuthService}
+import v1.services.gqlauth.{GQLAuthService}
+import v1.services.gqlauth.modules.sngr.{SangriaGQLAuthService}
+import v1.services.auth.{AuthService}
+import v1.services.auth.modules.cognito.{AWSCognitoAuthService}
 
 /**
  * Guice module for auth service.
@@ -18,7 +18,7 @@ class Module(environment: Environment, configuration: Configuration) extends Abs
     bind(classOf[AuthService])
       .to(classOf[AWSCognitoAuthService])
 
-    bind(classOf[GQLAuthServiceBuilder])
-      .toInstance(SangriaGQLAuthServiceBuilder)
+    bind(classOf[GQLAuthService])
+      .to(classOf[SangriaGQLAuthService])
   }
 }

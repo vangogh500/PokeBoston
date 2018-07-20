@@ -1,7 +1,7 @@
 package com.pokeboston.auth
 package v1
 package services
-package gqlauth.services.auth
+package auth
 
 /**
  * v1 errors

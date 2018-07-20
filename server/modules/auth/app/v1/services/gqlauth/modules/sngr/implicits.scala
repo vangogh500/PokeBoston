@@ -5,12 +5,13 @@ package gqlauth
 package modules.sngr
 
 import sangria.macros.derive.{deriveObjectType}
-import services.auth.{AuthService, AuthServiceResponse}
+import auth.{AuthService}
+import auth.responses._
 
 /**
  * Implicits needed for deriving sangria schema
  * @see https://sangria-graphql.org/learn/
  */
 package object implicits {
-  implicit val responseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceResponse]()
+  implicit val loginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], LoginResponse]()
 }

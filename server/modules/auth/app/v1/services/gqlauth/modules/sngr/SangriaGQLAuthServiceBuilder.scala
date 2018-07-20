@@ -5,7 +5,7 @@ package gqlauth
 package modules.sngr
 
 import javax.inject._
-import services.auth.AuthService
+import auth.AuthService
 
 /**
  * Implementation of GQL service builder using Sangria

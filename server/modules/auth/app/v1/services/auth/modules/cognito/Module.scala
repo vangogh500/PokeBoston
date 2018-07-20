@@ -1,7 +1,7 @@
 package com.pokeboston.auth
 package v1
 package services
-package gqlauth.services.auth
+package auth
 package modules.cognito
 
 import play.api.inject.{Module => PlayModule}
@@ -16,11 +16,11 @@ import com.amazonaws.regions.{Regions}
  */
 class Module extends PlayModule {
   def bindings(environment: Environment, configuration: Configuration) = Seq(
-    bind(classOf[CognitoRequestBuilder])
+    bind(classOf[CognitoReqBuilders])
       .toInstance {
         val clientId = configuration.get[String]("aws.cognito.clientId")
         val poolId = configuration.get[String]("aws.cognito.poolId")
-        CognitoRequestBuilder(clientId, poolId)
+        CognitoReqBuilders(clientId, poolId)
       },
     bind(classOf[AWSCognitoIdentityProviderAsync])
       .toInstance {

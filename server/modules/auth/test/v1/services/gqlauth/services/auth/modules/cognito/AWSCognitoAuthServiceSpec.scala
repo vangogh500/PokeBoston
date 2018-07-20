@@ -19,14 +19,14 @@ class AWSCognitoAuthServiceSpec extends PlaySpec with GuiceOneAppPerTest {
     }
     "throws ClientSyntaxException when invalid email is used for login" in {
       val service = app.injector.instanceOf[AWSCognitoAuthService]
-      service.login("test", "kBbq123$").failed map { e =>
-        e.isInstanceOf[ClientSyntaxException] mustBe true
+      a[ClientSyntaxException] mustBe thrownBy {
+        service.login("test", "kBbq123$")
       }
     }
     "throws ClientSyntaxException when invalid password is used for login" in {
       val service = app.injector.instanceOf[AWSCognitoAuthService]
-      service.login("test@test.com", "test").failed map { e =>
-        e.isInstanceOf[ClientSyntaxException] mustBe true
+      a[ClientSyntaxException] mustBe thrownBy {
+        service.login("test@test.com", "test")
       }
     }
     "future throws ClientAuthException with invalid credentials" in {

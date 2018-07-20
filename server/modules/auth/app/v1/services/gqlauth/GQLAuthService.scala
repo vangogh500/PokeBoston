@@ -3,7 +3,7 @@ package v1
 package services
 package gqlauth
 
-import services.auth.{AuthService}
+import auth.{AuthService}
 import scala.concurrent.{Future, ExecutionContext}
 import play.api.libs.json.JsValue
 
@@ -11,7 +11,7 @@ import play.api.libs.json.JsValue
  * Defines a GQL service for v1
  * @param authService Authorization service to use
  */
-abstract class GQLAuthService(authService: AuthService) {
+trait GQLAuthService {
   /**
    * GQL execution business logic
    * @param reqBody Request body to execute

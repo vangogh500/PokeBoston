@@ -4,7 +4,7 @@ package services
 package gqlauth
 
 import lib.Builder
-import services.auth.{AuthService}
+import auth.{AuthService}
 
 /**
  * Defines a GQL service builder

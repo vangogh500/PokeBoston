@@ -1,11 +1,12 @@
 package com.pokeboston.auth
 package v1
 package services
-package gqlauth.services.auth
+package auth
 
 import scala.concurrent.ExecutionContext
 import sangria.macros.derive._
 import scala.concurrent.{Future}
+import responses._
 
 /**
  * Defines an auth service specification for v1
@@ -20,7 +21,7 @@ trait AuthService {
    * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
-  def login(email: String, password: String): Future[AuthServiceResponse]
+  def login(email: String, password: String): Future[LoginResponse]
   /**
    * Registration business logic.
    * @param email Email
@@ -30,5 +31,5 @@ trait AuthService {
    * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
-  def register(email: String, password: String): Future[AuthServiceResponse]
+  def register(email: String, password: String): Future[Int]
 }

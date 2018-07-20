@@ -4,19 +4,22 @@ package services
 package gqlauth
 package modules.sngr
 
+import javax.inject._
 import sangria.marshalling.playJson._
 import scala.util.{Success, Failure}
 import scala.concurrent.{Future, ExecutionContext}
 import play.api.libs.json._
 import sangria.execution._
 import sangria.parser.{SyntaxError, QueryParser}
-import services.auth.AuthService
+import sangria.execution.{MiddlewareAfterField, MiddlewareQueryContext, Middleware}
+import auth.AuthService
 
 /**
  * Implementation of GQL service using Sangria
  * @param authService Auth service to use
  */
-case class SangriaGQLAuthService(authService: AuthService) extends GQLAuthService(authService) {
+@Singleton
+case class SangriaGQLAuthService @Inject()(authService: AuthService) extends GQLAuthService {
   /**
    * Executes reqBody
    * @param reqBody Request body to execute
@@ -43,7 +46,9 @@ case class SangriaGQLAuthService(authService: AuthService) extends GQLAuthServic
    * @param ec Execution context
    */
   def executeQuery(query: String, variables: JsObject, operation: Option[String])(implicit ec: ExecutionContext) = QueryParser.parse(query) match {
-    case Success(queryAst) => Executor.execute(
+    case Success(queryAst) =>
+      println(operation)
+      Executor.execute(
       SangriaSchema(),
       queryAst,
       SangriaContext[Unit, AuthService](Unit, authService),
