@@ -30,6 +30,6 @@ class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthServi
   }
 
   def register(email: String, password: String) = Future {
-    200
+    ()
   }
 }

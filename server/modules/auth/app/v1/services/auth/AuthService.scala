@@ -3,6 +3,7 @@ package v1
 package services
 package auth
 
+import play.api.libs.json.JsValue
 import scala.concurrent.ExecutionContext
 import sangria.macros.derive._
 import scala.concurrent.{Future}
@@ -22,6 +23,12 @@ trait AuthService {
    */
   @GraphQLField
   def login(email: String, password: String): Future[LoginResponse]
+
+  def login(reqBody: JsValue): Future[LoginResponse] = login(
+      (reqBody \ "email").asOpt[String] getOrElse "",
+      (reqBody \ "password").asOpt[String] getOrElse ""
+  )
+
   /**
    * Registration business logic.
    * @param email Email
@@ -31,5 +38,10 @@ trait AuthService {
    * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
-  def register(email: String, password: String): Future[Int]
+  def register(email: String, password: String): Future[Unit]
+
+  def register(reqBody: JsValue): Future[Unit] = register(
+      (reqBody \ "email").asOpt[String] getOrElse "",
+      (reqBody \ "password").asOpt[String] getOrElse ""
+  )
 }

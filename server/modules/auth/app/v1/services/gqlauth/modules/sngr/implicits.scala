@@ -5,6 +5,8 @@ package gqlauth
 package modules.sngr
 
 import sangria.macros.derive.{deriveObjectType}
+import sangria.schema.{ScalarType}
+import sangria.validation.{ValueCoercionViolation}
 import auth.{AuthService}
 import auth.responses._
 
@@ -13,5 +15,19 @@ import auth.responses._
  * @see https://sangria-graphql.org/learn/
  */
 package object implicits {
-  implicit val loginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], LoginResponse]()
+  implicit val LoginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], LoginResponse]()
+  case object UnitCoercionViolation extends ValueCoercionViolation("Unit value expected")
+  implicit val UnitType = ScalarType[Unit]("Unit",
+    coerceOutput = {
+      case _ => null
+    },
+    coerceUserInput = {
+      case null => Right(null)
+      case _ => Left(UnitCoercionViolation)
+    },
+    coerceInput = {
+      case null => Right(null)
+      case _ => Left(UnitCoercionViolation)
+    }
+  )
 }

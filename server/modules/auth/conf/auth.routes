@@ -5,4 +5,4 @@
 
 # An example controller showing a sample home page
 POST     /v1                           com.pokeboston.auth.v1.controllers.GQLController.index
-POST     /v1/login                     com.pokeboston.auth.v1.controllers.rest.RestController.login
+POST     /v1/login                     com.pokeboston.auth.v1.controllers.RestController.login

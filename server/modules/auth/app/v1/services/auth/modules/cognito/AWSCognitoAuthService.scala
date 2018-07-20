@@ -61,7 +61,7 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
         .withUserAttributes(Seq(
           new AttributeType().withName("email").withValue(email)
         ).asJava)
-        cognitoClient.signUpAsync(req).asScala.map { f => 200 }
+        cognitoClient.signUpAsync(req).asScala.map { f => () }
     case _ => throw ClientSyntaxException("Invalid email or password syntax")
   }
 }
