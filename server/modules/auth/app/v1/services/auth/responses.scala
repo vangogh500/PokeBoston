@@ -19,7 +19,7 @@ package object responses {
    * @param refreshToken Refresh token
    * @param challenge Challenge type
    */
-  case class LoginResponse(
+  case class AuthServiceLoginResponse(
     idToken: String,
     accessToken: String,
     refreshToken: String,
@@ -27,9 +27,9 @@ package object responses {
   ) extends AuthServiceResponse
 
   /**
-   * Defines a register response from auth service v1
+   * Defines a registration response from auth service v1
    * @see com.pokeboston.auth.v1.services.auth.AuthService
    * @param challenge Challenge type
    */
-  case class RegisterResponse(challenge: AuthServiceRegisterChallenge = NilChallenge) extends AuthServiceResponse
+  case class AuthServiceRegistrationResponse(challenge: AuthServiceRegistrationChallenge = NilChallenge) extends AuthServiceResponse
 }

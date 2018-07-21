@@ -11,7 +11,7 @@ import play.api.mvc._
 import scala.util.{Success, Failure}
 import services.gqlauth.{GQLAuthService}
 import v1.services.auth.{AuthService}
-import v1.services.auth.responses.{LoginResponse}
+import v1.services.auth.responses._
 import v1.services.auth.errors._
 import scala.concurrent.Future
 
@@ -25,7 +25,7 @@ class RestController @Inject()(authService: AuthService) extends InjectedControl
    */
   def login() = Action.async(parse.json) { request =>
     authService.login(request.body) transform {
-      case Success(LoginResponse(idToken, accessToken, refreshToken, challenge)) => Success(
+      case Success(AuthServiceLoginResponse(idToken, accessToken, refreshToken, challenge)) => Success(
         Ok(JsObject(Seq(
             "challenge" -> challenge.asJsValue
           )))

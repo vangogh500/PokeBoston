@@ -35,23 +35,23 @@ package object implicits {
   /**
    * AuthServiceChallenge sangria rendering
    */
-  implicit val AuthServiceRegisterChallengeType = ScalarType[AuthServiceRegisterChallenge]("AuthServiceRegisterChallenge",
+  implicit val AuthServiceRegistrationChallengeType = ScalarType[AuthServiceRegistrationChallenge]("AuthServiceRegisterChallenge",
     coerceOutput = {
       case (challenge, _) => ast.StringValue(challenge.toString)
     },
     coerceUserInput = {
-      case str: String => Right(AuthServiceRegisterChallenge(str))
+      case str: String => Right(AuthServiceRegistrationChallenge(str))
     },
     coerceInput = {
-      case ast.StringValue(str, _, _, _, _) => Right(AuthServiceRegisterChallenge(str))
+      case ast.StringValue(str, _, _, _, _) => Right(AuthServiceRegistrationChallenge(str))
     }
   )
   /**
    * Login response sangria rendering
    */
-  implicit val LoginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], LoginResponse]()
+  implicit val AuthServiceLoginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceLoginResponse]()
   /**
    * Register response sangria rendering
    */
-  implicit val RegisterResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], RegisterResponse]()
+  implicit val AuthServiceRegistrationResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceRegistrationResponse]()
 }

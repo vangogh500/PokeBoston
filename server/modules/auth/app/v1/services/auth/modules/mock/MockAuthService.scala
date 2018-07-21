@@ -24,7 +24,7 @@ import scala.concurrent.Future
 @Singleton
 class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = Future {
-    LoginResponse(
+    AuthServiceLoginResponse(
       idToken = "hello",
       accessToken = "test",
       refreshToken = "test"
@@ -32,6 +32,6 @@ class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthServi
   }
 
   def register(email: String, password: String) = Future {
-    RegisterResponse()
+    AuthServiceRegistrationResponse()
   }
 }

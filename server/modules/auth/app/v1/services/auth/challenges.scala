@@ -20,7 +20,7 @@ package object challenges {
   /**
    * Registration challenge
    */
-  sealed trait AuthServiceRegisterChallenge extends AuthServiceChallenge
+  sealed trait AuthServiceRegistrationChallenge extends AuthServiceChallenge
   /**
    * Login challenge
    */
@@ -28,11 +28,11 @@ package object challenges {
   /**
    * Nil challenge type
    */
-  case object NilChallenge extends AuthServiceRegisterChallenge with AuthServiceLoginChallenge
+  case object NilChallenge extends AuthServiceRegistrationChallenge with AuthServiceLoginChallenge
   /**
    * Email verification challenge
    */
-  case object EmailVerificationChallenge extends AuthServiceRegisterChallenge
+  case object EmailVerificationChallenge extends AuthServiceRegistrationChallenge
 
   /**
    * SMS based MFA challenge
@@ -50,13 +50,13 @@ package object challenges {
     }
   }
 
-  object AuthServiceRegisterChallenge extends JsInterop[AuthServiceRegisterChallenge] {
-    def apply(that: String): AuthServiceRegisterChallenge = that match {
+  object AuthServiceRegistrationChallenge extends JsInterop[AuthServiceRegistrationChallenge] {
+    def apply(that: String): AuthServiceRegistrationChallenge = that match {
       case EmailVerificationChallenge.asJsonString => EmailVerificationChallenge
       case _ => NilChallenge
     }
-    def apply(that: JsValue): AuthServiceRegisterChallenge = that match {
-      case JsString(str) => AuthServiceRegisterChallenge(str)
+    def apply(that: JsValue): AuthServiceRegistrationChallenge = that match {
+      case JsString(str) => AuthServiceRegistrationChallenge(str)
       case _ => throw new Exception()
     }
   }

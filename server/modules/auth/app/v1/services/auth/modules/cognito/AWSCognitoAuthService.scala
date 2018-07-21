@@ -16,6 +16,7 @@ import validators._
 import responses._
 import challenges._
 // models
+import scala.concurrent.Future
 import scala.util.{Success, Failure}
 import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException, AttributeType}
 //lib
@@ -40,7 +41,7 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
       cognitoClient.adminInitiateAuthAsync(req).asScala transform {
         case Success(res) =>
           val awsAuthRes = res.getAuthenticationResult()
-          Success(LoginResponse(
+          Success(AuthServiceLoginResponse(
             idToken = awsAuthRes.getIdToken(),
             accessToken = awsAuthRes.getAccessToken(),
             refreshToken = awsAuthRes.getRefreshToken(),
@@ -55,7 +56,7 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
           case _ => Failure(ServerException(e.getMessage()))
         }
       }
-    case _ => throw ClientSyntaxException("email or password is not of valid syntax")
+    case _ => Future { throw ClientSyntaxException("email or password is not of valid syntax") }
   }
 
   def register(email: String, password: String) = (email, password) match {
@@ -67,9 +68,9 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
           new AttributeType().withName("email").withValue(email)
         ).asJava)
         cognitoClient.signUpAsync(req).asScala.map { res =>
-          if(res.isUserConfirmed()) RegisterResponse(EmailVerificationChallenge)
-          else RegisterResponse()
+          if(res.isUserConfirmed()) AuthServiceRegistrationResponse(EmailVerificationChallenge)
+          else AuthServiceRegistrationResponse()
         }
-    case _ => throw ClientSyntaxException("Invalid email or password syntax")
+    case _ => Future { throw ClientSyntaxException("Invalid email or password syntax") }
   }
 }
