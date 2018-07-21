@@ -14,11 +14,11 @@ import builders._
 import errors._
 import validators._
 import responses._
+import challenges._
 // models
 import scala.util.{Success, Failure}
 import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException, AttributeType}
 //lib
-import scala.concurrent.Future
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
 
 
@@ -41,8 +41,13 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
         case Success(res) =>
           val awsAuthRes = res.getAuthenticationResult()
           Success(LoginResponse(
-            accessToken = Some(awsAuthRes.getAccessToken()),
-            refreshToken = Some(awsAuthRes.getRefreshToken())
+            idToken = awsAuthRes.getIdToken(),
+            accessToken = awsAuthRes.getAccessToken(),
+            refreshToken = awsAuthRes.getRefreshToken(),
+            challenge = res.getChallengeName() match {
+              case "SMS_MFS" => SmsMfaChallenge
+              case str => NilChallenge
+            }
           ))
         case Failure(e) => e match {
           case e: UserNotFoundException => Failure(ClientAuthException(e.getMessage()))
@@ -50,7 +55,7 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
           case _ => Failure(ServerException(e.getMessage()))
         }
       }
-    case _ => throw ClientSyntaxException("Invalid email or password syntax")
+    case _ => throw ClientSyntaxException("email or password is not of valid syntax")
   }
 
   def register(email: String, password: String) = (email, password) match {
@@ -61,7 +66,10 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
         .withUserAttributes(Seq(
           new AttributeType().withName("email").withValue(email)
         ).asJava)
-        cognitoClient.signUpAsync(req).asScala.map { f => () }
+        cognitoClient.signUpAsync(req).asScala.map { res =>
+          if(res.isUserConfirmed()) RegisterResponse(EmailVerificationChallenge)
+          else RegisterResponse()
+        }
     case _ => throw ClientSyntaxException("Invalid email or password syntax")
   }
 }

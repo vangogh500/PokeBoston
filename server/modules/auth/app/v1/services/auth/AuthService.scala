@@ -24,6 +24,13 @@ trait AuthService {
   @GraphQLField
   def login(email: String, password: String): Future[LoginResponse]
 
+  /**
+   * Login using request body
+   * @param reqBody Request body
+   * @throws ClientSyntaxException If email or password syntax is incorrect
+   * @throws ClientAuthException If supplied authorization is not valid
+   * @throws ServerException If server fails to authorize credentials
+   */
   def login(reqBody: JsValue): Future[LoginResponse] = login(
       (reqBody \ "email").asOpt[String] getOrElse "",
       (reqBody \ "password").asOpt[String] getOrElse ""
@@ -38,9 +45,16 @@ trait AuthService {
    * @throws ServerException If server fails to authorize credentials
    */
   @GraphQLField
-  def register(email: String, password: String): Future[Unit]
+  def register(email: String, password: String): Future[RegisterResponse]
 
-  def register(reqBody: JsValue): Future[Unit] = register(
+  /**
+   * Register using request body
+   * @param reqBody Request body
+   * @throws ClientSyntaxException If email or password syntax is incorrect
+   * @throws ClientAuthException If supplied authorization is not valid
+   * @throws ServerException If server fails to authorize credentials
+   */
+  def register(reqBody: JsValue): Future[RegisterResponse] = register(
       (reqBody \ "email").asOpt[String] getOrElse "",
       (reqBody \ "password").asOpt[String] getOrElse ""
   )

@@ -12,6 +12,7 @@ import lib.native.JavaScalaInterop._
 // specs
 import errors._
 import responses._
+import challenges._
 // models
 import scala.util.{Success, Failure}
 //lib
@@ -24,12 +25,13 @@ import scala.concurrent.Future
 class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthService {
   def login(email: String, password: String) = Future {
     LoginResponse(
-      accessToken = Some("test"),
-      refreshToken = Some("test")
+      idToken = "hello",
+      accessToken = "test",
+      refreshToken = "test"
     )
   }
 
   def register(email: String, password: String) = Future {
-    ()
+    RegisterResponse()
   }
 }

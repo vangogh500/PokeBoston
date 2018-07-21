@@ -25,8 +25,11 @@ class RestController @Inject()(authService: AuthService) extends InjectedControl
    */
   def login() = Action.async(parse.json) { request =>
     authService.login(request.body) transform {
-      case Success(LoginResponse(Some(accessToken), Some(refreshToken))) => Success(
-        Ok("")
+      case Success(LoginResponse(idToken, accessToken, refreshToken, challenge)) => Success(
+        Ok(JsObject(Seq(
+            "challenge" -> challenge.asJsValue
+          )))
+          .withCookies(Cookie("IdToken", idToken, Some(3000), secure = true, httpOnly = true))
           .withCookies(Cookie("AccessToken", accessToken, Some(3000), secure = true, httpOnly = true))
       )
       case Failure(ClientSyntaxException(_)) => Success(BadRequest(""))
