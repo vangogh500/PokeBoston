@@ -34,4 +34,8 @@ class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthServi
   def register(email: String, password: String) = Future {
     AuthServiceRegistrationResponse()
   }
+
+  def unregister(email: String, password: String) = Future {
+    AuthServiceUnregistrationResponse()
+  }
 }

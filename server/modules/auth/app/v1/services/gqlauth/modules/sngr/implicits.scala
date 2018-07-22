@@ -19,7 +19,7 @@ import auth.challenges._
 package object implicits {
   case object AuthServiceChallengeCoercionViolation extends ValueCoercionViolation("AuthServiceChallenge value expected")
   /**
-   * AuthServiceChallenge sangria rendering
+   * AuthServiceLoginChallenge sangria rendering
    */
   implicit val AuthServiceLoginChallengeType = ScalarType[AuthServiceLoginChallenge]("AuthServiceLoginChallenge",
     coerceOutput = {
@@ -33,9 +33,9 @@ package object implicits {
     }
   )
   /**
-   * AuthServiceChallenge sangria rendering
+   * AuthServiceRegistrationChallenge sangria rendering
    */
-  implicit val AuthServiceRegistrationChallengeType = ScalarType[AuthServiceRegistrationChallenge]("AuthServiceRegisterChallenge",
+  implicit val AuthServiceRegistrationChallengeType = ScalarType[AuthServiceRegistrationChallenge]("AuthServiceRegistrationChallenge",
     coerceOutput = {
       case (challenge, _) => ast.StringValue(challenge.toString)
     },
@@ -47,11 +47,30 @@ package object implicits {
     }
   )
   /**
+   * AuthServiceUnregistrationChallenge sangria rendering
+   */
+  implicit val AuthServiceUnregistrationChallengeType = ScalarType[AuthServiceUnregistrationChallenge]("AuthServiceUnregisterChallenge",
+    coerceOutput = {
+      case (challenge, _) => ast.StringValue(challenge.toString)
+    },
+    coerceUserInput = {
+      case str: String => Right(AuthServiceUnregistrationChallenge(str))
+    },
+    coerceInput = {
+      case ast.StringValue(str, _, _, _, _) => Right(AuthServiceUnregistrationChallenge(str))
+    }
+  )
+  /**
    * Login response sangria rendering
    */
   implicit val AuthServiceLoginResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceLoginResponse]()
   /**
-   * Register response sangria rendering
+   * Registration response sangria rendering
    */
   implicit val AuthServiceRegistrationResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceRegistrationResponse]()
+
+  /**
+   * Unregistration response sangria rendering
+   */
+  implicit val AuthServiceUnregistrationResponseSchema = deriveObjectType[SangriaContext[Unit, AuthService], AuthServiceUnregistrationResponse]()
 }

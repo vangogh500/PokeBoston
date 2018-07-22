@@ -32,4 +32,11 @@ package object responses {
    * @param challenge Challenge type
    */
   case class AuthServiceRegistrationResponse(challenge: AuthServiceRegistrationChallenge = NilChallenge) extends AuthServiceResponse
+
+  /**
+   * Defines a unregistration response from auth service v1
+   * @see com.pokeboston.auth.v1.services.auth.AuthService
+   * @param challenge Challenge type
+   */
+  case class AuthServiceUnregistrationResponse(challenge: AuthServiceUnregistrationChallenge = NilChallenge) extends AuthServiceResponse
 }

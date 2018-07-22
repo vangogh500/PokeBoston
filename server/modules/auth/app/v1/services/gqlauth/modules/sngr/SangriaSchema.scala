@@ -27,6 +27,7 @@ object SangriaSchema {
    * Mutation type
    */
   private val mutationType = deriveContextObjectType[SangriaContext[Unit, AuthService], AuthService, Unit](_.mutation)
+  
   /**
    * Creates a sangria schema
    */

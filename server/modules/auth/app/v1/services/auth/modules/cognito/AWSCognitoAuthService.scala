@@ -18,7 +18,7 @@ import challenges._
 // models
 import scala.concurrent.Future
 import scala.util.{Success, Failure}
-import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException, AttributeType}
+import com.amazonaws.services.cognitoidp.model.{UserNotFoundException, NotAuthorizedException, UserNotConfirmedException, AttributeType}
 //lib
 import com.amazonaws.services.cognitoidp.{AWSCognitoIdentityProviderAsync}
 
@@ -51,7 +51,7 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
             }
           ))
         case Failure(e) => e match {
-          case e: UserNotFoundException => Failure(ClientAuthException(e.getMessage()))
+          case e: UserNotFoundException => Failure(ClientAuthException("ClientAuthException: " + e.getMessage()))
           case e: NotAuthorizedException => Failure(ClientAuthException(e.getMessage()))
           case _ => Failure(ServerException(e.getMessage()))
         }
@@ -71,6 +71,29 @@ class AWSCognitoAuthService @Inject()(cognitoClient: AWSCognitoIdentityProviderA
           if(res.isUserConfirmed()) AuthServiceRegistrationResponse(EmailVerificationChallenge)
           else AuthServiceRegistrationResponse()
         }
+    case _ => Future { throw ClientSyntaxException("Invalid email or password syntax") }
+  }
+
+  def unregister(email: String, password: String)  = (email, password) match {
+    case (EmailValidator(email), PasswordValidator(password)) =>
+      val params = Map[String, String](
+        "USERNAME" -> email,
+        "PASSWORD" -> password
+      )
+      val req = AdminInitiateAuthReqBuilder.build.withAuthParameters(params.asJava)
+      cognitoClient.adminInitiateAuthAsync(req).asScala transform {
+        case Success(res) => Success(Unit)
+        case Failure(e) => e match {
+          case e: UserNotConfirmedException => Success(Unit)
+          case e: UserNotFoundException => Failure(ClientAuthException(e.getMessage()))
+          case e: NotAuthorizedException => Failure(ClientAuthException(e.getMessage()))
+          case _ => Failure(ServerException(e.getMessage()))
+        }
+      } flatMap {
+        res => cognitoClient.adminDeleteUserAsync(AdminDeleteUserReqBuilder.build.withUsername(email)).asScala map {
+          res => AuthServiceUnregistrationResponse()
+        }
+      }
     case _ => Future { throw ClientSyntaxException("Invalid email or password syntax") }
   }
 }

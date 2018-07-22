@@ -5,7 +5,7 @@ package auth
 package modules.cognito
 package builders
 
-import com.amazonaws.services.cognitoidp.model.{AdminInitiateAuthRequest, AuthFlowType}
+import com.amazonaws.services.cognitoidp.model.{AdminInitiateAuthRequest}
 import org.scalatestplus.play._
 
 class AdminInitateAuthRequestBuilderSpec extends PlaySpec {

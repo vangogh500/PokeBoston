@@ -26,9 +26,13 @@ package object challenges {
    */
   sealed trait AuthServiceLoginChallenge extends AuthServiceChallenge
   /**
+   * Unregistration challenge
+   */
+  sealed trait AuthServiceUnregistrationChallenge extends AuthServiceChallenge
+  /**
    * Nil challenge type
    */
-  case object NilChallenge extends AuthServiceRegistrationChallenge with AuthServiceLoginChallenge
+  case object NilChallenge extends AuthServiceRegistrationChallenge with AuthServiceLoginChallenge with AuthServiceUnregistrationChallenge
   /**
    * Email verification challenge
    */
@@ -57,6 +61,16 @@ package object challenges {
     }
     def apply(that: JsValue): AuthServiceRegistrationChallenge = that match {
       case JsString(str) => AuthServiceRegistrationChallenge(str)
+      case _ => throw new Exception()
+    }
+  }
+
+  object AuthServiceUnregistrationChallenge extends JsInterop[AuthServiceUnregistrationChallenge] {
+    def apply(that: String): AuthServiceUnregistrationChallenge = that match {
+      case _ => NilChallenge
+    }
+    def apply(that: JsValue): AuthServiceUnregistrationChallenge = that match {
+      case JsString(str) => AuthServiceUnregistrationChallenge(str)
       case _ => throw new Exception()
     }
   }

@@ -3,10 +3,11 @@ package v1
 package services
 package auth
 package modules.cognito
+package builders
 
-import lib.Builder
-import builders._
 import javax.inject._
+import lib.Builder
+import com.amazonaws.services.cognitoidp.model.{AdminDeleteUserRequest}
 
 /**
  * AdminInitiateAuthRequest builder for AWS Cognito
@@ -15,9 +16,7 @@ import javax.inject._
  * @param clientId Client id
  * @param poolId Pool id
  */
-@Singleton
-case class CognitoReqBuilders(clientId: String, poolId: String) {
-  val AdminInitiateAuthReqBuilder = AdminInitateAuthRequestBuilder(clientId, poolId)
-  val SignUpReqBuilder = SignUpRequestBuilder(clientId)
-  val AdminDeleteUserReqBuilder = AdminDeleteUserRequestBuilder(poolId)
+case class AdminDeleteUserRequestBuilder(poolId: String) extends Builder[AdminDeleteUserRequest] {
+  def build = new AdminDeleteUserRequest()
+    .withUserPoolId(poolId)
 }
