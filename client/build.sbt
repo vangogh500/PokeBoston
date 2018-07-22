@@ -10,7 +10,7 @@ scalaJSUseMainModuleInitializer := true
 crossTarget in (Compile, fastOptJS) := file("../server/public/js")
 
 libraryDependencies ++= {
-  val scalajs_react = "1.2.0"
+  val scalajs_react = "1.2.3"
   val scalacss = "0.5.3"
   Seq(
     "com.github.japgolly.scalajs-react" %%% "core" % scalajs_react,

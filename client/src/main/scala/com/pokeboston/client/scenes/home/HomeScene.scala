@@ -1,0 +1,25 @@
+package com.pokeboston.client
+package scenes
+package home
+
+import components.AppNav
+import stylings.AppLayout
+
+import japgolly.scalajs.react._
+import japgolly.scalajs.react.vdom.html_<^._
+import scalacss.ScalaCssReact._
+
+object HomeScene {
+  private val bgImage = "https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_878,q_75,w_1903/v1/clients/boston/BostonAerails_KyleKlein_KKP12001_5c3e779e-3e93-4634-839c-b1ac087f7ece.jpg"
+  private val component = ScalaComponent.static("HomeScene")(
+    <.div(^.className := "w-100 h-100 d-flex flex-column")(
+      AppNav(),
+      <.div(^.className := "d-flex flex-grow-1 justify-content-center align-items-center",
+        VdomStyle("backgroundImage") := s"""url("$bgImage")""",
+        VdomStyle("filter") := "grayscale(50%)",
+        AppLayout.bgCenter,
+        AppLayout.bgCover)
+    )
+  )
+  def apply() = component()
+}
