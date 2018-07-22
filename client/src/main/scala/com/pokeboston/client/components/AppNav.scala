@@ -1,6 +1,7 @@
 package com.pokeboston.client
 package components
 
+import modal.ModalButton
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.html_<^._
 import scalacss.ScalaCssReact._
@@ -14,7 +15,7 @@ object AppNav {
         ),
         <.ul(^.className := "navbar-nav ml-auto")(
           <.li(^.className := "nav-item")(
-            <.a(^.className := "nav-link", "Login")
+            ModalButton(label = "Login", aTags = Seq(^.className := "nav-link"))()
           ),
           <.li(^.className := "nav-item")(
             <.a(^.className := "nav-link", "Signup")
