@@ -5,6 +5,7 @@ import japgolly.scalajs.react.vdom.html_<^._
 import japgolly.scalajs.react.extra.router._
 
 import scenes.home.HomeScene
+import scenes.login.LoginScene
 
 
 object AppRouter {
@@ -16,6 +17,10 @@ object AppRouter {
    * Home page
    */
   case object HomePage extends AppPage
+  /**
+   * Login page
+   */
+  case object LoginPage extends AppPage
 
   /**
    * React component
@@ -23,7 +28,8 @@ object AppRouter {
   private val component = Router(BaseUrl.fromWindowOrigin_/, RouterConfigDsl[AppPage].buildConfig { dsl =>
     import dsl._
     (emptyRule
-    |   staticRoute(root, HomePage) ~> render(HomeScene())
+    |   staticRoute(root, HomePage) ~> renderR(ctl => HomeScene(ctl))
+    |   staticRoute("auth/login", LoginPage) ~> render(LoginScene())
     ).notFound(redirectToPage(HomePage)(Redirect.Push))
   })
 

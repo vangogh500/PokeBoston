@@ -2,7 +2,9 @@
 # This file defines all application routes (Higher priority routes first)
 # https://www.playframework.com/documentation/latest/ScalaRouting
 # ~~~~
-GET     /                           controllers.Assets.at(path="/public", file="index.html")
-GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
-->     /auth                         auth.Routes
+->     /services/auth                         auth.Routes
+
+GET     /assets/*file                         controllers.Assets.at(path="/public", file)
+GET     /                                     controllers.SPAController.at(path="")
+GET     /*p                                   controllers.SPAController.at(p)
