@@ -3,6 +3,7 @@ package scenes
 package login
 
 import components.AppNav
+import components.progress.VerticalProgress
 import stylings.AppLayout
 
 import japgolly.scalajs.react._
@@ -13,7 +14,7 @@ object LoginScene {
   private val component = ScalaComponent.static("LoginScene")(
     <.div(^.className := "w-100 h-100 d-flex flex-column")(
       <.div(^.className := "d-flex flex-grow-1 justify-content-center align-items-center")(
-        <.h2("Login")
+        VerticalProgress()
       )
     )
   )

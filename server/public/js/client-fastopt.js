@@ -2105,6 +2105,71 @@ function $m_Lcom_pokeboston_client_components_AppNav$() {
   return $n_Lcom_pokeboston_client_components_AppNav$
 }
 /** @constructor */
+function $c_Lcom_pokeboston_client_components_progress_VerticalProgress$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype.constructor = $c_Lcom_pokeboston_client_components_progress_VerticalProgress$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_components_progress_VerticalProgress$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype = $c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype;
+$c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_components_progress_VerticalProgress$ = this;
+  var jsx$9 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$2 = $m_Lscalacss_ScalaCssReact$();
+  var s = $m_Lcom_pokeboston_client_components_progress_ProgressStylings$().ProgressVertical$3;
+  var array = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$2, s)];
+  var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$6 = $m_Lscalacss_ScalaCssReact$();
+  var s$1 = $m_Lcom_pokeboston_client_components_progress_ProgressStylings$().ProgressBarVertical$3;
+  var jsx$5 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$6, s$1);
+  var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("75%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$10 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("role");
+  var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$10.name$1, "progressbar");
+  var this$12 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("aria-valuenow");
+  var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$12.name$1, "75");
+  var this$14 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("aria-valuemin");
+  var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$14.name$1, "0");
+  var this$16 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("aria-valuemax");
+  var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var array$1 = [jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$16.name$1, "100")];
+  var array$2 = [jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))];
+  var a = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+  this.component$1 = jsx$9.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("VerticalProgress", a.render__Ljapgolly_scalajs_react_vdom_VdomElement());
+  return this
+});
+$c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O())
+});
+var $d_Lcom_pokeboston_client_components_progress_VerticalProgress$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_components_progress_VerticalProgress$: 0
+}, false, "com.pokeboston.client.components.progress.VerticalProgress$", {
+  Lcom_pokeboston_client_components_progress_VerticalProgress$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_components_progress_VerticalProgress$.prototype.$classData = $d_Lcom_pokeboston_client_components_progress_VerticalProgress$;
+var $n_Lcom_pokeboston_client_components_progress_VerticalProgress$ = (void 0);
+function $m_Lcom_pokeboston_client_components_progress_VerticalProgress$() {
+  if ((!$n_Lcom_pokeboston_client_components_progress_VerticalProgress$)) {
+    $n_Lcom_pokeboston_client_components_progress_VerticalProgress$ = new $c_Lcom_pokeboston_client_components_progress_VerticalProgress$().init___()
+  };
+  return $n_Lcom_pokeboston_client_components_progress_VerticalProgress$
+}
+/** @constructor */
 function $c_Lcom_pokeboston_client_scenes_home_HomeScene$() {
   $c_O.call(this);
   this.bgImage$1 = null;
@@ -2185,23 +2250,22 @@ function $h_Lcom_pokeboston_client_scenes_login_LoginScene$() {
 $h_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype = $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype;
 $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.init___ = (function() {
   $n_Lcom_pokeboston_client_scenes_login_LoginScene$ = this;
-  var jsx$6 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
+  var jsx$5 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 h-100 d-flex flex-column", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$4 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$3 = jsx$4.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("d-flex flex-grow-1 justify-content-center align-items-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
-  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Login"))];
-  var array$3 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h2", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
-  var array$4 = [jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
-  var a = jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
-  this.component$1 = jsx$6.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("LoginScene", a.render__Ljapgolly_scalajs_react_vdom_VdomElement());
+  var u = $m_Lcom_pokeboston_client_components_progress_VerticalProgress$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot();
+  var array$2 = [u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+  var array$3 = [jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
+  var a = jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+  this.component$1 = jsx$5.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("LoginScene", a.render__Ljapgolly_scalajs_react_vdom_VdomElement());
   return this
 });
 $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
@@ -2336,7 +2400,14 @@ $c_Lcom_pokeboston_client_stylings_AppStyling$.prototype.init__V = (function() {
   $m_Lscalacss_package$DevDefaults$();
   $m_Lscalacss_package$DevDefaults$();
   var s$3 = $m_Lscalacss_internal_StringRenderer$().defaultPretty__Lscalacss_internal_Renderer();
-  jsx$2.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$2, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$3), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1))
+  jsx$2.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$2, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$3), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1));
+  var jsx$3 = $m_Lscalacss_defaults_PlatformExports$StyleSheetInlineJsOps$();
+  $m_Lscalacss_package$DevDefaults$();
+  var s$4 = $m_Lcom_pokeboston_client_components_progress_ProgressStylings$();
+  $m_Lscalacss_package$DevDefaults$();
+  $m_Lscalacss_package$DevDefaults$();
+  var s$5 = $m_Lscalacss_internal_StringRenderer$().defaultPretty__Lscalacss_internal_Renderer();
+  jsx$3.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$4, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$5), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1))
 });
 var $d_Lcom_pokeboston_client_stylings_AppStyling$ = new $TypeData().initClass({
   Lcom_pokeboston_client_stylings_AppStyling$: 0
@@ -6039,6 +6110,22 @@ $c_Lscalacss_internal_Attr$.prototype.genSimple__T__F1 = (function(css) {
     })
   })(this, css))
 });
+$c_Lscalacss_internal_Attr$.prototype.alias__T__Lscalacss_internal_Transform__F1 = (function(css, t) {
+  return this.$$undalias__p1__T__F1__F1(css, t.attrGen__T__F1(css))
+});
+$c_Lscalacss_internal_Attr$.prototype.$$undalias__p1__T__F1__F1 = (function(id, g) {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, id$1, g$1) {
+    return (function(f$2) {
+      var f = $as_F1(f$2);
+      var a = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$1) {
+        return (function() {
+          return $as_Lscalacss_internal_NonEmptyVector(f$1.apply__O__O($m_Lscalacss_internal_Attr$AliasB$()))
+        })
+      })($this, f));
+      return new $c_Lscalacss_internal_AliasAttr().init___T__F1__Lscalacss_internal_Need(id$1, g$1, new $c_Lscalacss_internal_Need().init___F0(a))
+    })
+  })(this, id, g))
+});
 $c_Lscalacss_internal_Attr$.prototype.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr = (function(css, t) {
   return new $c_Lscalacss_internal_RealAttr().init___T__F1(css, t.attrGen__T__F1(css))
 });
@@ -6055,6 +6142,46 @@ function $m_Lscalacss_internal_Attr$() {
     $n_Lscalacss_internal_Attr$ = new $c_Lscalacss_internal_Attr$().init___()
   };
   return $n_Lscalacss_internal_Attr$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attr$AliasB$() {
+  $c_O.call(this)
+}
+$c_Lscalacss_internal_Attr$AliasB$.prototype = new $h_O();
+$c_Lscalacss_internal_Attr$AliasB$.prototype.constructor = $c_Lscalacss_internal_Attr$AliasB$;
+/** @constructor */
+function $h_Lscalacss_internal_Attr$AliasB$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attr$AliasB$.prototype = $c_Lscalacss_internal_Attr$AliasB$.prototype;
+$c_Lscalacss_internal_Attr$AliasB$.prototype.init___ = (function() {
+  return this
+});
+function $is_Lscalacss_internal_Attr$AliasB$(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Attr$AliasB$)))
+}
+function $as_Lscalacss_internal_Attr$AliasB$(obj) {
+  return (($is_Lscalacss_internal_Attr$AliasB$(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalacss.internal.Attr$AliasB$"))
+}
+function $isArrayOf_Lscalacss_internal_Attr$AliasB$(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalacss_internal_Attr$AliasB$)))
+}
+function $asArrayOf_Lscalacss_internal_Attr$AliasB$(obj, depth) {
+  return (($isArrayOf_Lscalacss_internal_Attr$AliasB$(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Attr$AliasB$;", depth))
+}
+var $d_Lscalacss_internal_Attr$AliasB$ = new $TypeData().initClass({
+  Lscalacss_internal_Attr$AliasB$: 0
+}, false, "scalacss.internal.Attr$AliasB$", {
+  Lscalacss_internal_Attr$AliasB$: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attr$AliasB$.prototype.$classData = $d_Lscalacss_internal_Attr$AliasB$;
+var $n_Lscalacss_internal_Attr$AliasB$ = (void 0);
+function $m_Lscalacss_internal_Attr$AliasB$() {
+  if ((!$n_Lscalacss_internal_Attr$AliasB$)) {
+    $n_Lscalacss_internal_Attr$AliasB$ = new $c_Lscalacss_internal_Attr$AliasB$().init___()
+  };
+  return $n_Lscalacss_internal_Attr$AliasB$
 }
 /** @constructor */
 function $c_Lscalacss_internal_AttrCmp() {
@@ -6106,8 +6233,8 @@ $c_Lscalacss_internal_AttrCmp$.prototype.init___ = (function() {
     return (function(x$2, y$2) {
       var x = $as_Lscalacss_internal_Attr(x$2);
       var y = $as_Lscalacss_internal_Attr(y$2);
-      var a$1 = x.real$2;
-      var b$1 = y.real$2;
+      var a$1 = x.real__sci_Set();
+      var b$1 = y.real__sci_Set();
       return (a$1.exists__F1__Z(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, b$3) {
         return (function(elem$2) {
           var elem = $as_Lscalacss_internal_RealAttr(elem$2);
@@ -6145,6 +6272,64 @@ function $m_Lscalacss_internal_AttrCmp$() {
     $n_Lscalacss_internal_AttrCmp$ = new $c_Lscalacss_internal_AttrCmp$().init___()
   };
   return $n_Lscalacss_internal_AttrCmp$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$() {
+  $c_O.call(this);
+  this.valuesForAllAttr$1 = null;
+  this.values$1 = null;
+  this.bitmap$0$1 = 0
+}
+$c_Lscalacss_internal_Attrs$.prototype = new $h_O();
+$c_Lscalacss_internal_Attrs$.prototype.constructor = $c_Lscalacss_internal_Attrs$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$.prototype = $c_Lscalacss_internal_Attrs$.prototype;
+$c_Lscalacss_internal_Attrs$.prototype.init___ = (function() {
+  return this
+});
+$c_Lscalacss_internal_Attrs$.prototype.transitionProperty__Lscalacss_internal_Attr = (function() {
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  return jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-property", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1))
+});
+$c_Lscalacss_internal_Attrs$.prototype.transition__Lscalacss_internal_Attr = (function() {
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  return $as_Lscalacss_internal_Attr(jsx$1.alias__T__Lscalacss_internal_Transform__F1("transition", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1)).apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$78$2) {
+      $as_Lscalacss_internal_Attr$AliasB$(x$78$2);
+      var h = $this.transitionProperty__Lscalacss_internal_Attr();
+      var t = $m_Lscalacss_internal_Attrs$transitionDuration$();
+      var jsx$3 = t.attr$3;
+      var t$1 = $m_Lscalacss_internal_Attrs$transitionTimingFunction$();
+      var jsx$2 = t$1.attr$2;
+      var t$2 = $m_Lscalacss_internal_Attrs$transitionDelay$();
+      var t$3 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$3, jsx$2, t$2.attr$3]);
+      $m_sci_Vector$();
+      var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
+      var t$4 = $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(t$3, cbf));
+      return new $c_Lscalacss_internal_NonEmptyVector().init___O__sci_Vector(h, t$4)
+    })
+  })(this))))
+});
+var $d_Lscalacss_internal_Attrs$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$: 0
+}, false, "scalacss.internal.Attrs$", {
+  Lscalacss_internal_Attrs$: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$.prototype.$classData = $d_Lscalacss_internal_Attrs$;
+var $n_Lscalacss_internal_Attrs$ = (void 0);
+function $m_Lscalacss_internal_Attrs$() {
+  if ((!$n_Lscalacss_internal_Attrs$)) {
+    $n_Lscalacss_internal_Attrs$ = new $c_Lscalacss_internal_Attrs$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$
 }
 /** @constructor */
 function $c_Lscalacss_internal_CanIUse$() {
@@ -7237,6 +7422,574 @@ $c_Lscalacss_internal_CanIUse$.prototype.intrinsicWidth__sci_Map = (function() {
   };
   return $as_sci_Map(this$50.elems$1)
 });
+$c_Lscalacss_internal_CanIUse$.prototype.textJustify__sci_Map = (function() {
+  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
+  var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array.length) === 0)) {
+    var y = $m_sci_Set$EmptySet$()
+  } else {
+    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__scm_SetBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var y = b.elems$1
+  };
+  var jsx$15 = new $c_T2().init___O__O(self, y);
+  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
+  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$1.length) === 0)) {
+    var y$1 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$1 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$1 < len$1)) {
+      var index$1 = i$1;
+      var arg1$1 = array$1[index$1];
+      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
+      i$1 = ((1 + i$1) | 0)
+    };
+    var y$1 = b$1.elems$1
+  };
+  var jsx$14 = new $c_T2().init___O__O(self$1, y$1);
+  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
+  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$2.length) === 0)) {
+    var y$2 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$2 = i$2;
+      var arg1$2 = array$2[index$2];
+      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var y$2 = b$2.elems$1
+  };
+  var jsx$13 = new $c_T2().init___O__O(self$2, y$2);
+  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
+  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$3.length) === 0)) {
+    var y$3 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$3 = 0;
+    var len$3 = $uI(array$3.length);
+    while ((i$3 < len$3)) {
+      var index$3 = i$3;
+      var arg1$3 = array$3[index$3];
+      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var y$3 = b$3.elems$1
+  };
+  var jsx$12 = new $c_T2().init___O__O(self$3, y$3);
+  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
+  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$4.length) === 0)) {
+    var y$4 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$4 = i$4;
+      var arg1$4 = array$4[index$4];
+      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var y$4 = b$4.elems$1
+  };
+  var jsx$11 = new $c_T2().init___O__O(self$4, y$4);
+  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
+  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$5.length) === 0)) {
+    var y$5 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$5 = 0;
+    var len$5 = $uI(array$5.length);
+    while ((i$5 < len$5)) {
+      var index$5 = i$5;
+      var arg1$5 = array$5[index$5];
+      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
+      i$5 = ((1 + i$5) | 0)
+    };
+    var y$5 = b$5.elems$1
+  };
+  var jsx$10 = new $c_T2().init___O__O(self$5, y$5);
+  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
+  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Partial$()];
+  if (($uI(array$6.length) === 0)) {
+    var y$6 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$6 = i$6;
+      var arg1$6 = array$6[index$6];
+      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var y$6 = b$6.elems$1
+  };
+  var jsx$9 = new $c_T2().init___O__O(self$6, y$6);
+  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
+  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Unknown$()];
+  if (($uI(array$7.length) === 0)) {
+    var y$7 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$7 = 0;
+    var len$7 = $uI(array$7.length);
+    while ((i$7 < len$7)) {
+      var index$7 = i$7;
+      var arg1$7 = array$7[index$7];
+      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
+      i$7 = ((1 + i$7) | 0)
+    };
+    var y$7 = b$7.elems$1
+  };
+  var jsx$8 = new $c_T2().init___O__O(self$7, y$7);
+  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
+  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unknown$(), $m_Lscalacss_internal_CanIUse$Support$Partial$()];
+  if (($uI(array$8.length) === 0)) {
+    var y$8 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$8 = 0;
+    var len$8 = $uI(array$8.length);
+    while ((i$8 < len$8)) {
+      var index$8 = i$8;
+      var arg1$8 = array$8[index$8];
+      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var y$8 = b$8.elems$1
+  };
+  var jsx$7 = new $c_T2().init___O__O(self$8, y$8);
+  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
+  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Partial$()];
+  if (($uI(array$9.length) === 0)) {
+    var y$9 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$9 = 0;
+    var len$9 = $uI(array$9.length);
+    while ((i$9 < len$9)) {
+      var index$9 = i$9;
+      var arg1$9 = array$9[index$9];
+      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
+      i$9 = ((1 + i$9) | 0)
+    };
+    var y$9 = b$9.elems$1
+  };
+  var jsx$6 = new $c_T2().init___O__O(self$9, y$9);
+  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
+  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$10.length) === 0)) {
+    var y$10 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$10 = 0;
+    var len$10 = $uI(array$10.length);
+    while ((i$10 < len$10)) {
+      var index$10 = i$10;
+      var arg1$10 = array$10[index$10];
+      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var y$10 = b$10.elems$1
+  };
+  var jsx$5 = new $c_T2().init___O__O(self$10, y$10);
+  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
+  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$11.length) === 0)) {
+    var y$11 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$11 = 0;
+    var len$11 = $uI(array$11.length);
+    while ((i$11 < len$11)) {
+      var index$11 = i$11;
+      var arg1$11 = array$11[index$11];
+      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
+      i$11 = ((1 + i$11) | 0)
+    };
+    var y$11 = b$11.elems$1
+  };
+  var jsx$4 = new $c_T2().init___O__O(self$11, y$11);
+  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
+  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$12.length) === 0)) {
+    var y$12 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$12 = 0;
+    var len$12 = $uI(array$12.length);
+    while ((i$12 < len$12)) {
+      var index$12 = i$12;
+      var arg1$12 = array$12[index$12];
+      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var y$12 = b$12.elems$1
+  };
+  var jsx$3 = new $c_T2().init___O__O(self$12, y$12);
+  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
+  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$13.length) === 0)) {
+    var y$13 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$13 = 0;
+    var len$13 = $uI(array$13.length);
+    while ((i$13 < len$13)) {
+      var index$13 = i$13;
+      var arg1$13 = array$13[index$13];
+      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
+      i$13 = ((1 + i$13) | 0)
+    };
+    var y$13 = b$13.elems$1
+  };
+  var jsx$2 = new $c_T2().init___O__O(self$13, y$13);
+  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
+  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$14.length) === 0)) {
+    var y$14 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$14 = 0;
+    var len$14 = $uI(array$14.length);
+    while ((i$14 < len$14)) {
+      var index$14 = i$14;
+      var arg1$14 = array$14[index$14];
+      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var y$14 = b$14.elems$1
+  };
+  var jsx$1 = new $c_T2().init___O__O(self$14, y$14);
+  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
+  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$15.length) === 0)) {
+    var y$15 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$15 = 0;
+    var len$15 = $uI(array$15.length);
+    while ((i$15 < len$15)) {
+      var index$15 = i$15;
+      var arg1$15 = array$15[index$15];
+      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
+      i$15 = ((1 + i$15) | 0)
+    };
+    var y$15 = b$15.elems$1
+  };
+  var array$16 = [jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$15, y$15)];
+  var this$50 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i$16 = 0;
+  var len$16 = $uI(array$16.length);
+  while ((i$16 < len$16)) {
+    var index$16 = i$16;
+    var arg1$16 = array$16[index$16];
+    this$50.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$16));
+    i$16 = ((1 + i$16) | 0)
+  };
+  return $as_sci_Map(this$50.elems$1)
+});
+$c_Lscalacss_internal_CanIUse$.prototype.logicalProps__sci_Map = (function() {
+  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
+  var array = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array.length) === 0)) {
+    var y = $m_sci_Set$EmptySet$()
+  } else {
+    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__scm_SetBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var y = b.elems$1
+  };
+  var jsx$15 = new $c_T2().init___O__O(self, y);
+  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
+  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$1.length) === 0)) {
+    var y$1 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$1 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$1 < len$1)) {
+      var index$1 = i$1;
+      var arg1$1 = array$1[index$1];
+      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
+      i$1 = ((1 + i$1) | 0)
+    };
+    var y$1 = b$1.elems$1
+  };
+  var jsx$14 = new $c_T2().init___O__O(self$1, y$1);
+  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
+  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$2.length) === 0)) {
+    var y$2 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$2 = i$2;
+      var arg1$2 = array$2[index$2];
+      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var y$2 = b$2.elems$1
+  };
+  var jsx$13 = new $c_T2().init___O__O(self$2, y$2);
+  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
+  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$3.length) === 0)) {
+    var y$3 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$3 = 0;
+    var len$3 = $uI(array$3.length);
+    while ((i$3 < len$3)) {
+      var index$3 = i$3;
+      var arg1$3 = array$3[index$3];
+      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var y$3 = b$3.elems$1
+  };
+  var jsx$12 = new $c_T2().init___O__O(self$3, y$3);
+  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
+  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$4.length) === 0)) {
+    var y$4 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$4 = i$4;
+      var arg1$4 = array$4[index$4];
+      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var y$4 = b$4.elems$1
+  };
+  var jsx$11 = new $c_T2().init___O__O(self$4, y$4);
+  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
+  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$5.length) === 0)) {
+    var y$5 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$5 = 0;
+    var len$5 = $uI(array$5.length);
+    while ((i$5 < len$5)) {
+      var index$5 = i$5;
+      var arg1$5 = array$5[index$5];
+      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
+      i$5 = ((1 + i$5) | 0)
+    };
+    var y$5 = b$5.elems$1
+  };
+  var jsx$10 = new $c_T2().init___O__O(self$5, y$5);
+  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
+  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$6.length) === 0)) {
+    var y$6 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$6 = i$6;
+      var arg1$6 = array$6[index$6];
+      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var y$6 = b$6.elems$1
+  };
+  var jsx$9 = new $c_T2().init___O__O(self$6, y$6);
+  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
+  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$7.length) === 0)) {
+    var y$7 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$7 = 0;
+    var len$7 = $uI(array$7.length);
+    while ((i$7 < len$7)) {
+      var index$7 = i$7;
+      var arg1$7 = array$7[index$7];
+      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
+      i$7 = ((1 + i$7) | 0)
+    };
+    var y$7 = b$7.elems$1
+  };
+  var jsx$8 = new $c_T2().init___O__O(self$7, y$7);
+  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
+  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$8.length) === 0)) {
+    var y$8 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$8 = 0;
+    var len$8 = $uI(array$8.length);
+    while ((i$8 < len$8)) {
+      var index$8 = i$8;
+      var arg1$8 = array$8[index$8];
+      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var y$8 = b$8.elems$1
+  };
+  var jsx$7 = new $c_T2().init___O__O(self$8, y$8);
+  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
+  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$9.length) === 0)) {
+    var y$9 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$9 = 0;
+    var len$9 = $uI(array$9.length);
+    while ((i$9 < len$9)) {
+      var index$9 = i$9;
+      var arg1$9 = array$9[index$9];
+      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
+      i$9 = ((1 + i$9) | 0)
+    };
+    var y$9 = b$9.elems$1
+  };
+  var jsx$6 = new $c_T2().init___O__O(self$9, y$9);
+  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
+  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$10.length) === 0)) {
+    var y$10 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$10 = 0;
+    var len$10 = $uI(array$10.length);
+    while ((i$10 < len$10)) {
+      var index$10 = i$10;
+      var arg1$10 = array$10[index$10];
+      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var y$10 = b$10.elems$1
+  };
+  var jsx$5 = new $c_T2().init___O__O(self$10, y$10);
+  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
+  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$11.length) === 0)) {
+    var y$11 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$11 = 0;
+    var len$11 = $uI(array$11.length);
+    while ((i$11 < len$11)) {
+      var index$11 = i$11;
+      var arg1$11 = array$11[index$11];
+      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
+      i$11 = ((1 + i$11) | 0)
+    };
+    var y$11 = b$11.elems$1
+  };
+  var jsx$4 = new $c_T2().init___O__O(self$11, y$11);
+  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
+  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$12.length) === 0)) {
+    var y$12 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$12 = 0;
+    var len$12 = $uI(array$12.length);
+    while ((i$12 < len$12)) {
+      var index$12 = i$12;
+      var arg1$12 = array$12[index$12];
+      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var y$12 = b$12.elems$1
+  };
+  var jsx$3 = new $c_T2().init___O__O(self$12, y$12);
+  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
+  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$13.length) === 0)) {
+    var y$13 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$13 = 0;
+    var len$13 = $uI(array$13.length);
+    while ((i$13 < len$13)) {
+      var index$13 = i$13;
+      var arg1$13 = array$13[index$13];
+      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
+      i$13 = ((1 + i$13) | 0)
+    };
+    var y$13 = b$13.elems$1
+  };
+  var jsx$2 = new $c_T2().init___O__O(self$13, y$13);
+  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
+  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$14.length) === 0)) {
+    var y$14 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$14 = 0;
+    var len$14 = $uI(array$14.length);
+    while ((i$14 < len$14)) {
+      var index$14 = i$14;
+      var arg1$14 = array$14[index$14];
+      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var y$14 = b$14.elems$1
+  };
+  var jsx$1 = new $c_T2().init___O__O(self$14, y$14);
+  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
+  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$15.length) === 0)) {
+    var y$15 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$15 = 0;
+    var len$15 = $uI(array$15.length);
+    while ((i$15 < len$15)) {
+      var index$15 = i$15;
+      var arg1$15 = array$15[index$15];
+      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
+      i$15 = ((1 + i$15) | 0)
+    };
+    var y$15 = b$15.elems$1
+  };
+  var array$16 = [jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$15, y$15)];
+  var this$50 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i$16 = 0;
+  var len$16 = $uI(array$16.length);
+  while ((i$16 < len$16)) {
+    var index$16 = i$16;
+    var arg1$16 = array$16[index$16];
+    this$50.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$16));
+    i$16 = ((1 + i$16) | 0)
+  };
+  return $as_sci_Map(this$50.elems$1)
+});
 var $d_Lscalacss_internal_CanIUse$ = new $TypeData().initClass({
   Lscalacss_internal_CanIUse$: 0
 }, false, "scalacss.internal.CanIUse$", {
@@ -8249,6 +9002,25 @@ function $m_Lscalacss_internal_DslMacros$() {
   return $n_Lscalacss_internal_DslMacros$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Literal() {
+  $c_O.call(this);
+  this.value$1 = null
+}
+$c_Lscalacss_internal_Literal.prototype = new $h_O();
+$c_Lscalacss_internal_Literal.prototype.constructor = $c_Lscalacss_internal_Literal;
+/** @constructor */
+function $h_Lscalacss_internal_Literal() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Literal.prototype = $c_Lscalacss_internal_Literal.prototype;
+$c_Lscalacss_internal_Literal.prototype.toString__T = (function() {
+  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Literal(", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.value$1]))
+});
+$c_Lscalacss_internal_Literal.prototype.init___T = (function(value) {
+  this.value$1 = value;
+  return this
+});
+/** @constructor */
 function $c_Lscalacss_internal_Media$() {
   $c_O.call(this);
   this.cssFeature$1 = null;
@@ -8780,6 +9552,43 @@ function $m_Lscalacss_internal_Media$StringExt$() {
   return $n_Lscalacss_internal_Media$StringExt$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Need() {
+  $c_O.call(this);
+  this.value$1 = null;
+  this.$$undthunk$1 = null;
+  this.bitmap$0$1 = false
+}
+$c_Lscalacss_internal_Need.prototype = new $h_O();
+$c_Lscalacss_internal_Need.prototype.constructor = $c_Lscalacss_internal_Need;
+/** @constructor */
+function $h_Lscalacss_internal_Need() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Need.prototype = $c_Lscalacss_internal_Need.prototype;
+$c_Lscalacss_internal_Need.prototype.init___F0 = (function(thunk) {
+  this.$$undthunk$1 = thunk;
+  return this
+});
+$c_Lscalacss_internal_Need.prototype.value__O = (function() {
+  return ((!this.bitmap$0$1) ? this.value$lzycompute__p1__O() : this.value$1)
+});
+$c_Lscalacss_internal_Need.prototype.value$lzycompute__p1__O = (function() {
+  if ((!this.bitmap$0$1)) {
+    var t = this.$$undthunk$1;
+    this.$$undthunk$1 = null;
+    this.value$1 = t.apply__O();
+    this.bitmap$0$1 = true
+  };
+  return this.value$1
+});
+var $d_Lscalacss_internal_Need = new $TypeData().initClass({
+  Lscalacss_internal_Need: 0
+}, false, "scalacss.internal.Need", {
+  Lscalacss_internal_Need: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Need.prototype.$classData = $d_Lscalacss_internal_Need;
+/** @constructor */
 function $c_Lscalacss_internal_NonEmptyVector() {
   $c_O.call(this);
   this.head$1 = null;
@@ -9287,6 +10096,21 @@ function $h_Lscalacss_internal_Transform() {
   /*<skip>*/
 }
 $h_Lscalacss_internal_Transform.prototype = $c_Lscalacss_internal_Transform.prototype;
+$c_Lscalacss_internal_Transform.prototype.$$times__Lscalacss_internal_Transform__Lscalacss_internal_Transform = (function(next) {
+  return new $c_Lscalacss_internal_Transform().init___F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, next$1) {
+    return (function(e$2) {
+      var e = $as_Lscalacss_internal_Env(e$2);
+      var a = $as_F1($this.run$1.apply__O__O(e));
+      var b = $as_F1(next$1.run$1.apply__O__O(e));
+      return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, a$1, b$1) {
+        return (function(x$2$2) {
+          var x$2 = $as_Lscalacss_internal_CssKV(x$2$2);
+          return $as_sci_Vector($as_sc_TraversableLike(a$1.apply__O__O(x$2)).flatMap__F1__scg_CanBuildFrom__O(b$1, ($m_sci_Vector$(), $m_sc_IndexedSeq$().ReusableCBF$6)))
+        })
+      })($this, a, b))
+    })
+  })(this, next)))
+});
 $c_Lscalacss_internal_Transform.prototype.init___F1 = (function(run) {
   this.run$1 = run;
   return this
@@ -9401,7 +10225,7 @@ function $h_Lscalacss_internal_ValueT$TypedAttrBase() {
 }
 $h_Lscalacss_internal_ValueT$TypedAttrBase.prototype = $c_Lscalacss_internal_ValueT$TypedAttrBase.prototype;
 $c_Lscalacss_internal_ValueT$TypedAttrBase.prototype.toString__T = (function() {
-  var this$1 = this.attr$3;
+  var this$1 = this.attr__Lscalacss_internal_Attr();
   return this$1.id$1
 });
 /** @constructor */
@@ -13162,6 +13986,87 @@ var $d_Lscalacss_defaults_PlatformExports$StyleElementRenderer = new $TypeData()
 });
 $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer.prototype.$classData = $d_Lscalacss_defaults_PlatformExports$StyleElementRenderer;
 /** @constructor */
+function $c_Lscalacss_internal_AliasAttr() {
+  $c_Lscalacss_internal_Attr.call(this);
+  this.real$2 = null;
+  this.targets$2 = null;
+  this.bitmap$0$2 = false
+}
+$c_Lscalacss_internal_AliasAttr.prototype = new $h_Lscalacss_internal_Attr();
+$c_Lscalacss_internal_AliasAttr.prototype.constructor = $c_Lscalacss_internal_AliasAttr;
+/** @constructor */
+function $h_Lscalacss_internal_AliasAttr() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_AliasAttr.prototype = $c_Lscalacss_internal_AliasAttr.prototype;
+$c_Lscalacss_internal_AliasAttr.prototype.go$1__p2__sci_Set__sci_Set__sci_Vector__sci_Set = (function(seen, found, queue) {
+  _go: while (true) {
+    var this$1 = queue;
+    if ($f_sc_SeqLike__isEmpty__Z(this$1)) {
+      return found
+    } else {
+      var t = queue.tail__sci_Vector();
+      var x1 = $as_Lscalacss_internal_Attr(queue.head__O());
+      if (seen.contains__O__Z(x1)) {
+        queue = t;
+        continue _go
+      } else if ($is_Lscalacss_internal_RealAttr(x1)) {
+        var x2 = $as_Lscalacss_internal_RealAttr(x1);
+        var temp$seen = $as_sci_Set(seen.$$plus__O__sc_Set(x2));
+        var temp$found = $as_sci_Set(found.$$plus__O__sc_Set(x2));
+        seen = temp$seen;
+        found = temp$found;
+        queue = t;
+        continue _go
+      } else if ($is_Lscalacss_internal_AliasAttr(x1)) {
+        var x3 = $as_Lscalacss_internal_AliasAttr(x1);
+        var temp$seen$2 = $as_sci_Set(seen.$$plus__O__sc_Set(x3));
+        var temp$queue$3 = $as_sci_Vector($as_Lscalacss_internal_NonEmptyVector(x3.targets$2.value__O()).whole__sci_Vector().$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O(t, ($m_sci_Vector$(), $m_sc_IndexedSeq$().ReusableCBF$6)));
+        seen = temp$seen$2;
+        queue = temp$queue$3;
+        continue _go
+      } else {
+        throw new $c_s_MatchError().init___O(x1)
+      }
+    }
+  }
+});
+$c_Lscalacss_internal_AliasAttr.prototype.init___T__F1__Lscalacss_internal_Need = (function(id, gen, targets) {
+  this.targets$2 = targets;
+  $c_Lscalacss_internal_Attr.prototype.init___T__F1.call(this, id, gen);
+  return this
+});
+$c_Lscalacss_internal_AliasAttr.prototype.real__sci_Set = (function() {
+  return ((!this.bitmap$0$2) ? this.real$lzycompute__p2__sci_Set() : this.real$2)
+});
+$c_Lscalacss_internal_AliasAttr.prototype.real$lzycompute__p2__sci_Set = (function() {
+  if ((!this.bitmap$0$2)) {
+    this.real$2 = this.go$1__p2__sci_Set__sci_Set__sci_Vector__sci_Set($m_sci_Set$EmptySet$(), $m_sci_Set$EmptySet$(), $as_Lscalacss_internal_NonEmptyVector(this.targets$2.value__O()).whole__sci_Vector());
+    this.bitmap$0$2 = true
+  };
+  return this.real$2
+});
+function $is_Lscalacss_internal_AliasAttr(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_AliasAttr)))
+}
+function $as_Lscalacss_internal_AliasAttr(obj) {
+  return (($is_Lscalacss_internal_AliasAttr(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalacss.internal.AliasAttr"))
+}
+function $isArrayOf_Lscalacss_internal_AliasAttr(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalacss_internal_AliasAttr)))
+}
+function $asArrayOf_Lscalacss_internal_AliasAttr(obj, depth) {
+  return (($isArrayOf_Lscalacss_internal_AliasAttr(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.AliasAttr;", depth))
+}
+var $d_Lscalacss_internal_AliasAttr = new $TypeData().initClass({
+  Lscalacss_internal_AliasAttr: 0
+}, false, "scalacss.internal.AliasAttr", {
+  Lscalacss_internal_AliasAttr: 1,
+  Lscalacss_internal_Attr: 1,
+  O: 1
+});
+$c_Lscalacss_internal_AliasAttr.prototype.$classData = $d_Lscalacss_internal_AliasAttr;
+/** @constructor */
 function $c_Lscalacss_internal_AttrAliasesAndValueTRules() {
   $c_Lscalacss_internal_ValueT$Rules.call(this)
 }
@@ -13189,6 +14094,295 @@ $c_Lscalacss_internal_AttrCmp$Conflict.prototype.conflict__Z = (function() {
 $c_Lscalacss_internal_AttrCmp$Conflict.prototype.$$greater$greater__F0__Lscalacss_internal_AttrCmp = (function(next) {
   return this
 });
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$display$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$display$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$display$.prototype.constructor = $c_Lscalacss_internal_Attrs$display$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$display$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$display$.prototype = $c_Lscalacss_internal_Attrs$display$.prototype;
+$c_Lscalacss_internal_Attrs$display$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$display$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("display", $m_Lscalacss_internal_Transform$().values__sci_Map__T__sc_Seq__Lscalacss_internal_Transform($m_Lscalacss_internal_CanIUse$().flexbox$1, "flex", new $c_sjs_js_WrappedArray().init___sjs_js_Array(["inline-flex"])).$$times__Lscalacss_internal_Transform__Lscalacss_internal_Transform($m_Lscalacss_internal_Transform$().values__sci_Map__T__sc_Seq__Lscalacss_internal_Transform($m_Lscalacss_internal_CanIUse$().grid$1, "grid", new $c_sjs_js_WrappedArray().init___sjs_js_Array(["inline-grid"]))));
+  return this
+});
+$c_Lscalacss_internal_Attrs$display$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$display$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$display$: 0
+}, false, "scalacss.internal.Attrs$display$", {
+  Lscalacss_internal_Attrs$display$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$display$.prototype.$classData = $d_Lscalacss_internal_Attrs$display$;
+var $n_Lscalacss_internal_Attrs$display$ = (void 0);
+function $m_Lscalacss_internal_Attrs$display$() {
+  if ((!$n_Lscalacss_internal_Attrs$display$)) {
+    $n_Lscalacss_internal_Attrs$display$ = new $c_Lscalacss_internal_Attrs$display$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$display$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$flexDirection$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$flexDirection$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$flexDirection$.prototype.constructor = $c_Lscalacss_internal_Attrs$flexDirection$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$flexDirection$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$flexDirection$.prototype = $c_Lscalacss_internal_Attrs$flexDirection$.prototype;
+$c_Lscalacss_internal_Attrs$flexDirection$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$flexDirection$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().flexbox$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("flex-direction", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$flexDirection$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$flexDirection$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$flexDirection$: 0
+}, false, "scalacss.internal.Attrs$flexDirection$", {
+  Lscalacss_internal_Attrs$flexDirection$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$flexDirection$.prototype.$classData = $d_Lscalacss_internal_Attrs$flexDirection$;
+var $n_Lscalacss_internal_Attrs$flexDirection$ = (void 0);
+function $m_Lscalacss_internal_Attrs$flexDirection$() {
+  if ((!$n_Lscalacss_internal_Attrs$flexDirection$)) {
+    $n_Lscalacss_internal_Attrs$flexDirection$ = new $c_Lscalacss_internal_Attrs$flexDirection$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$flexDirection$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$justifyContent$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.constructor = $c_Lscalacss_internal_Attrs$justifyContent$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$justifyContent$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$justifyContent$.prototype = $c_Lscalacss_internal_Attrs$justifyContent$.prototype;
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$justifyContent$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().flexbox$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("justify-content", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$justifyContent$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$justifyContent$: 0
+}, false, "scalacss.internal.Attrs$justifyContent$", {
+  Lscalacss_internal_Attrs$justifyContent$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.$classData = $d_Lscalacss_internal_Attrs$justifyContent$;
+var $n_Lscalacss_internal_Attrs$justifyContent$ = (void 0);
+function $m_Lscalacss_internal_Attrs$justifyContent$() {
+  if ((!$n_Lscalacss_internal_Attrs$justifyContent$)) {
+    $n_Lscalacss_internal_Attrs$justifyContent$ = new $c_Lscalacss_internal_Attrs$justifyContent$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$justifyContent$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$overflow$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$overflow$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$overflow$.prototype.constructor = $c_Lscalacss_internal_Attrs$overflow$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$overflow$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$overflow$.prototype = $c_Lscalacss_internal_Attrs$overflow$.prototype;
+$c_Lscalacss_internal_Attrs$overflow$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$overflow$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("overflow");
+  return this
+});
+$c_Lscalacss_internal_Attrs$overflow$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$overflow$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$overflow$: 0
+}, false, "scalacss.internal.Attrs$overflow$", {
+  Lscalacss_internal_Attrs$overflow$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$overflow$.prototype.$classData = $d_Lscalacss_internal_Attrs$overflow$;
+var $n_Lscalacss_internal_Attrs$overflow$ = (void 0);
+function $m_Lscalacss_internal_Attrs$overflow$() {
+  if ((!$n_Lscalacss_internal_Attrs$overflow$)) {
+    $n_Lscalacss_internal_Attrs$overflow$ = new $c_Lscalacss_internal_Attrs$overflow$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$overflow$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$position$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$position$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$position$.prototype.constructor = $c_Lscalacss_internal_Attrs$position$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$position$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$position$.prototype = $c_Lscalacss_internal_Attrs$position$.prototype;
+$c_Lscalacss_internal_Attrs$position$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$position$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("position");
+  return this
+});
+$c_Lscalacss_internal_Attrs$position$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$position$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$position$: 0
+}, false, "scalacss.internal.Attrs$position$", {
+  Lscalacss_internal_Attrs$position$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$position$.prototype.$classData = $d_Lscalacss_internal_Attrs$position$;
+var $n_Lscalacss_internal_Attrs$position$ = (void 0);
+function $m_Lscalacss_internal_Attrs$position$() {
+  if ((!$n_Lscalacss_internal_Attrs$position$)) {
+    $n_Lscalacss_internal_Attrs$position$ = new $c_Lscalacss_internal_Attrs$position$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$position$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$textAlign$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$textAlign$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$textAlign$.prototype.constructor = $c_Lscalacss_internal_Attrs$textAlign$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$textAlign$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$textAlign$.prototype = $c_Lscalacss_internal_Attrs$textAlign$.prototype;
+$c_Lscalacss_internal_Attrs$textAlign$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$textAlign$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("text-align", $m_Lscalacss_internal_Transform$().values__sci_Map__T__sc_Seq__Lscalacss_internal_Transform($m_Lscalacss_internal_CanIUse$().logicalProps__sci_Map(), $m_Lscalacss_internal_Literal$Typed$start$().value$1, new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalacss_internal_Literal$Typed$end$().value$1])).$$times__Lscalacss_internal_Transform__Lscalacss_internal_Transform($m_Lscalacss_internal_Transform$().values__sci_Map__T__sc_Seq__Lscalacss_internal_Transform($m_Lscalacss_internal_CanIUse$().textJustify__sci_Map(), "justify", new $c_sjs_js_WrappedArray().init___sjs_js_Array([]))));
+  return this
+});
+$c_Lscalacss_internal_Attrs$textAlign$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$textAlign$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$textAlign$: 0
+}, false, "scalacss.internal.Attrs$textAlign$", {
+  Lscalacss_internal_Attrs$textAlign$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$textAlign$.prototype.$classData = $d_Lscalacss_internal_Attrs$textAlign$;
+var $n_Lscalacss_internal_Attrs$textAlign$ = (void 0);
+function $m_Lscalacss_internal_Attrs$textAlign$() {
+  if ((!$n_Lscalacss_internal_Attrs$textAlign$)) {
+    $n_Lscalacss_internal_Attrs$textAlign$ = new $c_Lscalacss_internal_Attrs$textAlign$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$textAlign$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionTimingFunction$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype = $c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype;
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-timing-function", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$transitionTimingFunction$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionTimingFunction$: 0
+}, false, "scalacss.internal.Attrs$transitionTimingFunction$", {
+  Lscalacss_internal_Attrs$transitionTimingFunction$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionTimingFunction$;
+var $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionTimingFunction$)) {
+    $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = new $c_Lscalacss_internal_Attrs$transitionTimingFunction$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionTimingFunction$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$whiteSpace$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$whiteSpace$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$whiteSpace$.prototype.constructor = $c_Lscalacss_internal_Attrs$whiteSpace$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$whiteSpace$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$whiteSpace$.prototype = $c_Lscalacss_internal_Attrs$whiteSpace$.prototype;
+$c_Lscalacss_internal_Attrs$whiteSpace$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$whiteSpace$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("white-space");
+  return this
+});
+$c_Lscalacss_internal_Attrs$whiteSpace$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$whiteSpace$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$whiteSpace$: 0
+}, false, "scalacss.internal.Attrs$whiteSpace$", {
+  Lscalacss_internal_Attrs$whiteSpace$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$whiteSpace$.prototype.$classData = $d_Lscalacss_internal_Attrs$whiteSpace$;
+var $n_Lscalacss_internal_Attrs$whiteSpace$ = (void 0);
+function $m_Lscalacss_internal_Attrs$whiteSpace$() {
+  if ((!$n_Lscalacss_internal_Attrs$whiteSpace$)) {
+    $n_Lscalacss_internal_Attrs$whiteSpace$ = new $c_Lscalacss_internal_Attrs$whiteSpace$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$whiteSpace$
+}
 /** @constructor */
 function $c_Lscalacss_internal_Compose$Rules$$anon$1() {
   $c_O.call(this);
@@ -13271,6 +14465,9 @@ function $h_Lscalacss_internal_RealAttr() {
   /*<skip>*/
 }
 $h_Lscalacss_internal_RealAttr.prototype = $c_Lscalacss_internal_RealAttr.prototype;
+$c_Lscalacss_internal_RealAttr.prototype.real__sci_Set = (function() {
+  return this.real$2
+});
 $c_Lscalacss_internal_RealAttr.prototype.init___T__F1 = (function(id, gen) {
   $c_Lscalacss_internal_Attr.prototype.init___T__F1.call(this, id, gen);
   var array = [this];
@@ -13508,6 +14705,33 @@ function $h_Lscalacss_internal_ValueT$TypedAttrT1() {
   /*<skip>*/
 }
 $h_Lscalacss_internal_ValueT$TypedAttrT1.prototype = $c_Lscalacss_internal_ValueT$TypedAttrT1.prototype;
+/** @constructor */
+function $c_Lscalacss_internal_ValueT$TypedAttrT2() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this)
+}
+$c_Lscalacss_internal_ValueT$TypedAttrT2.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_ValueT$TypedAttrT2.prototype.constructor = $c_Lscalacss_internal_ValueT$TypedAttrT2;
+/** @constructor */
+function $h_Lscalacss_internal_ValueT$TypedAttrT2() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_ValueT$TypedAttrT2.prototype = $c_Lscalacss_internal_ValueT$TypedAttrT2.prototype;
+/** @constructor */
+function $c_Lscalacss_internal_ValueT$TypedAttrTN() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.sep$2 = null
+}
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.constructor = $c_Lscalacss_internal_ValueT$TypedAttrTN;
+/** @constructor */
+function $h_Lscalacss_internal_ValueT$TypedAttrTN() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_ValueT$TypedAttrTN.prototype = $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype;
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T = (function(sep) {
+  this.sep$2 = sep;
+  return this
+});
 /** @constructor */
 function $c_Lscalacss_internal_mutable_Register$ErrorHandler$Noisy() {
   $c_O.call(this);
@@ -15901,6 +17125,86 @@ function $m_Lscalacss_ScalaCssReact$() {
   return $n_Lscalacss_ScalaCssReact$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionDelay$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrTN();
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionDelay$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionDelay$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionDelay$.prototype = $c_Lscalacss_internal_Attrs$transitionDelay$.prototype;
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T.call(this, ",");
+  $n_Lscalacss_internal_Attrs$transitionDelay$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-delay", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$transitionDelay$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionDelay$: 0
+}, false, "scalacss.internal.Attrs$transitionDelay$", {
+  Lscalacss_internal_Attrs$transitionDelay$: 1,
+  Lscalacss_internal_ValueT$TypedAttrTN: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionDelay$;
+var $n_Lscalacss_internal_Attrs$transitionDelay$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionDelay$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionDelay$)) {
+    $n_Lscalacss_internal_Attrs$transitionDelay$ = new $c_Lscalacss_internal_Attrs$transitionDelay$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionDelay$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionDuration$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrTN();
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionDuration$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionDuration$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionDuration$.prototype = $c_Lscalacss_internal_Attrs$transitionDuration$.prototype;
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T.call(this, ",");
+  $n_Lscalacss_internal_Attrs$transitionDuration$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-duration", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$transitionDuration$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionDuration$: 0
+}, false, "scalacss.internal.Attrs$transitionDuration$", {
+  Lscalacss_internal_Attrs$transitionDuration$: 1,
+  Lscalacss_internal_ValueT$TypedAttrTN: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionDuration$;
+var $n_Lscalacss_internal_Attrs$transitionDuration$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionDuration$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionDuration$)) {
+    $n_Lscalacss_internal_Attrs$transitionDuration$ = new $c_Lscalacss_internal_Attrs$transitionDuration$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionDuration$
+}
+/** @constructor */
 function $c_Lscalacss_internal_CanIUse$Agent$() {
   $c_O.call(this);
   this.AndroidBrowser$1 = null;
@@ -16178,6 +17482,68 @@ function $m_Lscalacss_internal_Env$() {
     $n_Lscalacss_internal_Env$ = new $c_Lscalacss_internal_Env$().init___()
   };
   return $n_Lscalacss_internal_Env$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Literal$Typed$end$() {
+  $c_Lscalacss_internal_Literal.call(this)
+}
+$c_Lscalacss_internal_Literal$Typed$end$.prototype = new $h_Lscalacss_internal_Literal();
+$c_Lscalacss_internal_Literal$Typed$end$.prototype.constructor = $c_Lscalacss_internal_Literal$Typed$end$;
+/** @constructor */
+function $h_Lscalacss_internal_Literal$Typed$end$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Literal$Typed$end$.prototype = $c_Lscalacss_internal_Literal$Typed$end$.prototype;
+$c_Lscalacss_internal_Literal$Typed$end$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_Literal.prototype.init___T.call(this, "end");
+  return this
+});
+var $d_Lscalacss_internal_Literal$Typed$end$ = new $TypeData().initClass({
+  Lscalacss_internal_Literal$Typed$end$: 0
+}, false, "scalacss.internal.Literal$Typed$end$", {
+  Lscalacss_internal_Literal$Typed$end$: 1,
+  Lscalacss_internal_Literal: 1,
+  O: 1,
+  Lscalacss_internal_Literal$Typed$TimingFunctionDirection: 1
+});
+$c_Lscalacss_internal_Literal$Typed$end$.prototype.$classData = $d_Lscalacss_internal_Literal$Typed$end$;
+var $n_Lscalacss_internal_Literal$Typed$end$ = (void 0);
+function $m_Lscalacss_internal_Literal$Typed$end$() {
+  if ((!$n_Lscalacss_internal_Literal$Typed$end$)) {
+    $n_Lscalacss_internal_Literal$Typed$end$ = new $c_Lscalacss_internal_Literal$Typed$end$().init___()
+  };
+  return $n_Lscalacss_internal_Literal$Typed$end$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Literal$Typed$start$() {
+  $c_Lscalacss_internal_Literal.call(this)
+}
+$c_Lscalacss_internal_Literal$Typed$start$.prototype = new $h_Lscalacss_internal_Literal();
+$c_Lscalacss_internal_Literal$Typed$start$.prototype.constructor = $c_Lscalacss_internal_Literal$Typed$start$;
+/** @constructor */
+function $h_Lscalacss_internal_Literal$Typed$start$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Literal$Typed$start$.prototype = $c_Lscalacss_internal_Literal$Typed$start$.prototype;
+$c_Lscalacss_internal_Literal$Typed$start$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_Literal.prototype.init___T.call(this, "start");
+  return this
+});
+var $d_Lscalacss_internal_Literal$Typed$start$ = new $TypeData().initClass({
+  Lscalacss_internal_Literal$Typed$start$: 0
+}, false, "scalacss.internal.Literal$Typed$start$", {
+  Lscalacss_internal_Literal$Typed$start$: 1,
+  Lscalacss_internal_Literal: 1,
+  O: 1,
+  Lscalacss_internal_Literal$Typed$TimingFunctionDirection: 1
+});
+$c_Lscalacss_internal_Literal$Typed$start$.prototype.$classData = $d_Lscalacss_internal_Literal$Typed$start$;
+var $n_Lscalacss_internal_Literal$Typed$start$ = (void 0);
+function $m_Lscalacss_internal_Literal$Typed$start$() {
+  if ((!$n_Lscalacss_internal_Literal$Typed$start$)) {
+    $n_Lscalacss_internal_Literal$Typed$start$ = new $c_Lscalacss_internal_Literal$Typed$start$().init___()
+  };
+  return $n_Lscalacss_internal_Literal$Typed$start$
 }
 /** @constructor */
 function $c_Lscalacss_internal_StyleF() {
@@ -18561,6 +19927,294 @@ var $d_sr_Nothing$ = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 /** @constructor */
+function $c_Lcom_pokeboston_client_components_progress_ProgressStylings$() {
+  $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
+  this.ProgressVertical$3 = null;
+  this.ProgressBarVertical$3 = null
+}
+$c_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype = new $h_Lscalacss_internal_mutable_StyleSheet$Inline();
+$c_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype.constructor = $c_Lcom_pokeboston_client_components_progress_ProgressStylings$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_components_progress_ProgressStylings$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype = $c_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype;
+$c_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype.init___ = (function() {
+  var this$1 = $m_Lscalacss_package$DevDefaults$();
+  $c_Lscalacss_internal_mutable_StyleSheet$Inline.prototype.init___Lscalacss_internal_mutable_Register.call(this, new $c_Lscalacss_internal_mutable_Register().init___Lscalacss_internal_mutable_Register$NameGen__Lscalacss_internal_mutable_Register$MacroName__Lscalacss_internal_mutable_Register$ErrorHandler__Lscalacss_internal_mutable_Mutex(this$1.cssRegisterNameGen$1, $m_Lscalacss_internal_mutable_Register$MacroName$Use$(), this$1.cssRegisterErrorHandler$1, $m_Lscalacss_internal_mutable_Mutex$().mutex$1));
+  $n_Lcom_pokeboston_client_components_progress_ProgressStylings$ = this;
+  var this$37 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ProgressVertical");
+  var jsx$15 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$14 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$15.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a.attr$2, "flex")));
+  var jsx$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$1 = $m_Lscalacss_internal_Attrs$height$();
+  var jsx$12 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1.attr$3, "100%")));
+  var jsx$11 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$2 = $m_Lscalacss_internal_Attrs$position$();
+  var jsx$10 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$11.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$2.attr$2, "absolute")));
+  var jsx$9 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$3 = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$8 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$9.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$3.attr$3, "1rem")));
+  var jsx$7 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$4 = $m_Lscalacss_internal_Attrs$overflow$();
+  var jsx$6 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$7.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$4.attr$2, "hidden")));
+  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$5 = $m_Lscalacss_internal_Attrs$fontSize$();
+  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$5.attr$3, ".75rem")));
+  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$6 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+  var jsx$2 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$6.attr$4, "#e9ecef")));
+  var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$7 = $m_Lscalacss_internal_Attrs$borderRadius$();
+  var array = [jsx$14, jsx$12, jsx$10, jsx$8, jsx$6, jsx$4, jsx$2, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$7.attr$2, ".25rem")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$38 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array.length) === 0)) {
+    var s1 = this$38.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$1 = [];
+    var x1 = $uI(array.length);
+    switch (x1) {
+      case (-1): {
+        break
+      }
+    };
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      var x$9 = $as_Lscalacss_internal_DslBase$ToStyle(arg1).s$1;
+      array$1.push(x$9);
+      i = ((1 + i) | 0)
+    };
+    var f = (function(this$2$1, c$1) {
+      return (function(x$10$2, x$11$2) {
+        var x$10 = $as_Lscalacss_internal_StyleS(x$10$2);
+        var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
+        return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
+      })
+    })(this$38, c);
+    if (($uI(array$1.length) > 0)) {
+      var start = 1;
+      var end = $uI(array$1.length);
+      var z = array$1[0];
+      var start$1 = start;
+      var z$1 = z;
+      var jsx$16;
+      _foldl: while (true) {
+        if ((start$1 !== end)) {
+          var temp$start = ((1 + start$1) | 0);
+          var arg1$1 = z$1;
+          var index$1 = start$1;
+          var arg2 = array$1[index$1];
+          var temp$z = f(arg1$1, arg2);
+          start$1 = temp$start;
+          z$1 = temp$z;
+          continue _foldl
+        };
+        var jsx$16 = z$1;
+        break
+      }
+    } else {
+      if (($uI(array$1.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1 = false;
+      elem$1 = true;
+      var elem$1$1 = null;
+      elem$1$1 = 0;
+      var i$1 = 0;
+      var len$1 = $uI(array$1.length);
+      while ((i$1 < len$1)) {
+        var index$2 = i$1;
+        var arg1$2 = array$1[index$2];
+        if (elem$1) {
+          elem$1$1 = arg1$2;
+          elem$1 = false
+        } else {
+          var arg1$3 = elem$1$1;
+          elem$1$1 = f(arg1$3, arg1$2)
+        };
+        i$1 = ((1 + i$1) | 0)
+      };
+      var jsx$16 = elem$1$1
+    };
+    var s1 = $as_Lscalacss_internal_StyleS(jsx$16)
+  };
+  var s2 = this$37.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$37.name$1, s1, this$37.$$outer$1.classNameHint$1);
+  this.ProgressVertical$3 = this$37.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$37.$$outer$1.classNameHint$1);
+  var this$85 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ProgressBarVertical");
+  var jsx$35 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$8 = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$34 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$35.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$8.attr$2, "flex")));
+  var jsx$33 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$9 = $m_Lscalacss_internal_Attrs$position$();
+  var jsx$32 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$33.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$9.attr$2, "absolute")));
+  var jsx$31 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$10 = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$30 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$31.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$10.attr$3, "1rem")));
+  var jsx$29 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$11 = $m_Lscalacss_internal_Attrs$flexDirection$();
+  var jsx$28 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$29.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$11.attr$2, "row")));
+  var jsx$27 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$12 = $m_Lscalacss_internal_Attrs$justifyContent$();
+  var jsx$26 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$27.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$12.attr$2, "center")));
+  var jsx$25 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$13 = $m_Lscalacss_internal_Attrs$color$();
+  var jsx$24 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$25.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$13.attr$4, "#fff")));
+  var jsx$23 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$14 = $m_Lscalacss_internal_Attrs$textAlign$();
+  var jsx$22 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$23.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$14.attr$2, "center")));
+  var jsx$21 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$15 = $m_Lscalacss_internal_Attrs$whiteSpace$();
+  var jsx$20 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$21.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$15.attr$2, "nowrap")));
+  var jsx$19 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$16 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+  var jsx$18 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$19.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$16.attr$4, "#007bff")));
+  var jsx$17 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$17 = $m_Lscalacss_internal_Attrs$().transition__Lscalacss_internal_Attr();
+  var array$2 = [jsx$34, jsx$32, jsx$30, jsx$28, jsx$26, jsx$24, jsx$22, jsx$20, jsx$18, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$17.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$17, "height .6s ease")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c$2 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$86 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$2.length) === 0)) {
+    var s1$1 = this$86.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$3 = [];
+    var x1$1 = $uI(array$2.length);
+    switch (x1$1) {
+      case (-1): {
+        break
+      }
+    };
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$3 = i$2;
+      var arg1$4 = array$2[index$3];
+      var x$9$1 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$4).s$1;
+      array$3.push(x$9$1);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var f$1 = (function(this$2$2, c$3) {
+      return (function(x$10$2$1, x$11$2$1) {
+        var x$10$1 = $as_Lscalacss_internal_StyleS(x$10$2$1);
+        var x$11$1 = $as_Lscalacss_internal_StyleS(x$11$2$1);
+        return c$3.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$1, x$11$1)
+      })
+    })(this$86, c$2);
+    if (($uI(array$3.length) > 0)) {
+      var start$2 = 1;
+      var end$1 = $uI(array$3.length);
+      var z$2 = array$3[0];
+      var start$3 = start$2;
+      var z$3 = z$2;
+      var jsx$36;
+      _foldl$1: while (true) {
+        if ((start$3 !== end$1)) {
+          var temp$start$1 = ((1 + start$3) | 0);
+          var arg1$5 = z$3;
+          var index$4 = start$3;
+          var arg2$1 = array$3[index$4];
+          var temp$z$1 = f$1(arg1$5, arg2$1);
+          start$3 = temp$start$1;
+          z$3 = temp$z$1;
+          continue _foldl$1
+        };
+        var jsx$36 = z$3;
+        break
+      }
+    } else {
+      if (($uI(array$3.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$2 = false;
+      elem$1$2 = true;
+      var elem$1$3 = null;
+      elem$1$3 = 0;
+      var i$3 = 0;
+      var len$3 = $uI(array$3.length);
+      while ((i$3 < len$3)) {
+        var index$5 = i$3;
+        var arg1$6 = array$3[index$5];
+        if (elem$1$2) {
+          elem$1$3 = arg1$6;
+          elem$1$2 = false
+        } else {
+          var arg1$7 = elem$1$3;
+          elem$1$3 = f$1(arg1$7, arg1$6)
+        };
+        i$3 = ((1 + i$3) | 0)
+      };
+      var jsx$36 = elem$1$3
+    };
+    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$36)
+  };
+  var s2$1 = this$85.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$85.name$1, s1$1, this$85.$$outer$1.classNameHint$1);
+  this.ProgressBarVertical$3 = this$85.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$85.$$outer$1.classNameHint$1);
+  return this
+});
+var $d_Lcom_pokeboston_client_components_progress_ProgressStylings$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_components_progress_ProgressStylings$: 0
+}, false, "com.pokeboston.client.components.progress.ProgressStylings$", {
+  Lcom_pokeboston_client_components_progress_ProgressStylings$: 1,
+  Lscalacss_internal_mutable_StyleSheet$Inline: 1,
+  Lscalacss_internal_mutable_StyleSheet$Base: 1,
+  O: 1,
+  Lscalacss_internal_Macros$Dsl$Mixin: 1
+});
+$c_Lcom_pokeboston_client_components_progress_ProgressStylings$.prototype.$classData = $d_Lcom_pokeboston_client_components_progress_ProgressStylings$;
+var $n_Lcom_pokeboston_client_components_progress_ProgressStylings$ = (void 0);
+function $m_Lcom_pokeboston_client_components_progress_ProgressStylings$() {
+  if ((!$n_Lcom_pokeboston_client_components_progress_ProgressStylings$)) {
+    $n_Lcom_pokeboston_client_components_progress_ProgressStylings$ = new $c_Lcom_pokeboston_client_components_progress_ProgressStylings$().init___()
+  };
+  return $n_Lcom_pokeboston_client_components_progress_ProgressStylings$
+}
+/** @constructor */
 function $c_Lcom_pokeboston_client_stylings_AppLayout$() {
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
   this.bgCenter$3 = null;
@@ -19149,6 +20803,259 @@ $c_Ljava_io_OutputStream.prototype.close__V = (function() {
   /*<skip>*/
 });
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$borderBottomLeftRadius$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT2.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT2();
+$c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype.constructor = $c_Lscalacss_internal_Attrs$borderBottomLeftRadius$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$borderBottomLeftRadius$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype = $c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype;
+$c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$borderBottomLeftRadius$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().borderRadius$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("border-bottom-left-radius", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$borderBottomLeftRadius$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$borderBottomLeftRadius$: 0
+}, false, "scalacss.internal.Attrs$borderBottomLeftRadius$", {
+  Lscalacss_internal_Attrs$borderBottomLeftRadius$: 1,
+  Lscalacss_internal_ValueT$TypedAttrT2: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$borderBottomLeftRadius$.prototype.$classData = $d_Lscalacss_internal_Attrs$borderBottomLeftRadius$;
+var $n_Lscalacss_internal_Attrs$borderBottomLeftRadius$ = (void 0);
+function $m_Lscalacss_internal_Attrs$borderBottomLeftRadius$() {
+  if ((!$n_Lscalacss_internal_Attrs$borderBottomLeftRadius$)) {
+    $n_Lscalacss_internal_Attrs$borderBottomLeftRadius$ = new $c_Lscalacss_internal_Attrs$borderBottomLeftRadius$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$borderBottomLeftRadius$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$borderBottomRightRadius$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT2.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT2();
+$c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype.constructor = $c_Lscalacss_internal_Attrs$borderBottomRightRadius$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$borderBottomRightRadius$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype = $c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype;
+$c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$borderBottomRightRadius$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().borderRadius$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("border-bottom-right-radius", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$borderBottomRightRadius$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$borderBottomRightRadius$: 0
+}, false, "scalacss.internal.Attrs$borderBottomRightRadius$", {
+  Lscalacss_internal_Attrs$borderBottomRightRadius$: 1,
+  Lscalacss_internal_ValueT$TypedAttrT2: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$borderBottomRightRadius$.prototype.$classData = $d_Lscalacss_internal_Attrs$borderBottomRightRadius$;
+var $n_Lscalacss_internal_Attrs$borderBottomRightRadius$ = (void 0);
+function $m_Lscalacss_internal_Attrs$borderBottomRightRadius$() {
+  if ((!$n_Lscalacss_internal_Attrs$borderBottomRightRadius$)) {
+    $n_Lscalacss_internal_Attrs$borderBottomRightRadius$ = new $c_Lscalacss_internal_Attrs$borderBottomRightRadius$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$borderBottomRightRadius$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$borderRadius$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$borderRadius$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$borderRadius$.prototype.constructor = $c_Lscalacss_internal_Attrs$borderRadius$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$borderRadius$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$borderRadius$.prototype = $c_Lscalacss_internal_Attrs$borderRadius$.prototype;
+$c_Lscalacss_internal_Attrs$borderRadius$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$borderRadius$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().borderRadius$1;
+  this.attr$2 = $as_Lscalacss_internal_Attr(jsx$1.alias__T__Lscalacss_internal_Transform__F1("border-radius", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1)).apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$33$2) {
+      $as_Lscalacss_internal_Attr$AliasB$(x$33$2);
+      var t = $m_Lscalacss_internal_Attrs$borderTopLeftRadius$();
+      var h = t.attr$3;
+      var t$1 = $m_Lscalacss_internal_Attrs$borderTopRightRadius$();
+      var jsx$3 = t$1.attr$3;
+      var t$2 = $m_Lscalacss_internal_Attrs$borderBottomRightRadius$();
+      var jsx$2 = t$2.attr$3;
+      var t$3 = $m_Lscalacss_internal_Attrs$borderBottomLeftRadius$();
+      var t$4 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$3, jsx$2, t$3.attr$3]);
+      $m_sci_Vector$();
+      var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
+      var t$5 = $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(t$4, cbf));
+      return new $c_Lscalacss_internal_NonEmptyVector().init___O__sci_Vector(h, t$5)
+    })
+  })(this))));
+  return this
+});
+$c_Lscalacss_internal_Attrs$borderRadius$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$borderRadius$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$borderRadius$: 0
+}, false, "scalacss.internal.Attrs$borderRadius$", {
+  Lscalacss_internal_Attrs$borderRadius$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_Attrs$RorderRadiusOps: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$borderRadius$.prototype.$classData = $d_Lscalacss_internal_Attrs$borderRadius$;
+var $n_Lscalacss_internal_Attrs$borderRadius$ = (void 0);
+function $m_Lscalacss_internal_Attrs$borderRadius$() {
+  if ((!$n_Lscalacss_internal_Attrs$borderRadius$)) {
+    $n_Lscalacss_internal_Attrs$borderRadius$ = new $c_Lscalacss_internal_Attrs$borderRadius$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$borderRadius$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$borderTopLeftRadius$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT2.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT2();
+$c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype.constructor = $c_Lscalacss_internal_Attrs$borderTopLeftRadius$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$borderTopLeftRadius$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype = $c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype;
+$c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$borderTopLeftRadius$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().borderRadius$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("border-top-left-radius", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$borderTopLeftRadius$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$borderTopLeftRadius$: 0
+}, false, "scalacss.internal.Attrs$borderTopLeftRadius$", {
+  Lscalacss_internal_Attrs$borderTopLeftRadius$: 1,
+  Lscalacss_internal_ValueT$TypedAttrT2: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$borderTopLeftRadius$.prototype.$classData = $d_Lscalacss_internal_Attrs$borderTopLeftRadius$;
+var $n_Lscalacss_internal_Attrs$borderTopLeftRadius$ = (void 0);
+function $m_Lscalacss_internal_Attrs$borderTopLeftRadius$() {
+  if ((!$n_Lscalacss_internal_Attrs$borderTopLeftRadius$)) {
+    $n_Lscalacss_internal_Attrs$borderTopLeftRadius$ = new $c_Lscalacss_internal_Attrs$borderTopLeftRadius$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$borderTopLeftRadius$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$borderTopRightRadius$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT2.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT2();
+$c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype.constructor = $c_Lscalacss_internal_Attrs$borderTopRightRadius$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$borderTopRightRadius$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype = $c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype;
+$c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$borderTopRightRadius$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().borderRadius$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("border-top-right-radius", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$borderTopRightRadius$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$borderTopRightRadius$: 0
+}, false, "scalacss.internal.Attrs$borderTopRightRadius$", {
+  Lscalacss_internal_Attrs$borderTopRightRadius$: 1,
+  Lscalacss_internal_ValueT$TypedAttrT2: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$borderTopRightRadius$.prototype.$classData = $d_Lscalacss_internal_Attrs$borderTopRightRadius$;
+var $n_Lscalacss_internal_Attrs$borderTopRightRadius$ = (void 0);
+function $m_Lscalacss_internal_Attrs$borderTopRightRadius$() {
+  if ((!$n_Lscalacss_internal_Attrs$borderTopRightRadius$)) {
+    $n_Lscalacss_internal_Attrs$borderTopRightRadius$ = new $c_Lscalacss_internal_Attrs$borderTopRightRadius$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$borderTopRightRadius$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$fontSize$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT1.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$fontSize$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT1();
+$c_Lscalacss_internal_Attrs$fontSize$.prototype.constructor = $c_Lscalacss_internal_Attrs$fontSize$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$fontSize$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$fontSize$.prototype = $c_Lscalacss_internal_Attrs$fontSize$.prototype;
+$c_Lscalacss_internal_Attrs$fontSize$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$fontSize$ = this;
+  this.attr$3 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("font-size");
+  return this
+});
+$c_Lscalacss_internal_Attrs$fontSize$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$fontSize$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$fontSize$: 0
+}, false, "scalacss.internal.Attrs$fontSize$", {
+  Lscalacss_internal_Attrs$fontSize$: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$fontSize$.prototype.$classData = $d_Lscalacss_internal_Attrs$fontSize$;
+var $n_Lscalacss_internal_Attrs$fontSize$ = (void 0);
+function $m_Lscalacss_internal_Attrs$fontSize$() {
+  if ((!$n_Lscalacss_internal_Attrs$fontSize$)) {
+    $n_Lscalacss_internal_Attrs$fontSize$ = new $c_Lscalacss_internal_Attrs$fontSize$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$fontSize$
+}
+/** @constructor */
 function $c_Lscalacss_internal_StyleF$$anon$1() {
   $c_sr_AbstractFunction1.call(this);
   this.f$1$2 = null
@@ -19195,6 +21102,9 @@ $h_Lscalacss_internal_ValueT$TypedAttr$undLength.prototype = $c_Lscalacss_intern
 $c_Lscalacss_internal_ValueT$TypedAttr$undLength.prototype.init___ = (function() {
   this.attr$3 = $as_Lscalacss_internal_Attr(this.attr2__F1().apply__O__O($m_Lscalacss_internal_CanIUse2$().intrinsicWidthTransforms__Lscalacss_internal_Transform()));
   return this
+});
+$c_Lscalacss_internal_ValueT$TypedAttr$undLength.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
 });
 function $is_T(obj) {
   return ((typeof obj) === "string")
@@ -23443,6 +25353,17 @@ function $asArrayOf_Lscalacss_internal_UnicodeRange(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_UnicodeRange(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.UnicodeRange;", depth))
 }
 /** @constructor */
+function $c_Lscalacss_internal_ValueT$TypedAttr$undColor() {
+  $c_Lscalacss_internal_ValueT$TypedAttrT1.call(this)
+}
+$c_Lscalacss_internal_ValueT$TypedAttr$undColor.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrT1();
+$c_Lscalacss_internal_ValueT$TypedAttr$undColor.prototype.constructor = $c_Lscalacss_internal_ValueT$TypedAttr$undColor;
+/** @constructor */
+function $h_Lscalacss_internal_ValueT$TypedAttr$undColor() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_ValueT$TypedAttr$undColor.prototype = $c_Lscalacss_internal_ValueT$TypedAttr$undColor.prototype;
+/** @constructor */
 function $c_Lscalacss_internal_package$Warning() {
   $c_O.call(this);
   this.cond$1 = null;
@@ -27124,6 +29045,84 @@ function $m_Lscalacss_internal_AttrCmp$Unrelated$() {
     $n_Lscalacss_internal_AttrCmp$Unrelated$ = new $c_Lscalacss_internal_AttrCmp$Unrelated$().init___()
   };
   return $n_Lscalacss_internal_AttrCmp$Unrelated$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$backgroundColor$() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undColor.call(this);
+  this.attr$4 = null
+}
+$c_Lscalacss_internal_Attrs$backgroundColor$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttr$undColor();
+$c_Lscalacss_internal_Attrs$backgroundColor$.prototype.constructor = $c_Lscalacss_internal_Attrs$backgroundColor$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$backgroundColor$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$backgroundColor$.prototype = $c_Lscalacss_internal_Attrs$backgroundColor$.prototype;
+$c_Lscalacss_internal_Attrs$backgroundColor$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$backgroundColor$ = this;
+  this.attr$4 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("background-color");
+  return this
+});
+$c_Lscalacss_internal_Attrs$backgroundColor$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$4
+});
+var $d_Lscalacss_internal_Attrs$backgroundColor$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$backgroundColor$: 0
+}, false, "scalacss.internal.Attrs$backgroundColor$", {
+  Lscalacss_internal_Attrs$backgroundColor$: 1,
+  Lscalacss_internal_ValueT$TypedAttr$undColor: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ColourOps: 1,
+  Lscalacss_internal_ColorOps: 1
+});
+$c_Lscalacss_internal_Attrs$backgroundColor$.prototype.$classData = $d_Lscalacss_internal_Attrs$backgroundColor$;
+var $n_Lscalacss_internal_Attrs$backgroundColor$ = (void 0);
+function $m_Lscalacss_internal_Attrs$backgroundColor$() {
+  if ((!$n_Lscalacss_internal_Attrs$backgroundColor$)) {
+    $n_Lscalacss_internal_Attrs$backgroundColor$ = new $c_Lscalacss_internal_Attrs$backgroundColor$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$backgroundColor$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$color$() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undColor.call(this);
+  this.attr$4 = null
+}
+$c_Lscalacss_internal_Attrs$color$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttr$undColor();
+$c_Lscalacss_internal_Attrs$color$.prototype.constructor = $c_Lscalacss_internal_Attrs$color$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$color$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$color$.prototype = $c_Lscalacss_internal_Attrs$color$.prototype;
+$c_Lscalacss_internal_Attrs$color$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$color$ = this;
+  this.attr$4 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("color");
+  return this
+});
+$c_Lscalacss_internal_Attrs$color$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$4
+});
+var $d_Lscalacss_internal_Attrs$color$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$color$: 0
+}, false, "scalacss.internal.Attrs$color$", {
+  Lscalacss_internal_Attrs$color$: 1,
+  Lscalacss_internal_ValueT$TypedAttr$undColor: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ColourOps: 1,
+  Lscalacss_internal_ColorOps: 1
+});
+$c_Lscalacss_internal_Attrs$color$.prototype.$classData = $d_Lscalacss_internal_Attrs$color$;
+var $n_Lscalacss_internal_Attrs$color$ = (void 0);
+function $m_Lscalacss_internal_Attrs$color$() {
+  if ((!$n_Lscalacss_internal_Attrs$color$)) {
+    $n_Lscalacss_internal_Attrs$color$ = new $c_Lscalacss_internal_Attrs$color$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$color$
 }
 /** @constructor */
 function $c_Lscalacss_internal_CanIUse$Prefix$moz$() {
@@ -32511,6 +34510,9 @@ function $h_sc_AbstractTraversable() {
   /*<skip>*/
 }
 $h_sc_AbstractTraversable.prototype = $c_sc_AbstractTraversable.prototype;
+$c_sc_AbstractTraversable.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
+  return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
+});
 $c_sc_AbstractTraversable.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
 });
@@ -33376,6 +35378,9 @@ $c_sci_StringOps.prototype.thisCollection__sc_Traversable = (function() {
   var $$this = this.repr$1;
   return new $c_sci_WrappedString().init___T($$this)
 });
+$c_sci_StringOps.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
+  return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
+});
 $c_sci_StringOps.prototype.equals__O__Z = (function(x$1) {
   return $m_sci_StringOps$().equals$extension__T__O__Z(this.repr$1, x$1)
 });
@@ -33664,6 +35669,9 @@ $c_sjs_js_ArrayOps.prototype.isEmpty__Z = (function() {
 });
 $c_sjs_js_ArrayOps.prototype.thisCollection__sc_Traversable = (function() {
   return this.thisCollection__scm_IndexedSeq()
+});
+$c_sjs_js_ArrayOps.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
+  return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
 });
 $c_sjs_js_ArrayOps.prototype.equals__O__Z = (function(that) {
   return $f_sc_GenSeqLike__equals__O__Z(this, that)
@@ -38109,6 +40117,37 @@ $c_sci_List.prototype.seq__sc_Iterable = (function() {
 });
 $c_sci_List.prototype.thisCollection__sc_Traversable = (function() {
   return this
+});
+$c_sci_List.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
+  if ((bf === $m_sci_List$().ReusableCBFInstance$2)) {
+    if ((this === $m_sci_Nil$())) {
+      return $m_sci_Nil$()
+    } else {
+      var rest = this;
+      var found = new $c_sr_BooleanRef().init___Z(false);
+      var h = new $c_sr_ObjectRef().init___O(null);
+      var t = new $c_sr_ObjectRef().init___O(null);
+      while ((rest !== $m_sci_Nil$())) {
+        $as_sc_GenTraversableOnce(f.apply__O__O(rest.head__O())).seq__sc_TraversableOnce().foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, found$1, h$1, t$1) {
+          return (function(b$2) {
+            if ((!found$1.elem$1)) {
+              h$1.elem$1 = new $c_sci_$colon$colon().init___O__sci_List(b$2, $m_sci_Nil$());
+              t$1.elem$1 = $as_sci_$colon$colon(h$1.elem$1);
+              found$1.elem$1 = true
+            } else {
+              var nx = new $c_sci_$colon$colon().init___O__sci_List(b$2, $m_sci_Nil$());
+              $as_sci_$colon$colon(t$1.elem$1).tl$5 = nx;
+              t$1.elem$1 = nx
+            }
+          })
+        })(this, found, h, t)));
+        rest = $as_sci_List(rest.tail__O())
+      };
+      return ((!found.elem$1) ? $m_sci_Nil$() : $as_sci_$colon$colon(h.elem$1))
+    }
+  } else {
+    return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
+  }
 });
 $c_sci_List.prototype.drop__I__sc_LinearSeqOptimized = (function(n) {
   return this.drop__I__sci_List(n)
