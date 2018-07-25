@@ -20,15 +20,16 @@ object HorizontalProgressWithBreadCrumbs {
        val percentage = padding * progress
         <.div(^.className := "w-100")(
           <.div(^.className := "w-100 d-flex justify-content-center align-items-center position-relative")(
-            HorizontalProgress(^.className := "position-absolute", Stylings.Progress)(percentage),
+            HorizontalProgress(^.className := "position-absolute",
+              Stylings.Progress, AppAnimations.ExpandW_100)(percentage),
             <.div(^.className := "w-100 d-flex justify-content-between", AppLayout.zindex(2))(
               steps.zipWithIndex.toTagMod {
                 case (step, i) if i < progress =>
                   ProgressBreadCrumb(Stylings.PastStep, AppAnimations.Teeter, ^.className := "animated infinite slower")()
                 case (step, i) if i == progress =>
-                  ProgressBreadCrumb(Stylings.FutureStep)(step)
+                  ProgressBreadCrumb(Stylings.FutureStep, AppAnimations.animDelay(i), ^.className := "animated bounceIn")(step)
                 case (step, i) if i > progress =>
-                  ProgressBreadCrumb(Stylings.FutureStep)(step)
+                  ProgressBreadCrumb(Stylings.FutureStep, AppAnimations.animDelay(i), ^.className := "animated bounceIn")(step)
               }
             )
           )

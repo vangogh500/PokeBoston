@@ -9,6 +9,10 @@ import scalacss.DevDefaults._
 object AppAnimations extends StyleSheet.Inline {
   import dsl._
 
+  val animDelay = styleF(Domain.ofRange(0 to 20))(n => styleS(
+    animationDelay := (n / 4.0) + "s"
+  ))
+
   private val kfTeeter = keyframes(
     (0 %%) -> style(
       transform := "rotate(0deg)"
@@ -42,8 +46,24 @@ object AppAnimations extends StyleSheet.Inline {
     )
   )
 
+  private val kfExpandW_100 = keyframes(
+    (0%%) -> style(
+      width := "0"
+    ),
+    (75%%) -> style(
+      width := "0"
+    ),
+    (100%%) -> style(
+      width := "100%"
+    )
+  )
+
   val Teeter = style(
     animationName(kfTeeter),
-    animationDuration := "4s"
+    animationDuration := "5s"
+  )
+  val ExpandW_100 = style(
+    animationName(kfExpandW_100),
+    animationDuration := "2s"
   )
 }

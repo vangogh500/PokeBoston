@@ -2253,36 +2253,33 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
         var padding = ((100 / ((a > 1) ? a : 1)) | 0);
         var percentage = $imul(padding, progress$2);
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
         var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-        var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        var jsx$16 = jsx$17.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+        var jsx$15 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
         var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-center align-items-center position-relative", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+        var jsx$14 = jsx$15.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$15 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgress$();
-        var jsx$14 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("position-absolute", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var jsx$12 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgress$();
+        var jsx$11 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("position-absolute", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
         var this$14 = $m_Lscalacss_ScalaCssReact$();
         var s = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().Progress$3;
-        var jsx$13 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$14, s);
-        var this$15 = $m_Lscalacss_ScalaCssReact$();
-        var s$1 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().ExpandW$und100$3;
-        var array$2 = [jsx$14, jsx$13, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$15, s$1)];
-        var u = jsx$15.apply__sc_Seq__I__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2), percentage);
-        var jsx$16 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        var array$2 = [jsx$11, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$14, s)];
+        var u = jsx$12.apply__sc_Seq__I__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2), percentage);
+        var jsx$13 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+        var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$11 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-between", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-        var this$21 = $m_Lscalacss_ScalaCssReact$();
-        var s$2 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppLayout$().zindex$3.apply__O__O(2));
-        var array$3 = [jsx$11, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$21, s$2)];
-        var jsx$10 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+        var jsx$9 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-between", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var this$20 = $m_Lscalacss_ScalaCssReact$();
+        var s$1 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppLayout$().zindex$3.apply__O__O(2));
+        var array$3 = [jsx$9, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$20, s$1)];
+        var jsx$8 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
         var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
         $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var this$24 = $m_sc_Seq$();
-        var as = $as_sc_TraversableOnce(steps$2.zipWithIndex__scg_CanBuildFrom__O(this$24.ReusableCBFInstance$2));
+        var this$23 = $m_sc_Seq$();
+        var as = $as_sc_TraversableOnce(steps$2.zipWithIndex__scg_CanBuildFrom__O(this$23.ReusableCBFInstance$2));
         var array$9 = [jsx$1.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, progress$2$1) {
           return (function(x0$2$2) {
             var x0$2 = $as_T2(x0$2$2);
@@ -2291,12 +2288,12 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
               if ((i < progress$2$1)) {
                 $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
                 var jsx$3 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                var this$25 = $m_Lscalacss_ScalaCssReact$();
+                var s$2 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().PastStep$3;
+                var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$25, s$2);
                 var this$26 = $m_Lscalacss_ScalaCssReact$();
-                var s$3 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().PastStep$3;
-                var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$26, s$3);
-                var this$27 = $m_Lscalacss_ScalaCssReact$();
-                var s$4 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().Teeter$3;
-                var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$27, s$4), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                var s$3 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().Teeter$3;
+                var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$26, s$3), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
                 var u$1 = jsx$3.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4), $m_sci_Nil$());
                 return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
               }
@@ -2306,16 +2303,13 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
               var i$2 = $uI(x0$2.$$und2$f);
               if ((i$2 === progress$2$1)) {
                 $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-                var jsx$6 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                var this$32 = $m_Lscalacss_ScalaCssReact$();
-                var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$32, s$5);
-                var this$33 = $m_Lscalacss_ScalaCssReact$();
-                var s$6 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$2));
-                var array$5 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$33, s$6), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-                var jsx$5 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5);
+                var jsx$5 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                var this$31 = $m_Lscalacss_ScalaCssReact$();
+                var s$4 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
+                var array$5 = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$31, s$4)];
+                var jsx$4 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5);
                 var array$6 = [step];
-                var u$2 = jsx$6.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$5, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
+                var u$2 = jsx$5.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$4, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
                 return u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
               }
             };
@@ -2324,25 +2318,22 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
               var i$3 = $uI(x0$2.$$und2$f);
               if ((i$3 > progress$2$1)) {
                 $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-                var jsx$9 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                var this$40 = $m_Lscalacss_ScalaCssReact$();
-                var s$7 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                var jsx$7 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$40, s$7);
-                var this$41 = $m_Lscalacss_ScalaCssReact$();
-                var s$8 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$3));
-                var array$7 = [jsx$7, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$41, s$8), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-                var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7);
+                var jsx$7 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                var this$37 = $m_Lscalacss_ScalaCssReact$();
+                var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
+                var array$7 = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$37, s$5)];
+                var jsx$6 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7);
                 var array$8 = [step$2];
-                var u$3 = jsx$9.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+                var u$3 = jsx$7.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$6, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
                 return u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
               }
             };
             throw new $c_s_MatchError().init___O(x0$2)
           })
         })(this$2$1, progress$2)))];
-        var array$10 = [jsx$16, jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
-        var array$11 = [jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10))];
-        var a$1 = jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
+        var array$10 = [jsx$13, jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
+        var array$11 = [jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10))];
+        var a$1 = jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
         return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
       };
       throw new $c_s_MatchError().init___O(x0$1)
@@ -2559,86 +2550,43 @@ function $h_Lcom_pokeboston_client_scenes_login_LoginScene$() {
 $h_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype = $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype;
 $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.init___ = (function() {
   $n_Lcom_pokeboston_client_scenes_login_LoginScene$ = this;
-  var jsx$34 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
+  var jsx$15 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$33 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 h-100 d-flex flex-column", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$32 = jsx$33.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  var jsx$31 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("container", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$30 = jsx$31.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$28 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
-  var jsx$27 = $m_sc_Seq$();
-  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("1")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("2")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("3"))];
-  var u = jsx$28.apply__I__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(0, $as_sc_Seq(jsx$27.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))));
-  var jsx$29 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-  var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$25 = jsx$26.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-  var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$4 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$23 = jsx$24.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
-  var jsx$22 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$5 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-facebook-box", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var array$6 = [jsx$22.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5))];
-  var jsx$21 = jsx$23.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
-  var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$7 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7));
-  var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$8 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-google-plus-box", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var array$9 = [jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8))];
-  var jsx$17 = jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
-  var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$10 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$15 = jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
   var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-twitter-box", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var array$12 = [jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11))];
-  var array$13 = [jsx$21, jsx$17, jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
-  var jsx$13 = jsx$25.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13));
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 h-100 d-flex flex-column", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$13 = jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$14 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("dropdown-divider", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14));
-  var array$15 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Or"))];
-  var jsx$10 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15));
-  var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("container", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$16 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$8 = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16));
+  var jsx$9 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
+  var jsx$8 = $m_sc_Seq$();
+  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("1")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("2")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("3"))];
+  var u = jsx$9.apply__I__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(1, $as_sc_Seq(jsx$8.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))));
+  var jsx$10 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
   var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$17 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$6 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$17));
+  var array$3 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$6 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
   var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$18 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var array$19 = [jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$18))];
-  var jsx$4 = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$19));
+  var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-facebook-box", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$5 = [jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+  var jsx$4 = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
   var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$20 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20));
+  var array$6 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-primary btn-lg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$21 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-cellphone-android", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var array$22 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$21))];
-  var array$23 = [jsx$4, jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22))];
-  var array$24 = [jsx$29, jsx$13, jsx$10, jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$23))];
-  var array$25 = [jsx$30.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$24))];
-  var a = jsx$32.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$25));
-  this.component$1 = jsx$34.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("LoginScene", a.render__Ljapgolly_scalajs_react_vdom_VdomElement());
+  var array$7 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-google", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$8 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
+  var array$9 = [jsx$10, jsx$4, jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8))];
+  var array$10 = [jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
+  var a = jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+  this.component$1 = jsx$15.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("LoginScene", a.render__Ljapgolly_scalajs_react_vdom_VdomElement());
   return this
 });
 $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
@@ -19520,46 +19468,6 @@ function $m_Lscalacss_ScalaCssReact$() {
   return $n_Lscalacss_ScalaCssReact$
 }
 /** @constructor */
-function $c_Lscalacss_internal_Attrs$animationDelay$() {
-  $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
-  this.attr$3 = null
-}
-$c_Lscalacss_internal_Attrs$animationDelay$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrTN();
-$c_Lscalacss_internal_Attrs$animationDelay$.prototype.constructor = $c_Lscalacss_internal_Attrs$animationDelay$;
-/** @constructor */
-function $h_Lscalacss_internal_Attrs$animationDelay$() {
-  /*<skip>*/
-}
-$h_Lscalacss_internal_Attrs$animationDelay$.prototype = $c_Lscalacss_internal_Attrs$animationDelay$.prototype;
-$c_Lscalacss_internal_Attrs$animationDelay$.prototype.init___ = (function() {
-  $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T.call(this, ",");
-  $n_Lscalacss_internal_Attrs$animationDelay$ = this;
-  var jsx$1 = $m_Lscalacss_internal_Attr$();
-  var this$1 = $m_Lscalacss_internal_Transform$();
-  var subject = $m_Lscalacss_internal_CanIUse$().animation$1;
-  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("animation-delay", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
-  return this
-});
-$c_Lscalacss_internal_Attrs$animationDelay$.prototype.attr__Lscalacss_internal_Attr = (function() {
-  return this.attr$3
-});
-var $d_Lscalacss_internal_Attrs$animationDelay$ = new $TypeData().initClass({
-  Lscalacss_internal_Attrs$animationDelay$: 0
-}, false, "scalacss.internal.Attrs$animationDelay$", {
-  Lscalacss_internal_Attrs$animationDelay$: 1,
-  Lscalacss_internal_ValueT$TypedAttrTN: 1,
-  Lscalacss_internal_ValueT$TypedAttrBase: 1,
-  O: 1
-});
-$c_Lscalacss_internal_Attrs$animationDelay$.prototype.$classData = $d_Lscalacss_internal_Attrs$animationDelay$;
-var $n_Lscalacss_internal_Attrs$animationDelay$ = (void 0);
-function $m_Lscalacss_internal_Attrs$animationDelay$() {
-  if ((!$n_Lscalacss_internal_Attrs$animationDelay$)) {
-    $n_Lscalacss_internal_Attrs$animationDelay$ = new $c_Lscalacss_internal_Attrs$animationDelay$().init___()
-  };
-  return $n_Lscalacss_internal_Attrs$animationDelay$
-}
-/** @constructor */
 function $c_Lscalacss_internal_Attrs$animationDuration$() {
   $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
   this.attr$3 = null
@@ -22862,11 +22770,8 @@ function $m_Lcom_pokeboston_client_components_progress_stylings_ProgressBreadCru
 /** @constructor */
 function $c_Lcom_pokeboston_client_stylings_AppAnimations$() {
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
-  this.animDelay$3 = null;
   this.kfTeeter$3 = null;
-  this.kfExpandW$und100$3 = null;
-  this.Teeter$3 = null;
-  this.ExpandW$und100$3 = null
+  this.Teeter$3 = null
 }
 $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype = new $h_Lscalacss_internal_mutable_StyleSheet$Inline();
 $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.constructor = $c_Lcom_pokeboston_client_stylings_AppAnimations$;
@@ -22879,118 +22784,111 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
   var this$1 = $m_Lscalacss_package$DevDefaults$();
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.prototype.init___Lscalacss_internal_mutable_Register.call(this, new $c_Lscalacss_internal_mutable_Register().init___Lscalacss_internal_mutable_Register$NameGen__Lscalacss_internal_mutable_Register$MacroName__Lscalacss_internal_mutable_Register$ErrorHandler__Lscalacss_internal_mutable_Mutex(this$1.cssRegisterNameGen$1, $m_Lscalacss_internal_mutable_Register$MacroName$Use$(), this$1.cssRegisterErrorHandler$1, $m_Lscalacss_internal_mutable_Mutex$().mutex$1));
   $n_Lcom_pokeboston_client_stylings_AppAnimations$ = this;
-  var qual$1 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "animDelay");
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var r = new $c_sci_Range$Inclusive().init___I__I__I(0, 20, 1);
-  var x$1 = new $c_Lscalacss_internal_Domain$OverSeq().init___sc_IndexedSeq(r);
-  var x$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(n$2) {
-      var n = $uI(n$2);
-      $m_Lcom_pokeboston_client_stylings_AppAnimations$().dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var jsx$1 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $m_Lcom_pokeboston_client_stylings_AppAnimations$().dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $m_Lcom_pokeboston_client_stylings_AppAnimations$().dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var a = $m_Lscalacss_internal_Attrs$animationDelay$();
-      var value = ((n / 4.0) + "s");
-      var array = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a.attr$3, value)))];
-      $m_Lscalacss_package$DevDefaults$();
-      var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-      var this$14 = $m_Lscalacss_internal_Dsl$();
-      if (($uI(array.length) === 0)) {
-        return this$14.StyleS$3.empty$1
-      } else {
-        $m_sc_Seq$();
-        $m_sjs_js_WrappedArray$();
-        var array$1 = [];
-        var x1 = $uI(array.length);
-        switch (x1) {
-          case (-1): {
-            break
-          }
-        };
-        var i = 0;
-        var len = $uI(array.length);
-        while ((i < len)) {
-          var index = i;
-          var arg1 = array[index];
-          var x$9 = $as_Lscalacss_internal_DslBase$ToStyle(arg1).s$1;
-          array$1.push(x$9);
-          i = ((1 + i) | 0)
-        };
-        var f = (function(this$2$1, c$1) {
-          return (function(x$10$2, x$11$2) {
-            var x$10 = $as_Lscalacss_internal_StyleS(x$10$2);
-            var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
-            return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
-          })
-        })(this$14, c);
-        if (($uI(array$1.length) > 0)) {
-          var start = 1;
-          var end = $uI(array$1.length);
-          var z = array$1[0];
-          var start$1 = start;
-          var z$1 = z;
-          var jsx$2;
-          _foldl: while (true) {
-            if ((start$1 !== end)) {
-              var temp$start = ((1 + start$1) | 0);
-              var arg1$1 = z$1;
-              var index$1 = start$1;
-              var arg2 = array$1[index$1];
-              var temp$z = f(arg1$1, arg2);
-              start$1 = temp$start;
-              z$1 = temp$z;
-              continue _foldl
-            };
-            var jsx$2 = z$1;
-            break
-          }
-        } else {
-          if (($uI(array$1.length) === 0)) {
-            throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-          };
-          var elem$1 = false;
-          elem$1 = true;
-          var elem$1$1 = null;
-          elem$1$1 = 0;
-          var i$1 = 0;
-          var len$1 = $uI(array$1.length);
-          while ((i$1 < len$1)) {
-            var index$2 = i$1;
-            var arg1$2 = array$1[index$2];
-            if (elem$1) {
-              elem$1$1 = arg1$2;
-              elem$1 = false
-            } else {
-              var arg1$3 = elem$1$1;
-              elem$1$1 = f(arg1$3, arg1$2)
-            };
-            i$1 = ((1 + i$1) | 0)
-          };
-          var jsx$2 = elem$1$1
-        };
-        return $as_Lscalacss_internal_StyleS(jsx$2)
-      }
-    })
-  })(this));
-  var x$3 = $m_Lscalacss_internal_DslMacros$().defaultStyleFClassNameSuffix$1;
-  var evidence$6 = $m_Lscalacss_internal_StyleLookup$().int$1;
-  this.animDelay$3 = qual$1.create__s_Option__Lscalacss_internal_Domain__F1__F2__Lscalacss_internal_StyleLookup__F1($m_s_None$(), x$1, x$2, x$3, evidence$6);
-  var jsx$32 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$30 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var $$this = 0;
   var self = new $c_Lscalacss_internal_Percentage().init___O($$this);
-  var this$28 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$29 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$11 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$27 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
+  var array = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$27.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a, "rotate(0deg)")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$12 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array.length) === 0)) {
+    var s1 = this$12.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$1 = [];
+    var x1 = $uI(array.length);
+    switch (x1) {
+      case (-1): {
+        break
+      }
+    };
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      var x$9 = $as_Lscalacss_internal_DslBase$ToStyle(arg1).s$1;
+      array$1.push(x$9);
+      i = ((1 + i) | 0)
+    };
+    var f = (function(this$2$1, c$1) {
+      return (function(x$10$2, x$11$2) {
+        var x$10 = $as_Lscalacss_internal_StyleS(x$10$2);
+        var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
+        return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
+      })
+    })(this$12, c);
+    if (($uI(array$1.length) > 0)) {
+      var start = 1;
+      var end = $uI(array$1.length);
+      var z = array$1[0];
+      var start$1 = start;
+      var z$1 = z;
+      var jsx$28;
+      _foldl: while (true) {
+        if ((start$1 !== end)) {
+          var temp$start = ((1 + start$1) | 0);
+          var arg1$1 = z$1;
+          var index$1 = start$1;
+          var arg2 = array$1[index$1];
+          var temp$z = f(arg1$1, arg2);
+          start$1 = temp$start;
+          z$1 = temp$z;
+          continue _foldl
+        };
+        var jsx$28 = z$1;
+        break
+      }
+    } else {
+      if (($uI(array$1.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1 = false;
+      elem$1 = true;
+      var elem$1$1 = null;
+      elem$1$1 = 0;
+      var i$1 = 0;
+      var len$1 = $uI(array$1.length);
+      while ((i$1 < len$1)) {
+        var index$2 = i$1;
+        var arg1$2 = array$1[index$2];
+        if (elem$1) {
+          elem$1$1 = arg1$2;
+          elem$1 = false
+        } else {
+          var arg1$3 = elem$1$1;
+          elem$1$1 = f(arg1$3, arg1$2)
+        };
+        i$1 = ((1 + i$1) | 0)
+      };
+      var jsx$28 = elem$1$1
+    };
+    var s1 = $as_Lscalacss_internal_StyleS(jsx$28)
+  };
+  var s2 = this$11.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$11.name$1, s1, this$11.$$outer$1.classNameHint$1);
+  var y = this$11.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$11.$$outer$1.classNameHint$1);
+  var jsx$29 = new $c_T2().init___O__O(self, y);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$1 = 44;
+  var self$1 = new $c_Lscalacss_internal_Percentage().init___O($$this$1);
+  var this$27 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$24 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$1 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$2 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$29.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1, "rotate(0deg)")))];
+  var array$2 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$24.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1, "rotate(-10deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$2 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$29 = $m_Lscalacss_internal_Dsl$();
+  var this$28 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$2.length) === 0)) {
-    var s1 = this$29.StyleS$3.empty$1
+    var s1$1 = this$28.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23016,14 +22914,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$1 = $as_Lscalacss_internal_StyleS(x$11$2$1);
         return c$3.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$1, x$11$1)
       })
-    })(this$29, c$2);
+    })(this$28, c$2);
     if (($uI(array$3.length) > 0)) {
       var start$2 = 1;
       var end$1 = $uI(array$3.length);
       var z$2 = array$3[0];
       var start$3 = start$2;
       var z$3 = z$2;
-      var jsx$30;
+      var jsx$25;
       _foldl$1: while (true) {
         if ((start$3 !== end$1)) {
           var temp$start$1 = ((1 + start$3) | 0);
@@ -23035,7 +22933,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$3 = temp$z$1;
           continue _foldl$1
         };
-        var jsx$30 = z$3;
+        var jsx$25 = z$3;
         break
       }
     } else {
@@ -23060,27 +22958,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$3 = ((1 + i$3) | 0)
       };
-      var jsx$30 = elem$1$3
+      var jsx$25 = elem$1$3
     };
-    var s1 = $as_Lscalacss_internal_StyleS(jsx$30)
+    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$25)
   };
-  var s2 = this$28.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$28.name$1, s1, this$28.$$outer$1.classNameHint$1);
-  var y = this$28.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$28.$$outer$1.classNameHint$1);
-  var jsx$31 = new $c_T2().init___O__O(self, y);
+  var s2$1 = this$27.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$27.name$1, s1$1, this$27.$$outer$1.classNameHint$1);
+  var y$1 = this$27.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$27.$$outer$1.classNameHint$1);
+  var jsx$26 = new $c_T2().init___O__O(self$1, y$1);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$1 = 44;
-  var self$1 = new $c_Lscalacss_internal_Percentage().init___O($$this$1);
-  var this$44 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$26 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$2 = 46;
+  var self$2 = new $c_Lscalacss_internal_Percentage().init___O($$this$2);
+  var this$43 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$21 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$2 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$4 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$26.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$2, "rotate(-10deg)")))];
+  var array$4 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$21.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$2, "rotate(0deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$4 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$45 = $m_Lscalacss_internal_Dsl$();
+  var this$44 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$4.length) === 0)) {
-    var s1$1 = this$45.StyleS$3.empty$1
+    var s1$2 = this$44.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23106,14 +23004,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$3 = $as_Lscalacss_internal_StyleS(x$11$2$2);
         return c$5.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$3, x$11$3)
       })
-    })(this$45, c$4);
+    })(this$44, c$4);
     if (($uI(array$5.length) > 0)) {
       var start$4 = 1;
       var end$2 = $uI(array$5.length);
       var z$4 = array$5[0];
       var start$5 = start$4;
       var z$5 = z$4;
-      var jsx$27;
+      var jsx$22;
       _foldl$2: while (true) {
         if ((start$5 !== end$2)) {
           var temp$start$2 = ((1 + start$5) | 0);
@@ -23125,7 +23023,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$5 = temp$z$2;
           continue _foldl$2
         };
-        var jsx$27 = z$5;
+        var jsx$22 = z$5;
         break
       }
     } else {
@@ -23150,27 +23048,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$5 = ((1 + i$5) | 0)
       };
-      var jsx$27 = elem$1$5
+      var jsx$22 = elem$1$5
     };
-    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$27)
+    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$22)
   };
-  var s2$1 = this$44.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$44.name$1, s1$1, this$44.$$outer$1.classNameHint$1);
-  var y$1 = this$44.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$44.$$outer$1.classNameHint$1);
-  var jsx$28 = new $c_T2().init___O__O(self$1, y$1);
+  var s2$2 = this$43.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$43.name$1, s1$2, this$43.$$outer$1.classNameHint$1);
+  var y$2 = this$43.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$43.$$outer$1.classNameHint$1);
+  var jsx$23 = new $c_T2().init___O__O(self$2, y$2);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$2 = 46;
-  var self$2 = new $c_Lscalacss_internal_Percentage().init___O($$this$2);
-  var this$60 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$23 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$3 = 48;
+  var self$3 = new $c_Lscalacss_internal_Percentage().init___O($$this$3);
+  var this$59 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$18 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$3 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$6 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$23.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$3, "rotate(0deg)")))];
+  var array$6 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$18.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$3, "rotate(-10deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$6 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$61 = $m_Lscalacss_internal_Dsl$();
+  var this$60 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$6.length) === 0)) {
-    var s1$2 = this$61.StyleS$3.empty$1
+    var s1$3 = this$60.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23196,14 +23094,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$4 = $as_Lscalacss_internal_StyleS(x$11$2$3);
         return c$7.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$4, x$11$4)
       })
-    })(this$61, c$6);
+    })(this$60, c$6);
     if (($uI(array$7.length) > 0)) {
       var start$6 = 1;
       var end$3 = $uI(array$7.length);
       var z$6 = array$7[0];
       var start$7 = start$6;
       var z$7 = z$6;
-      var jsx$24;
+      var jsx$19;
       _foldl$3: while (true) {
         if ((start$7 !== end$3)) {
           var temp$start$3 = ((1 + start$7) | 0);
@@ -23215,7 +23113,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$7 = temp$z$3;
           continue _foldl$3
         };
-        var jsx$24 = z$7;
+        var jsx$19 = z$7;
         break
       }
     } else {
@@ -23240,27 +23138,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$7 = ((1 + i$7) | 0)
       };
-      var jsx$24 = elem$1$7
+      var jsx$19 = elem$1$7
     };
-    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$24)
+    var s1$3 = $as_Lscalacss_internal_StyleS(jsx$19)
   };
-  var s2$2 = this$60.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$60.name$1, s1$2, this$60.$$outer$1.classNameHint$1);
-  var y$2 = this$60.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$60.$$outer$1.classNameHint$1);
-  var jsx$25 = new $c_T2().init___O__O(self$2, y$2);
+  var s2$3 = this$59.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$59.name$1, s1$3, this$59.$$outer$1.classNameHint$1);
+  var y$3 = this$59.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$3, this$59.$$outer$1.classNameHint$1);
+  var jsx$20 = new $c_T2().init___O__O(self$3, y$3);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$3 = 48;
-  var self$3 = new $c_Lscalacss_internal_Percentage().init___O($$this$3);
-  var this$76 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$20 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$4 = 50;
+  var self$4 = new $c_Lscalacss_internal_Percentage().init___O($$this$4);
+  var this$75 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$15 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$4 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$8 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$20.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$4, "rotate(-10deg)")))];
+  var array$8 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$15.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$4, "rotate(0deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$8 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$77 = $m_Lscalacss_internal_Dsl$();
+  var this$76 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$8.length) === 0)) {
-    var s1$3 = this$77.StyleS$3.empty$1
+    var s1$4 = this$76.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23286,14 +23184,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$5 = $as_Lscalacss_internal_StyleS(x$11$2$4);
         return c$9.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$5, x$11$5)
       })
-    })(this$77, c$8);
+    })(this$76, c$8);
     if (($uI(array$9.length) > 0)) {
       var start$8 = 1;
       var end$4 = $uI(array$9.length);
       var z$8 = array$9[0];
       var start$9 = start$8;
       var z$9 = z$8;
-      var jsx$21;
+      var jsx$16;
       _foldl$4: while (true) {
         if ((start$9 !== end$4)) {
           var temp$start$4 = ((1 + start$9) | 0);
@@ -23305,7 +23203,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$9 = temp$z$4;
           continue _foldl$4
         };
-        var jsx$21 = z$9;
+        var jsx$16 = z$9;
         break
       }
     } else {
@@ -23330,27 +23228,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$9 = ((1 + i$9) | 0)
       };
-      var jsx$21 = elem$1$9
+      var jsx$16 = elem$1$9
     };
-    var s1$3 = $as_Lscalacss_internal_StyleS(jsx$21)
+    var s1$4 = $as_Lscalacss_internal_StyleS(jsx$16)
   };
-  var s2$3 = this$76.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$76.name$1, s1$3, this$76.$$outer$1.classNameHint$1);
-  var y$3 = this$76.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$3, this$76.$$outer$1.classNameHint$1);
-  var jsx$22 = new $c_T2().init___O__O(self$3, y$3);
+  var s2$4 = this$75.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$75.name$1, s1$4, this$75.$$outer$1.classNameHint$1);
+  var y$4 = this$75.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$4, this$75.$$outer$1.classNameHint$1);
+  var jsx$17 = new $c_T2().init___O__O(self$4, y$4);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$4 = 50;
-  var self$4 = new $c_Lscalacss_internal_Percentage().init___O($$this$4);
-  var this$92 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$17 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$5 = 92;
+  var self$5 = new $c_Lscalacss_internal_Percentage().init___O($$this$5);
+  var this$91 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$12 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$5 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$10 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$17.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$5, "rotate(0deg)")))];
+  var array$10 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$12.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$5, "rotate(0deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$10 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$93 = $m_Lscalacss_internal_Dsl$();
+  var this$92 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$10.length) === 0)) {
-    var s1$4 = this$93.StyleS$3.empty$1
+    var s1$5 = this$92.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23376,14 +23274,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$6 = $as_Lscalacss_internal_StyleS(x$11$2$5);
         return c$11.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$6, x$11$6)
       })
-    })(this$93, c$10);
+    })(this$92, c$10);
     if (($uI(array$11.length) > 0)) {
       var start$10 = 1;
       var end$5 = $uI(array$11.length);
       var z$10 = array$11[0];
       var start$11 = start$10;
       var z$11 = z$10;
-      var jsx$18;
+      var jsx$13;
       _foldl$5: while (true) {
         if ((start$11 !== end$5)) {
           var temp$start$5 = ((1 + start$11) | 0);
@@ -23395,7 +23293,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$11 = temp$z$5;
           continue _foldl$5
         };
-        var jsx$18 = z$11;
+        var jsx$13 = z$11;
         break
       }
     } else {
@@ -23420,27 +23318,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$11 = ((1 + i$11) | 0)
       };
-      var jsx$18 = elem$1$11
+      var jsx$13 = elem$1$11
     };
-    var s1$4 = $as_Lscalacss_internal_StyleS(jsx$18)
+    var s1$5 = $as_Lscalacss_internal_StyleS(jsx$13)
   };
-  var s2$4 = this$92.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$92.name$1, s1$4, this$92.$$outer$1.classNameHint$1);
-  var y$4 = this$92.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$4, this$92.$$outer$1.classNameHint$1);
-  var jsx$19 = new $c_T2().init___O__O(self$4, y$4);
+  var s2$5 = this$91.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$91.name$1, s1$5, this$91.$$outer$1.classNameHint$1);
+  var y$5 = this$91.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$5, this$91.$$outer$1.classNameHint$1);
+  var jsx$14 = new $c_T2().init___O__O(self$5, y$5);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$5 = 92;
-  var self$5 = new $c_Lscalacss_internal_Percentage().init___O($$this$5);
-  var this$108 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$14 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$6 = 94;
+  var self$6 = new $c_Lscalacss_internal_Percentage().init___O($$this$6);
+  var this$107 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$9 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$6 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$12 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$14.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$6, "rotate(0deg)")))];
+  var array$12 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$9.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$6, "rotate(10deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$12 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$109 = $m_Lscalacss_internal_Dsl$();
+  var this$108 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$12.length) === 0)) {
-    var s1$5 = this$109.StyleS$3.empty$1
+    var s1$6 = this$108.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23466,14 +23364,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$7 = $as_Lscalacss_internal_StyleS(x$11$2$6);
         return c$13.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$7, x$11$7)
       })
-    })(this$109, c$12);
+    })(this$108, c$12);
     if (($uI(array$13.length) > 0)) {
       var start$12 = 1;
       var end$6 = $uI(array$13.length);
       var z$12 = array$13[0];
       var start$13 = start$12;
       var z$13 = z$12;
-      var jsx$15;
+      var jsx$10;
       _foldl$6: while (true) {
         if ((start$13 !== end$6)) {
           var temp$start$6 = ((1 + start$13) | 0);
@@ -23485,7 +23383,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$13 = temp$z$6;
           continue _foldl$6
         };
-        var jsx$15 = z$13;
+        var jsx$10 = z$13;
         break
       }
     } else {
@@ -23510,27 +23408,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$13 = ((1 + i$13) | 0)
       };
-      var jsx$15 = elem$1$13
+      var jsx$10 = elem$1$13
     };
-    var s1$5 = $as_Lscalacss_internal_StyleS(jsx$15)
+    var s1$6 = $as_Lscalacss_internal_StyleS(jsx$10)
   };
-  var s2$5 = this$108.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$108.name$1, s1$5, this$108.$$outer$1.classNameHint$1);
-  var y$5 = this$108.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$5, this$108.$$outer$1.classNameHint$1);
-  var jsx$16 = new $c_T2().init___O__O(self$5, y$5);
+  var s2$6 = this$107.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$107.name$1, s1$6, this$107.$$outer$1.classNameHint$1);
+  var y$6 = this$107.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$6, this$107.$$outer$1.classNameHint$1);
+  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$6 = 94;
-  var self$6 = new $c_Lscalacss_internal_Percentage().init___O($$this$6);
-  var this$124 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$11 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$7 = 96;
+  var self$7 = new $c_Lscalacss_internal_Percentage().init___O($$this$7);
+  var this$123 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$6 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$7 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$14 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$11.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$7, "rotate(10deg)")))];
+  var array$14 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$6.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$7, "rotate(0deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$14 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$125 = $m_Lscalacss_internal_Dsl$();
+  var this$124 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$14.length) === 0)) {
-    var s1$6 = this$125.StyleS$3.empty$1
+    var s1$7 = this$124.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23556,14 +23454,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$8 = $as_Lscalacss_internal_StyleS(x$11$2$7);
         return c$15.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$8, x$11$8)
       })
-    })(this$125, c$14);
+    })(this$124, c$14);
     if (($uI(array$15.length) > 0)) {
       var start$14 = 1;
       var end$7 = $uI(array$15.length);
       var z$14 = array$15[0];
       var start$15 = start$14;
       var z$15 = z$14;
-      var jsx$12;
+      var jsx$7;
       _foldl$7: while (true) {
         if ((start$15 !== end$7)) {
           var temp$start$7 = ((1 + start$15) | 0);
@@ -23575,7 +23473,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$15 = temp$z$7;
           continue _foldl$7
         };
-        var jsx$12 = z$15;
+        var jsx$7 = z$15;
         break
       }
     } else {
@@ -23600,27 +23498,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$15 = ((1 + i$15) | 0)
       };
-      var jsx$12 = elem$1$15
+      var jsx$7 = elem$1$15
     };
-    var s1$6 = $as_Lscalacss_internal_StyleS(jsx$12)
+    var s1$7 = $as_Lscalacss_internal_StyleS(jsx$7)
   };
-  var s2$6 = this$124.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$124.name$1, s1$6, this$124.$$outer$1.classNameHint$1);
-  var y$6 = this$124.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$6, this$124.$$outer$1.classNameHint$1);
-  var jsx$13 = new $c_T2().init___O__O(self$6, y$6);
+  var s2$7 = this$123.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$123.name$1, s1$7, this$123.$$outer$1.classNameHint$1);
+  var y$7 = this$123.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$7, this$123.$$outer$1.classNameHint$1);
+  var jsx$8 = new $c_T2().init___O__O(self$7, y$7);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$7 = 96;
-  var self$7 = new $c_Lscalacss_internal_Percentage().init___O($$this$7);
-  var this$140 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$8 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$8 = 98;
+  var self$8 = new $c_Lscalacss_internal_Percentage().init___O($$this$8);
+  var this$139 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$8 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$16 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$8.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$8, "rotate(0deg)")))];
+  var array$16 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$8, "rotate(10deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$16 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$141 = $m_Lscalacss_internal_Dsl$();
+  var this$140 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$16.length) === 0)) {
-    var s1$7 = this$141.StyleS$3.empty$1
+    var s1$8 = this$140.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23646,14 +23544,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$9 = $as_Lscalacss_internal_StyleS(x$11$2$8);
         return c$17.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$9, x$11$9)
       })
-    })(this$141, c$16);
+    })(this$140, c$16);
     if (($uI(array$17.length) > 0)) {
       var start$16 = 1;
       var end$8 = $uI(array$17.length);
       var z$16 = array$17[0];
       var start$17 = start$16;
       var z$17 = z$16;
-      var jsx$9;
+      var jsx$4;
       _foldl$8: while (true) {
         if ((start$17 !== end$8)) {
           var temp$start$8 = ((1 + start$17) | 0);
@@ -23665,7 +23563,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$17 = temp$z$8;
           continue _foldl$8
         };
-        var jsx$9 = z$17;
+        var jsx$4 = z$17;
         break
       }
     } else {
@@ -23690,27 +23588,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$17 = ((1 + i$17) | 0)
       };
-      var jsx$9 = elem$1$17
+      var jsx$4 = elem$1$17
     };
-    var s1$7 = $as_Lscalacss_internal_StyleS(jsx$9)
+    var s1$8 = $as_Lscalacss_internal_StyleS(jsx$4)
   };
-  var s2$7 = this$140.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$140.name$1, s1$7, this$140.$$outer$1.classNameHint$1);
-  var y$7 = this$140.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$7, this$140.$$outer$1.classNameHint$1);
-  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
+  var s2$8 = this$139.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$139.name$1, s1$8, this$139.$$outer$1.classNameHint$1);
+  var y$8 = this$139.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$8, this$139.$$outer$1.classNameHint$1);
+  var jsx$5 = new $c_T2().init___O__O(self$8, y$8);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$8 = 98;
-  var self$8 = new $c_Lscalacss_internal_Percentage().init___O($$this$8);
-  var this$156 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$9 = 100;
+  var self$9 = new $c_Lscalacss_internal_Percentage().init___O($$this$9);
+  var this$155 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
+  var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$9 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$18 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$9, "rotate(10deg)")))];
+  var array$18 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$9, "rotate(0deg)")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$18 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$157 = $m_Lscalacss_internal_Dsl$();
+  var this$156 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$18.length) === 0)) {
-    var s1$8 = this$157.StyleS$3.empty$1
+    var s1$9 = this$156.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -23736,14 +23634,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$10 = $as_Lscalacss_internal_StyleS(x$11$2$9);
         return c$19.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$10, x$11$10)
       })
-    })(this$157, c$18);
+    })(this$156, c$18);
     if (($uI(array$19.length) > 0)) {
       var start$18 = 1;
       var end$9 = $uI(array$19.length);
       var z$18 = array$19[0];
       var start$19 = start$18;
       var z$19 = z$18;
-      var jsx$6;
+      var jsx$2;
       _foldl$9: while (true) {
         if ((start$19 !== end$9)) {
           var temp$start$9 = ((1 + start$19) | 0);
@@ -23755,7 +23653,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$19 = temp$z$9;
           continue _foldl$9
         };
-        var jsx$6 = z$19;
+        var jsx$2 = z$19;
         break
       }
     } else {
@@ -23780,44 +23678,43 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$19 = ((1 + i$19) | 0)
       };
-      var jsx$6 = elem$1$19
+      var jsx$2 = elem$1$19
     };
-    var s1$8 = $as_Lscalacss_internal_StyleS(jsx$6)
+    var s1$9 = $as_Lscalacss_internal_StyleS(jsx$2)
   };
-  var s2$8 = this$156.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$156.name$1, s1$8, this$156.$$outer$1.classNameHint$1);
-  var y$8 = this$156.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$8, this$156.$$outer$1.classNameHint$1);
-  var jsx$7 = new $c_T2().init___O__O(self$8, y$8);
+  var s2$9 = this$155.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$155.name$1, s1$9, this$155.$$outer$1.classNameHint$1);
+  var y$9 = this$155.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$9, this$155.$$outer$1.classNameHint$1);
+  var array$20 = [jsx$29, jsx$26, jsx$23, jsx$20, jsx$17, jsx$14, jsx$11, jsx$8, jsx$5, new $c_T2().init___O__O(self$9, y$9)];
+  this.kfTeeter$3 = jsx$30.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20));
+  var this$172 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "Teeter");
+  var jsx$32 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfTeeter$3)));
+  var jsx$31 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$9 = 100;
-  var self$9 = new $c_Lscalacss_internal_Percentage().init___O($$this$9);
-  var this$172 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfTeeter");
-  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$10 = $m_Lscalacss_internal_Attrs$().transform__Lscalacss_internal_Attr();
-  var array$20 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$10, "rotate(0deg)")))];
+  var a$10 = $m_Lscalacss_internal_Attrs$animationDuration$();
+  var array$21 = [jsx$32, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$31.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$10.attr$3, "4s")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$20 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
   var this$173 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$20.length) === 0)) {
-    var s1$9 = this$173.StyleS$3.empty$1
+  if (($uI(array$21.length) === 0)) {
+    var s1$10 = this$173.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
-    var array$21 = [];
-    var x1$10 = $uI(array$20.length);
+    var array$22 = [];
+    var x1$10 = $uI(array$21.length);
     switch (x1$10) {
       case (-1): {
         break
       }
     };
     var i$20 = 0;
-    var len$20 = $uI(array$20.length);
+    var len$20 = $uI(array$21.length);
     while ((i$20 < len$20)) {
       var index$30 = i$20;
-      var arg1$40 = array$20[index$30];
+      var arg1$40 = array$21[index$30];
       var x$9$10 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$40).s$1;
-      array$21.push(x$9$10);
+      array$22.push(x$9$10);
       i$20 = ((1 + i$20) | 0)
     };
     var f$10 = (function(this$2$11, c$21) {
@@ -23827,29 +23724,29 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         return c$21.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$11, x$11$11)
       })
     })(this$173, c$20);
-    if (($uI(array$21.length) > 0)) {
+    if (($uI(array$22.length) > 0)) {
       var start$20 = 1;
-      var end$10 = $uI(array$21.length);
-      var z$20 = array$21[0];
+      var end$10 = $uI(array$22.length);
+      var z$20 = array$22[0];
       var start$21 = start$20;
       var z$21 = z$20;
-      var jsx$4;
+      var jsx$33;
       _foldl$10: while (true) {
         if ((start$21 !== end$10)) {
           var temp$start$10 = ((1 + start$21) | 0);
           var arg1$41 = z$21;
           var index$31 = start$21;
-          var arg2$10 = array$21[index$31];
+          var arg2$10 = array$22[index$31];
           var temp$z$10 = f$10(arg1$41, arg2$10);
           start$21 = temp$start$10;
           z$21 = temp$z$10;
           continue _foldl$10
         };
-        var jsx$4 = z$21;
+        var jsx$33 = z$21;
         break
       }
     } else {
-      if (($uI(array$21.length) === 0)) {
+      if (($uI(array$22.length) === 0)) {
         throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
       };
       var elem$1$20 = false;
@@ -23857,10 +23754,10 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
       var elem$1$21 = null;
       elem$1$21 = 0;
       var i$21 = 0;
-      var len$21 = $uI(array$21.length);
+      var len$21 = $uI(array$22.length);
       while ((i$21 < len$21)) {
         var index$32 = i$21;
-        var arg1$42 = array$21[index$32];
+        var arg1$42 = array$22[index$32];
         if (elem$1$20) {
           elem$1$21 = arg1$42;
           elem$1$20 = false
@@ -23870,460 +23767,12 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$21 = ((1 + i$21) | 0)
       };
-      var jsx$4 = elem$1$21
+      var jsx$33 = elem$1$21
     };
-    var s1$9 = $as_Lscalacss_internal_StyleS(jsx$4)
+    var s1$10 = $as_Lscalacss_internal_StyleS(jsx$33)
   };
-  var s2$9 = this$172.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$172.name$1, s1$9, this$172.$$outer$1.classNameHint$1);
-  var y$9 = this$172.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$9, this$172.$$outer$1.classNameHint$1);
-  var array$22 = [jsx$31, jsx$28, jsx$25, jsx$22, jsx$19, jsx$16, jsx$13, jsx$10, jsx$7, new $c_T2().init___O__O(self$9, y$9)];
-  this.kfTeeter$3 = jsx$32.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22));
-  var jsx$41 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$10 = 0;
-  var self$10 = new $c_Lscalacss_internal_Percentage().init___O($$this$10);
-  var this$191 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
-  var jsx$38 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$11 = $m_Lscalacss_internal_Attrs$width$();
-  var array$23 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$38.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$11.attr$3, "0")))];
-  $m_Lscalacss_package$DevDefaults$();
-  var c$22 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$192 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$23.length) === 0)) {
-    var s1$10 = this$192.StyleS$3.empty$1
-  } else {
-    $m_sc_Seq$();
-    $m_sjs_js_WrappedArray$();
-    var array$24 = [];
-    var x1$11 = $uI(array$23.length);
-    switch (x1$11) {
-      case (-1): {
-        break
-      }
-    };
-    var i$22 = 0;
-    var len$22 = $uI(array$23.length);
-    while ((i$22 < len$22)) {
-      var index$33 = i$22;
-      var arg1$44 = array$23[index$33];
-      var x$9$11 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$44).s$1;
-      array$24.push(x$9$11);
-      i$22 = ((1 + i$22) | 0)
-    };
-    var f$11 = (function(this$2$12, c$23) {
-      return (function(x$10$2$11, x$11$2$11) {
-        var x$10$12 = $as_Lscalacss_internal_StyleS(x$10$2$11);
-        var x$11$12 = $as_Lscalacss_internal_StyleS(x$11$2$11);
-        return c$23.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$12, x$11$12)
-      })
-    })(this$192, c$22);
-    if (($uI(array$24.length) > 0)) {
-      var start$22 = 1;
-      var end$11 = $uI(array$24.length);
-      var z$22 = array$24[0];
-      var start$23 = start$22;
-      var z$23 = z$22;
-      var jsx$39;
-      _foldl$11: while (true) {
-        if ((start$23 !== end$11)) {
-          var temp$start$11 = ((1 + start$23) | 0);
-          var arg1$45 = z$23;
-          var index$34 = start$23;
-          var arg2$11 = array$24[index$34];
-          var temp$z$11 = f$11(arg1$45, arg2$11);
-          start$23 = temp$start$11;
-          z$23 = temp$z$11;
-          continue _foldl$11
-        };
-        var jsx$39 = z$23;
-        break
-      }
-    } else {
-      if (($uI(array$24.length) === 0)) {
-        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-      };
-      var elem$1$22 = false;
-      elem$1$22 = true;
-      var elem$1$23 = null;
-      elem$1$23 = 0;
-      var i$23 = 0;
-      var len$23 = $uI(array$24.length);
-      while ((i$23 < len$23)) {
-        var index$35 = i$23;
-        var arg1$46 = array$24[index$35];
-        if (elem$1$22) {
-          elem$1$23 = arg1$46;
-          elem$1$22 = false
-        } else {
-          var arg1$47 = elem$1$23;
-          elem$1$23 = f$11(arg1$47, arg1$46)
-        };
-        i$23 = ((1 + i$23) | 0)
-      };
-      var jsx$39 = elem$1$23
-    };
-    var s1$10 = $as_Lscalacss_internal_StyleS(jsx$39)
-  };
-  var s2$10 = this$191.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$191.name$1, s1$10, this$191.$$outer$1.classNameHint$1);
-  var y$10 = this$191.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$10, this$191.$$outer$1.classNameHint$1);
-  var jsx$40 = new $c_T2().init___O__O(self$10, y$10);
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$11 = 75;
-  var self$11 = new $c_Lscalacss_internal_Percentage().init___O($$this$11);
-  var this$208 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
-  var jsx$35 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$12 = $m_Lscalacss_internal_Attrs$width$();
-  var array$25 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$35.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$12.attr$3, "0")))];
-  $m_Lscalacss_package$DevDefaults$();
-  var c$24 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$209 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$25.length) === 0)) {
-    var s1$11 = this$209.StyleS$3.empty$1
-  } else {
-    $m_sc_Seq$();
-    $m_sjs_js_WrappedArray$();
-    var array$26 = [];
-    var x1$12 = $uI(array$25.length);
-    switch (x1$12) {
-      case (-1): {
-        break
-      }
-    };
-    var i$24 = 0;
-    var len$24 = $uI(array$25.length);
-    while ((i$24 < len$24)) {
-      var index$36 = i$24;
-      var arg1$48 = array$25[index$36];
-      var x$9$12 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$48).s$1;
-      array$26.push(x$9$12);
-      i$24 = ((1 + i$24) | 0)
-    };
-    var f$12 = (function(this$2$13, c$25) {
-      return (function(x$10$2$12, x$11$2$12) {
-        var x$10$13 = $as_Lscalacss_internal_StyleS(x$10$2$12);
-        var x$11$13 = $as_Lscalacss_internal_StyleS(x$11$2$12);
-        return c$25.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$13, x$11$13)
-      })
-    })(this$209, c$24);
-    if (($uI(array$26.length) > 0)) {
-      var start$24 = 1;
-      var end$12 = $uI(array$26.length);
-      var z$24 = array$26[0];
-      var start$25 = start$24;
-      var z$25 = z$24;
-      var jsx$36;
-      _foldl$12: while (true) {
-        if ((start$25 !== end$12)) {
-          var temp$start$12 = ((1 + start$25) | 0);
-          var arg1$49 = z$25;
-          var index$37 = start$25;
-          var arg2$12 = array$26[index$37];
-          var temp$z$12 = f$12(arg1$49, arg2$12);
-          start$25 = temp$start$12;
-          z$25 = temp$z$12;
-          continue _foldl$12
-        };
-        var jsx$36 = z$25;
-        break
-      }
-    } else {
-      if (($uI(array$26.length) === 0)) {
-        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-      };
-      var elem$1$24 = false;
-      elem$1$24 = true;
-      var elem$1$25 = null;
-      elem$1$25 = 0;
-      var i$25 = 0;
-      var len$25 = $uI(array$26.length);
-      while ((i$25 < len$25)) {
-        var index$38 = i$25;
-        var arg1$50 = array$26[index$38];
-        if (elem$1$24) {
-          elem$1$25 = arg1$50;
-          elem$1$24 = false
-        } else {
-          var arg1$51 = elem$1$25;
-          elem$1$25 = f$12(arg1$51, arg1$50)
-        };
-        i$25 = ((1 + i$25) | 0)
-      };
-      var jsx$36 = elem$1$25
-    };
-    var s1$11 = $as_Lscalacss_internal_StyleS(jsx$36)
-  };
-  var s2$11 = this$208.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$208.name$1, s1$11, this$208.$$outer$1.classNameHint$1);
-  var y$11 = this$208.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$11, this$208.$$outer$1.classNameHint$1);
-  var jsx$37 = new $c_T2().init___O__O(self$11, y$11);
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var $$this$12 = 100;
-  var self$12 = new $c_Lscalacss_internal_Percentage().init___O($$this$12);
-  var this$225 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
-  var jsx$33 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$13 = $m_Lscalacss_internal_Attrs$width$();
-  var array$27 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$33.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$13.attr$3, "100%")))];
-  $m_Lscalacss_package$DevDefaults$();
-  var c$26 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$226 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$27.length) === 0)) {
-    var s1$12 = this$226.StyleS$3.empty$1
-  } else {
-    $m_sc_Seq$();
-    $m_sjs_js_WrappedArray$();
-    var array$28 = [];
-    var x1$13 = $uI(array$27.length);
-    switch (x1$13) {
-      case (-1): {
-        break
-      }
-    };
-    var i$26 = 0;
-    var len$26 = $uI(array$27.length);
-    while ((i$26 < len$26)) {
-      var index$39 = i$26;
-      var arg1$52 = array$27[index$39];
-      var x$9$13 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$52).s$1;
-      array$28.push(x$9$13);
-      i$26 = ((1 + i$26) | 0)
-    };
-    var f$13 = (function(this$2$14, c$27) {
-      return (function(x$10$2$13, x$11$2$13) {
-        var x$10$14 = $as_Lscalacss_internal_StyleS(x$10$2$13);
-        var x$11$14 = $as_Lscalacss_internal_StyleS(x$11$2$13);
-        return c$27.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$14, x$11$14)
-      })
-    })(this$226, c$26);
-    if (($uI(array$28.length) > 0)) {
-      var start$26 = 1;
-      var end$13 = $uI(array$28.length);
-      var z$26 = array$28[0];
-      var start$27 = start$26;
-      var z$27 = z$26;
-      var jsx$34;
-      _foldl$13: while (true) {
-        if ((start$27 !== end$13)) {
-          var temp$start$13 = ((1 + start$27) | 0);
-          var arg1$53 = z$27;
-          var index$40 = start$27;
-          var arg2$13 = array$28[index$40];
-          var temp$z$13 = f$13(arg1$53, arg2$13);
-          start$27 = temp$start$13;
-          z$27 = temp$z$13;
-          continue _foldl$13
-        };
-        var jsx$34 = z$27;
-        break
-      }
-    } else {
-      if (($uI(array$28.length) === 0)) {
-        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-      };
-      var elem$1$26 = false;
-      elem$1$26 = true;
-      var elem$1$27 = null;
-      elem$1$27 = 0;
-      var i$27 = 0;
-      var len$27 = $uI(array$28.length);
-      while ((i$27 < len$27)) {
-        var index$41 = i$27;
-        var arg1$54 = array$28[index$41];
-        if (elem$1$26) {
-          elem$1$27 = arg1$54;
-          elem$1$26 = false
-        } else {
-          var arg1$55 = elem$1$27;
-          elem$1$27 = f$13(arg1$55, arg1$54)
-        };
-        i$27 = ((1 + i$27) | 0)
-      };
-      var jsx$34 = elem$1$27
-    };
-    var s1$12 = $as_Lscalacss_internal_StyleS(jsx$34)
-  };
-  var s2$12 = this$225.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$225.name$1, s1$12, this$225.$$outer$1.classNameHint$1);
-  var y$12 = this$225.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$12, this$225.$$outer$1.classNameHint$1);
-  var array$29 = [jsx$40, jsx$37, new $c_T2().init___O__O(self$12, y$12)];
-  this.kfExpandW$und100$3 = jsx$41.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29));
-  var this$242 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "Teeter");
-  var jsx$43 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfTeeter$3)));
-  var jsx$42 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$14 = $m_Lscalacss_internal_Attrs$animationDuration$();
-  var array$30 = [jsx$43, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$42.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$14.attr$3, "5s")))];
-  $m_Lscalacss_package$DevDefaults$();
-  var c$28 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$243 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$30.length) === 0)) {
-    var s1$13 = this$243.StyleS$3.empty$1
-  } else {
-    $m_sc_Seq$();
-    $m_sjs_js_WrappedArray$();
-    var array$31 = [];
-    var x1$14 = $uI(array$30.length);
-    switch (x1$14) {
-      case (-1): {
-        break
-      }
-    };
-    var i$28 = 0;
-    var len$28 = $uI(array$30.length);
-    while ((i$28 < len$28)) {
-      var index$42 = i$28;
-      var arg1$56 = array$30[index$42];
-      var x$9$14 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$56).s$1;
-      array$31.push(x$9$14);
-      i$28 = ((1 + i$28) | 0)
-    };
-    var f$14 = (function(this$2$15, c$29) {
-      return (function(x$10$2$14, x$11$2$14) {
-        var x$10$15 = $as_Lscalacss_internal_StyleS(x$10$2$14);
-        var x$11$15 = $as_Lscalacss_internal_StyleS(x$11$2$14);
-        return c$29.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$15, x$11$15)
-      })
-    })(this$243, c$28);
-    if (($uI(array$31.length) > 0)) {
-      var start$28 = 1;
-      var end$14 = $uI(array$31.length);
-      var z$28 = array$31[0];
-      var start$29 = start$28;
-      var z$29 = z$28;
-      var jsx$44;
-      _foldl$14: while (true) {
-        if ((start$29 !== end$14)) {
-          var temp$start$14 = ((1 + start$29) | 0);
-          var arg1$57 = z$29;
-          var index$43 = start$29;
-          var arg2$14 = array$31[index$43];
-          var temp$z$14 = f$14(arg1$57, arg2$14);
-          start$29 = temp$start$14;
-          z$29 = temp$z$14;
-          continue _foldl$14
-        };
-        var jsx$44 = z$29;
-        break
-      }
-    } else {
-      if (($uI(array$31.length) === 0)) {
-        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-      };
-      var elem$1$28 = false;
-      elem$1$28 = true;
-      var elem$1$29 = null;
-      elem$1$29 = 0;
-      var i$29 = 0;
-      var len$29 = $uI(array$31.length);
-      while ((i$29 < len$29)) {
-        var index$44 = i$29;
-        var arg1$58 = array$31[index$44];
-        if (elem$1$28) {
-          elem$1$29 = arg1$58;
-          elem$1$28 = false
-        } else {
-          var arg1$59 = elem$1$29;
-          elem$1$29 = f$14(arg1$59, arg1$58)
-        };
-        i$29 = ((1 + i$29) | 0)
-      };
-      var jsx$44 = elem$1$29
-    };
-    var s1$13 = $as_Lscalacss_internal_StyleS(jsx$44)
-  };
-  var s2$13 = this$242.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$242.name$1, s1$13, this$242.$$outer$1.classNameHint$1);
-  this.Teeter$3 = this$242.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$13, this$242.$$outer$1.classNameHint$1);
-  var this$256 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ExpandW_100");
-  var jsx$46 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfExpandW$und100$3)));
-  var jsx$45 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$15 = $m_Lscalacss_internal_Attrs$animationDuration$();
-  var array$32 = [jsx$46, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$45.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$15.attr$3, "2s")))];
-  $m_Lscalacss_package$DevDefaults$();
-  var c$30 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$257 = $m_Lscalacss_internal_Dsl$();
-  if (($uI(array$32.length) === 0)) {
-    var s1$14 = this$257.StyleS$3.empty$1
-  } else {
-    $m_sc_Seq$();
-    $m_sjs_js_WrappedArray$();
-    var array$33 = [];
-    var x1$15 = $uI(array$32.length);
-    switch (x1$15) {
-      case (-1): {
-        break
-      }
-    };
-    var i$30 = 0;
-    var len$30 = $uI(array$32.length);
-    while ((i$30 < len$30)) {
-      var index$45 = i$30;
-      var arg1$60 = array$32[index$45];
-      var x$9$15 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$60).s$1;
-      array$33.push(x$9$15);
-      i$30 = ((1 + i$30) | 0)
-    };
-    var f$15 = (function(this$2$16, c$31) {
-      return (function(x$10$2$15, x$11$2$15) {
-        var x$10$16 = $as_Lscalacss_internal_StyleS(x$10$2$15);
-        var x$11$16 = $as_Lscalacss_internal_StyleS(x$11$2$15);
-        return c$31.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$16, x$11$16)
-      })
-    })(this$257, c$30);
-    if (($uI(array$33.length) > 0)) {
-      var start$30 = 1;
-      var end$15 = $uI(array$33.length);
-      var z$30 = array$33[0];
-      var start$31 = start$30;
-      var z$31 = z$30;
-      var jsx$47;
-      _foldl$15: while (true) {
-        if ((start$31 !== end$15)) {
-          var temp$start$15 = ((1 + start$31) | 0);
-          var arg1$61 = z$31;
-          var index$46 = start$31;
-          var arg2$15 = array$33[index$46];
-          var temp$z$15 = f$15(arg1$61, arg2$15);
-          start$31 = temp$start$15;
-          z$31 = temp$z$15;
-          continue _foldl$15
-        };
-        var jsx$47 = z$31;
-        break
-      }
-    } else {
-      if (($uI(array$33.length) === 0)) {
-        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-      };
-      var elem$1$30 = false;
-      elem$1$30 = true;
-      var elem$1$31 = null;
-      elem$1$31 = 0;
-      var i$31 = 0;
-      var len$31 = $uI(array$33.length);
-      while ((i$31 < len$31)) {
-        var index$47 = i$31;
-        var arg1$62 = array$33[index$47];
-        if (elem$1$30) {
-          elem$1$31 = arg1$62;
-          elem$1$30 = false
-        } else {
-          var arg1$63 = elem$1$31;
-          elem$1$31 = f$15(arg1$63, arg1$62)
-        };
-        i$31 = ((1 + i$31) | 0)
-      };
-      var jsx$47 = elem$1$31
-    };
-    var s1$14 = $as_Lscalacss_internal_StyleS(jsx$47)
-  };
-  var s2$14 = this$256.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$256.name$1, s1$14, this$256.$$outer$1.classNameHint$1);
-  this.ExpandW$und100$3 = this$256.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$14, this$256.$$outer$1.classNameHint$1);
+  var s2$10 = this$172.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$172.name$1, s1$10, this$172.$$outer$1.classNameHint$1);
+  this.Teeter$3 = this$172.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$10, this$172.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lcom_pokeboston_client_stylings_AppAnimations$ = new $TypeData().initClass({

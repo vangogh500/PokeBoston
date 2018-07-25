@@ -15,7 +15,27 @@ object LoginScene {
   private val component = ScalaComponent.static("LoginScene")(
     <.div(^.className := "w-100 h-100 d-flex flex-column")(
       <.div(^.className := "container")(
-        HorizontalProgressWithBreadCrumbs(1, Seq("1", "2", "3"))
+        HorizontalProgressWithBreadCrumbs(0, Seq("1", "2", "3")),
+        <.div(^.className := "")(
+          <.button(^.`type` := "button", ^.className := "btn btn-primary btn-lg btn-block")(
+            <.i(^.className := "mdi mdi-facebook-box")
+          ),
+          <.button(^.`type` := "button", ^.className := "btn btn-primary btn-lg btn-block")(
+            <.i(^.className := "mdi mdi-google-plus-box")
+          ),
+          <.button(^.`type` := "button", ^.className := "btn btn-primary btn-lg btn-block")(
+            <.i(^.className := "mdi mdi-twitter-box")
+          )
+        ),
+        <.div(^.className := "dropdown-divider")("Or"),
+        <.div(^.className := "")(
+          <.button(^.`type` := "button", ^.className := "btn btn-primary btn-lg btn-block")(
+            <.i(^.className := "mdi mdi-email")
+          ),
+          <.button(^.`type` := "button", ^.className := "btn btn-primary btn-lg btn-block")(
+            <.i(^.className := "mdi mdi-cellphone-android")
+          )
+        ),
       )
     )
   )

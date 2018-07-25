@@ -13,8 +13,8 @@ object HorizontalProgressWithBreadCrumbStylings extends StyleSheet.Inline {
   import dsl._
 
   val Progress = style(
-    paddingLeft := "2px",
-    paddingRight := "2px"
+    paddingLeft := "7px",
+    paddingRight := "7px"
   )
 
   val FutureStep = style(
