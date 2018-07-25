@@ -14,10 +14,11 @@ object AppLayout extends StyleSheet.Inline {
   val bgCenter = style(
     backgroundPosition := "center"
   )
+
   /**
-   * Background size cover styling
+   * Background center styling
    */
-  val bgCover = style(
-    backgroundSize := "cover"
-  )
+  val zindex = styleF(Domain.ofRange(1 to 10))(n => styleS(
+    zIndex := n + ""
+  ))
 }

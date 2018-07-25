@@ -22,4 +22,11 @@ object AppSizing extends StyleSheet.Inline {
   val h_vh = styleF(Domain.ofRange(25 to 100 by 25))(n => styleS(
     height := n + "vh"
   ))
+
+  /**
+   * Background size cover styling
+   */
+  val bgCover = style(
+    backgroundSize := "cover"
+  )
 }

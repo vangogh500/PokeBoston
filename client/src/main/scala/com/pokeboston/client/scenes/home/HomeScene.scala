@@ -3,7 +3,7 @@ package scenes
 package home
 
 import components.AppNav
-import stylings.AppLayout
+import stylings.{AppLayout, AppSizing}
 import services.AppRouter.AppPage
 
 import japgolly.scalajs.react.extra.router.{RouterCtl}
@@ -21,7 +21,7 @@ object HomeScene {
           VdomStyle("backgroundImage") := s"""url("$bgImage")""",
           VdomStyle("filter") := "grayscale(50%)",
           AppLayout.bgCenter,
-          AppLayout.bgCover)
+          AppSizing.bgCover)
       )
     ).build
   def apply(ctl: RouterCtl[AppPage]) = component(ctl)
