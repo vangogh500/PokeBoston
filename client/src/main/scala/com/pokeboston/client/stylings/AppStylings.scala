@@ -13,8 +13,10 @@ object AppStylings {
    */
   def init(): Unit = {
     AppAnimations.addToDocument()
+    AppColoring.addToDocument()
     AppLayout.addToDocument()
     AppSizing.addToDocument()
+    AppTypography.addToDocument()
     ProgressStylings.init()
   }
 }

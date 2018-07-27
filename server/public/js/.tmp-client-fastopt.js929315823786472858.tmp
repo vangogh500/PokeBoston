@@ -2584,7 +2584,7 @@ $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.init___ = (function
   var jsx$45 = jsx$46.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   var jsx$44 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("d-flex justify-content-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("50px 0px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("d-flex justify-content-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("20px 0px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
   var jsx$43 = jsx$44.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
   var jsx$42 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   var this$11 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
@@ -18380,17 +18380,8 @@ $c_Lcom_pokeboston_client_Client$.prototype.init___ = (function() {
 $c_Lcom_pokeboston_client_Client$.prototype.main__AT__V = (function(args) {
   $f_s_App__main__AT__V(this, args)
 });
-$c_Lcom_pokeboston_client_Client$.prototype.resize__p1__V = (function() {
-  $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().getElementById("app").style.height = ($uI($m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().documentElement.scrollHeight) + "px");
-  $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().getElementById("app").style.width = ($uI($m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().documentElement.clientWidth) + "px")
-});
 $c_Lcom_pokeboston_client_Client$.prototype.delayedEndpoint$com$pokeboston$client$Client$1__V = (function() {
   $m_Lcom_pokeboston_client_stylings_AppStylings$().init__V();
-  this.resize__p1__V();
-  $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().onresize = (function(arg1$2) {
-    $m_Lcom_pokeboston_client_Client$();
-    $m_Lcom_pokeboston_client_Client$().resize__p1__V()
-  });
   var qual$1 = $m_Lcom_pokeboston_client_services_AppRouter$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot();
   var a = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().getElementById("app");
   var x$2 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
