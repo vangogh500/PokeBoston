@@ -31,11 +31,27 @@ class MockAuthService @Inject()(implicit ec: ExecutionContext) extends AuthServi
     )
   }
 
-  def register(email: String, password: String) = Future {
-    AuthServiceRegistrationResponse()
+  def register(email: String, password: String) = (email, password) match {
+    case (EmailValidator(email), PasswordValidator(password)) => 
+      Future {
+        MockDB.users.add(MockUser(email, password))
+        AuthServiceRegistrationResponse()
+      }
+    case _ =>
+      Future {
+          throw ClientSyntaxException()
+      }
   }
 
   def unregister(email: String, password: String) = Future {
-    AuthServiceUnregistrationResponse()
+    case (EmailValidator(email), PasswordValidator(password)) => 
+      Future {
+        MockDB.users.remove(MockUser(email, password))
+        AuthServiceUnregistrationResponse()
+      }
+    case _ =>
+      Future {
+          throw ClientSyntaxException()
+      }
   }
 }
