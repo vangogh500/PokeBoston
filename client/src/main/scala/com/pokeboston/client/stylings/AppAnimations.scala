@@ -48,10 +48,12 @@ object AppAnimations extends StyleSheet.Inline {
 
   private val kfExpandW_100 = keyframes(
     (0%%) -> style(
-      width := "0"
+      width := "0",
+      height := "0",
     ),
     (75%%) -> style(
-      width := "0"
+      width := "0",
+      height := "1rem"
     ),
     (100%%) -> style(
       width := "100%"

@@ -6,12 +6,12 @@ package stylings
 import scalacss.DevDefaults._
 
 /**
- * Layout related stylings for app
+ * Stylings for the ProgressBreadCrumb component
  */
 object ProgressBreadCrumbStylings extends StyleSheet.Inline {
   import dsl._
   /**
-   * Progress bread crumb
+   * Styligns for progress bread crumb container
    */
   val Container = style(
     width := "62px",

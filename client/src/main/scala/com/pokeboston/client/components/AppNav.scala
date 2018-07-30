@@ -2,7 +2,7 @@ package com.pokeboston.client
 package components
 
 import modal.ModalButton
-import services.AppRouter.{AppPage, LoginPage}
+import services.AppRouter.{AppPage, AuthPage}
 
 import japgolly.scalajs.react.extra.router.{RouterCtl}
 import japgolly.scalajs.react._
@@ -19,7 +19,7 @@ object AppNav {
           ),
           <.ul(^.className := "navbar-nav ml-auto")(
             <.li(^.className := "nav-item")(
-              ctl.link(LoginPage)(^.className := "nav-link")("Login")
+              ctl.link(AuthPage("login"))(^.className := "nav-link")("Login")
             ),
             <.li(^.className := "nav-item")(
               <.a(^.className := "nav-link", "Signup")

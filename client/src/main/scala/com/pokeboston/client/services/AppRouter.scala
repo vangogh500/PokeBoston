@@ -5,7 +5,8 @@ import japgolly.scalajs.react.vdom.html_<^._
 import japgolly.scalajs.react.extra.router._
 
 import scenes.home.HomeScene
-import scenes.login.LoginScene
+import scenes.auth.AuthScene
+import scenes.login.forms._
 
 
 object AppRouter {
@@ -18,9 +19,9 @@ object AppRouter {
    */
   case object HomePage extends AppPage
   /**
-   * Login page
+   * Auth page
    */
-  case object LoginPage extends AppPage
+  case class AuthPage(mode: String) extends AppPage
 
   /**
    * React component
@@ -29,7 +30,9 @@ object AppRouter {
     import dsl._
     (emptyRule
     |   staticRoute(root, HomePage) ~> renderR(ctl => HomeScene(ctl))
-    |   staticRoute("auth/login", LoginPage) ~> render(LoginScene())
+    |   dynamicRouteCT(("auth" / string("\\w+")).caseClass[AuthPage]) ~> dynRenderR {
+          case (AuthPage(mode), ctl) => AuthScene(ctl, mode)
+        }
     ).notFound(redirectToPage(HomePage)(Redirect.Push))
   })
 

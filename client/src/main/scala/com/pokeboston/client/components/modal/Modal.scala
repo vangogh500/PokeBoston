@@ -17,7 +17,7 @@ object Modal {
           VdomStyle("top") := "0",
           VdomStyle("left") := "0",
           VdomStyle("background") := """rgba(0,0,0,0.5)""",
-          ^.onClick ==> { e => props.onClick(e) })
+          ^.onClick ==> props.onClick)
     }
   }
   private val component = ScalaComponent.builder[Props]("Modal")

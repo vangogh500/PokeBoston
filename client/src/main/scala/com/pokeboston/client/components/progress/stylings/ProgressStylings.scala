@@ -6,10 +6,11 @@ package stylings
 import scalacss.DevDefaults._
 
 /**
- * Layout related stylings for app
+ * Progress components stylings
  */
 object ProgressStylings {
  def init(): Unit = {
+   HorizontalProgressStylings.addToDocument()
    HorizontalProgressWithBreadCrumbStylings.addToDocument()
    ProgressBreadCrumbStylings.addToDocument()
  }

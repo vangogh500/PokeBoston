@@ -1131,6 +1131,30 @@ function $isArrayOf_F2(obj, depth) {
 function $asArrayOf_F2(obj, depth) {
   return (($isArrayOf_F2(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.Function2;", depth))
 }
+function $is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step)))
+}
+function $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) {
+  return (($is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$Step"))
+}
+function $isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step)))
+}
+function $asArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$Step;", depth))
+}
+function $is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.lib.passports.package$AuthPassport"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.lib.passports.package$AuthPassport;", depth))
+}
 function $is_Lcom_pokeboston_client_stylings_AppColoring$AppColor(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_stylings_AppColoring$AppColor)))
 }
@@ -1198,6 +1222,35 @@ function $isArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) {
 }
 function $asArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.OnUnmount;", depth))
+}
+function $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition__apply__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB($thiz, fa, fb) {
+  return new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB().init___T__I__F1__F1((("" + fa.regex$2) + fb.regex$2), ((fa.matchGroups$2 + fb.matchGroups$2) | 0), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, fa$1, fb$1) {
+    return (function(g$2) {
+      var g = $as_F1(g$2);
+      var this$1 = $as_s_Option(fa$1.parse$2.apply__O__O(g));
+      if (this$1.isEmpty__Z()) {
+        return $m_s_None$()
+      } else {
+        var arg1 = this$1.get__O();
+        var this$2 = $as_s_Option(fb$1.parse$2.apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, fa$1$1, g$6) {
+          return (function(i$2) {
+            var i = $uI(i$2);
+            return $as_T(g$6.apply__O__O(((i + fa$1$1.matchGroups$2) | 0)))
+          })
+        })($this, fa$1, g))));
+        if (this$2.isEmpty__Z()) {
+          return $m_s_None$()
+        } else {
+          var arg1$1 = this$2.get__O();
+          return new $c_s_Some().init___O($this.gc$1.apply__O__O__O(arg1, arg1$1))
+        }
+      }
+    })
+  })($thiz, fa, fb)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1, fa$2, fb$2) {
+    return (function(c$2) {
+      return (("" + $as_T(fa$2.build$2.apply__O__O(this$2$1.ga$1.apply__O__O(c$2)))) + fb$2.build$2.apply__O__O(this$2$1.gb$1.apply__O__O(c$2)))
+    })
+  })($thiz, fa, fb)))
 }
 function $is_Ljapgolly_scalajs_react_vdom_Builder(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Builder)))
@@ -2119,7 +2172,7 @@ $c_Lcom_pokeboston_client_components_AppNav$.prototype.init___ = (function() {
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
       var array$6 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-item", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
       var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
-      var jsx$6 = ctl.link__O__Ljapgolly_scalajs_react_vdom_TagOf($m_Lcom_pokeboston_client_services_AppRouter$LoginPage$());
+      var jsx$6 = ctl.link__O__Ljapgolly_scalajs_react_vdom_TagOf(new $c_Lcom_pokeboston_client_services_AppRouter$AuthPage().init___T("login"));
       var array$7 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
       var jsx$5 = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7));
       var array$8 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Login"))];
@@ -2257,121 +2310,125 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
     return (function(x0$1$2) {
       var x0$1 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props(x0$1$2);
       if ((x0$1 !== null)) {
-        var progress = x0$1.progress$1;
+        var curr = x0$1.curr$1;
         var steps = x0$1.steps$1;
-        if ((progress >= steps.length__I())) {
-          throw new $c_jl_IndexOutOfBoundsException().init___()
+        var tags = x0$1.tags$1;
+        if (steps.contains__O__Z(curr)) {
+          var index = steps.indexOf__O__I(curr);
+          var a = (((-1) + steps.length__I()) | 0);
+          var padding = ((100 / ((a > 1) ? a : 1)) | 0);
+          var percentage = $imul(padding, index);
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+          var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(tags);
+          var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-center align-items-center position-relative", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+          var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var jsx$15 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgress$();
+          var jsx$14 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("position-absolute", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+          var this$14 = $m_Lscalacss_ScalaCssReact$();
+          var s = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().Progress$3;
+          var jsx$13 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$14, s);
+          var this$15 = $m_Lscalacss_ScalaCssReact$();
+          var s$1 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$().animExpand100$3;
+          var array$2 = [jsx$14, jsx$13, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$15, s$1)];
+          var u = jsx$15.apply__sc_Seq__I__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2), percentage);
+          var jsx$16 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+          var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var jsx$11 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-between", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+          var this$21 = $m_Lscalacss_ScalaCssReact$();
+          var s$2 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppLayout$().zindex$3.apply__O__O(2));
+          var array$3 = [jsx$11, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$21, s$2)];
+          var jsx$10 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+          var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
+          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+          var this$24 = $m_sc_Seq$();
+          var as = $as_sc_TraversableOnce(steps.zipWithIndex__scg_CanBuildFrom__O(this$24.ReusableCBFInstance$2));
+          var array$9 = [jsx$1.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, index$1) {
+            return (function(x0$2$2) {
+              var x0$2 = $as_T2(x0$2$2);
+              if ((x0$2 !== null)) {
+                var i = $uI(x0$2.$$und2$f);
+                if ((i < index$1)) {
+                  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+                  var jsx$3 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                  var this$26 = $m_Lscalacss_ScalaCssReact$();
+                  var s$3 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().PastStep$3;
+                  var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$26, s$3);
+                  var this$27 = $m_Lscalacss_ScalaCssReact$();
+                  var s$4 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().Teeter$3;
+                  var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$27, s$4), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var u$1 = jsx$3.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4), $m_sci_Nil$());
+                  return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+                }
+              };
+              if ((x0$2 !== null)) {
+                var step = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(x0$2.$$und1$f);
+                var i$2 = $uI(x0$2.$$und2$f);
+                if ((i$2 === index$1)) {
+                  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+                  var jsx$6 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                  var this$32 = $m_Lscalacss_ScalaCssReact$();
+                  var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
+                  var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$32, s$5);
+                  var this$33 = $m_Lscalacss_ScalaCssReact$();
+                  var s$6 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$2));
+                  var array$5 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$33, s$6), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var jsx$5 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5);
+                  var array$6 = [step.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
+                  var u$2 = jsx$6.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$5, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
+                  return u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+                }
+              };
+              if ((x0$2 !== null)) {
+                var step$2 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(x0$2.$$und1$f);
+                var i$3 = $uI(x0$2.$$und2$f);
+                if ((i$3 > index$1)) {
+                  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+                  var jsx$9 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
+                  var this$40 = $m_Lscalacss_ScalaCssReact$();
+                  var s$7 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
+                  var jsx$7 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$40, s$7);
+                  var this$41 = $m_Lscalacss_ScalaCssReact$();
+                  var s$8 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$3));
+                  var array$7 = [jsx$7, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$41, s$8), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7);
+                  var array$8 = [step$2.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
+                  var u$3 = jsx$9.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+                  return u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+                }
+              };
+              throw new $c_s_MatchError().init___O(x0$2)
+            })
+          })(this$2$1, index)))];
+          var array$10 = [jsx$16, jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
+          var array$11 = [jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10))];
+          var a$1 = jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
+          return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
         }
       };
-      if ((x0$1 !== null)) {
-        var progress$2 = x0$1.progress$1;
-        var steps$2 = x0$1.steps$1;
-        var a = (((-1) + steps$2.length__I()) | 0);
-        var padding = ((100 / ((a > 1) ? a : 1)) | 0);
-        var percentage = $imul(padding, progress$2);
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-        var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-center align-items-center position-relative", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$15 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgress$();
-        var jsx$14 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("position-absolute", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-        var this$14 = $m_Lscalacss_ScalaCssReact$();
-        var s = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().Progress$3;
-        var jsx$13 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$14, s);
-        var this$15 = $m_Lscalacss_ScalaCssReact$();
-        var s$1 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().ExpandW$und100$3;
-        var array$2 = [jsx$14, jsx$13, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$15, s$1)];
-        var u = jsx$15.apply__sc_Seq__I__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2), percentage);
-        var jsx$16 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$11 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 d-flex justify-content-between", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-        var this$21 = $m_Lscalacss_ScalaCssReact$();
-        var s$2 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppLayout$().zindex$3.apply__O__O(2));
-        var array$3 = [jsx$11, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$21, s$2)];
-        var jsx$10 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-        var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var this$24 = $m_sc_Seq$();
-        var as = $as_sc_TraversableOnce(steps$2.zipWithIndex__scg_CanBuildFrom__O(this$24.ReusableCBFInstance$2));
-        var array$9 = [jsx$1.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, progress$2$1) {
-          return (function(x0$2$2) {
-            var x0$2 = $as_T2(x0$2$2);
-            if ((x0$2 !== null)) {
-              var i = $uI(x0$2.$$und2$f);
-              if ((i < progress$2$1)) {
-                $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-                var jsx$3 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                var this$26 = $m_Lscalacss_ScalaCssReact$();
-                var s$3 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().PastStep$3;
-                var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$26, s$3);
-                var this$27 = $m_Lscalacss_ScalaCssReact$();
-                var s$4 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().Teeter$3;
-                var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$27, s$4), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-                var u$1 = jsx$3.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4), $m_sci_Nil$());
-                return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
-              }
-            };
-            if ((x0$2 !== null)) {
-              var step = $as_Ljapgolly_scalajs_react_vdom_VdomNode(x0$2.$$und1$f);
-              var i$2 = $uI(x0$2.$$und2$f);
-              if ((i$2 === progress$2$1)) {
-                $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-                var jsx$6 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                var this$32 = $m_Lscalacss_ScalaCssReact$();
-                var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$32, s$5);
-                var this$33 = $m_Lscalacss_ScalaCssReact$();
-                var s$6 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$2));
-                var array$5 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$33, s$6), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-                var jsx$5 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5);
-                var array$6 = [step];
-                var u$2 = jsx$6.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$5, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
-                return u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
-              }
-            };
-            if ((x0$2 !== null)) {
-              var step$2 = $as_Ljapgolly_scalajs_react_vdom_VdomNode(x0$2.$$und1$f);
-              var i$3 = $uI(x0$2.$$und2$f);
-              if ((i$3 > progress$2$1)) {
-                $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-                var jsx$9 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                var this$40 = $m_Lscalacss_ScalaCssReact$();
-                var s$7 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                var jsx$7 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$40, s$7);
-                var this$41 = $m_Lscalacss_ScalaCssReact$();
-                var s$8 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$3));
-                var array$7 = [jsx$7, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$41, s$8), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-                var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7);
-                var array$8 = [step$2];
-                var u$3 = jsx$9.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
-                return u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
-              }
-            };
-            throw new $c_s_MatchError().init___O(x0$2)
-          })
-        })(this$2$1, progress$2)))];
-        var array$10 = [jsx$16, jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
-        var array$11 = [jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10))];
-        var a$1 = jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
-        return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-      };
-      throw new $c_s_MatchError().init___O(x0$1)
+      throw new $c_jl_IndexOutOfBoundsException().init___()
     })
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
   return this
 });
-$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__I__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(progress, steps) {
+$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(tags, curr, steps) {
   var c = this.component$1;
   var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
-  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___I__sc_Seq(progress, steps);
+  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq(curr, steps, tags);
   return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(curr, steps) {
+  var c = this.component$1;
+  var this$4 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var array = [];
+  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq(curr, steps, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$4.construct$2.apply__O__O__O(props, this$4.mods$2))
 });
 var $d_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ = new $TypeData().initClass({
   Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$: 0
@@ -2468,18 +2525,25 @@ $c_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$.prototy
 $c_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$.prototype.init__V = (function() {
   var jsx$1 = $m_Lscalacss_defaults_PlatformExports$StyleSheetInlineJsOps$();
   $m_Lscalacss_package$DevDefaults$();
-  var s = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$();
+  var s = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$();
   $m_Lscalacss_package$DevDefaults$();
   $m_Lscalacss_package$DevDefaults$();
   var s$1 = $m_Lscalacss_internal_StringRenderer$().defaultPretty__Lscalacss_internal_Renderer();
   jsx$1.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$1), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1));
   var jsx$2 = $m_Lscalacss_defaults_PlatformExports$StyleSheetInlineJsOps$();
   $m_Lscalacss_package$DevDefaults$();
-  var s$2 = $m_Lcom_pokeboston_client_components_progress_stylings_ProgressBreadCrumbStylings$();
+  var s$2 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$();
   $m_Lscalacss_package$DevDefaults$();
   $m_Lscalacss_package$DevDefaults$();
   var s$3 = $m_Lscalacss_internal_StringRenderer$().defaultPretty__Lscalacss_internal_Renderer();
-  jsx$2.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$2, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$3), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1))
+  jsx$2.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$2, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$3), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1));
+  var jsx$3 = $m_Lscalacss_defaults_PlatformExports$StyleSheetInlineJsOps$();
+  $m_Lscalacss_package$DevDefaults$();
+  var s$4 = $m_Lcom_pokeboston_client_components_progress_stylings_ProgressBreadCrumbStylings$();
+  $m_Lscalacss_package$DevDefaults$();
+  $m_Lscalacss_package$DevDefaults$();
+  var s$5 = $m_Lscalacss_internal_StringRenderer$().defaultPretty__Lscalacss_internal_Renderer();
+  jsx$3.addToDocument$extension__Lscalacss_internal_mutable_StyleSheet$Inline__Lscalacss_internal_Renderer__Lscalacss_internal_Env__V(s$4, new $c_Lscalacss_defaults_PlatformExports$StyleElementRenderer().init___Lscalacss_internal_Renderer(s$5), ($m_Lscalacss_package$DevDefaults$(), $m_Lscalacss_internal_Env$().empty$1))
 });
 var $d_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$ = new $TypeData().initClass({
   Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$: 0
@@ -2494,6 +2558,1033 @@ function $m_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings
     $n_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$ = new $c_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$().init___()
   };
   return $n_Lcom_pokeboston_client_components_progress_stylings_ProgressStylings$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_AuthScene$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_AuthScene$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_AuthScene$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype = $c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype.apply__Ljapgolly_scalajs_react_extra_router_RouterCtl__T__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(ctl, mode) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props().init___Ljapgolly_scalajs_react_extra_router_RouterCtl__T(ctl, mode);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_AuthScene$ = this;
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("LoginScene");
+  this.component$1 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x0$1$2) {
+      var x0$1 = $as_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(x0$1$2);
+      if ((x0$1 !== null)) {
+        var ctl = x0$1.ctl$1;
+        var mode = x0$1.mode$1;
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 h-100 d-flex justify-content-center align-items-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("background")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("#fafafa", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+        var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("col-sm-12 col-md-8 col-lg-4", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$3 = jsx$4.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+        var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card shadow", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var u = $m_Lcom_pokeboston_client_scenes_auth_components_AuthApp$().apply__Ljapgolly_scalajs_react_extra_router_RouterCtl__T__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(ctl, mode);
+        var array$3 = [u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+        var array$4 = [jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
+        var array$5 = [jsx$3.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+        var a = jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+        return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      } else {
+        throw new $c_s_MatchError().init___O(x0$1)
+      }
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_AuthScene$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_AuthScene$: 0
+}, false, "com.pokeboston.client.scenes.auth.AuthScene$", {
+  Lcom_pokeboston_client_scenes_auth_AuthScene$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_AuthScene$;
+var $n_Lcom_pokeboston_client_scenes_auth_AuthScene$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_AuthScene$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_AuthScene$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_AuthScene$ = new $c_Lcom_pokeboston_client_scenes_auth_AuthScene$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_AuthScene$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype.apply__Ljapgolly_scalajs_react_extra_router_RouterCtl__T__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(ctl, mode) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props().init___Ljapgolly_scalajs_react_extra_router_RouterCtl__T(ctl, mode);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_AuthApp$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("AuthForm")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var u = $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot();
+      var jsx$1 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var u$1 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot();
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State().init___Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_vdom_VdomElement(jsx$1, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement())
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var jsx$3 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var jsx$2 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O(x$3));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = jsx$3.render__Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props__Lcom_pokeboston_client_scenes_auth_components_AuthApp$State__Ljapgolly_scalajs_react_vdom_TagOf(jsx$2, $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.AuthApp$", {
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_AuthApp$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_AuthApp$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_AuthApp$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_AuthApp$ = new $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_AuthApp$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props__Lcom_pokeboston_client_scenes_auth_components_AuthApp$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(props, state) {
+  var x1 = new $c_T2().init___O__O(props, state);
+  var p2 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(x1.$$und1$f);
+  var p3 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(x1.$$und2$f);
+  if ((p2 !== null)) {
+    var ctl = p2.ctl$1;
+    var mode = p2.mode$1;
+    if ((p3 !== null)) {
+      var loginApp = p3.loginApp$1;
+      var registrationApp = p3.registrationApp$1;
+      var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), $m_sci_Nil$());
+      var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav nav-tabs nav-fill", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-item", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+      if ((mode === "login")) {
+        var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+        var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link active", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$13 = jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+        var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Login"))];
+        var jsx$12 = jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))
+      } else {
+        var jsx$16 = ctl.link__O__Ljapgolly_scalajs_react_vdom_TagOf(new $c_Lcom_pokeboston_client_services_AppRouter$AuthPage().init___T("login"));
+        var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$15 = jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
+        var array$5 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Login"))];
+        var jsx$12 = jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5))
+      };
+      var array$6 = [jsx$12];
+      var jsx$11 = jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
+      var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$7 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-item", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$9 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7));
+      if ((mode === "register")) {
+        var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+        var array$8 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link active", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$5 = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+        var array$9 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Register"))];
+        var jsx$4 = jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))
+      } else {
+        var jsx$8 = ctl.link__O__Ljapgolly_scalajs_react_vdom_TagOf(new $c_Lcom_pokeboston_client_services_AppRouter$AuthPage().init___T("register"));
+        var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$7 = jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+        var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Register"))];
+        var jsx$4 = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11))
+      };
+      var array$12 = [jsx$4];
+      var array$13 = [jsx$11, jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
+      var jsx$3 = jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13));
+      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$14 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14));
+      var array$15 = [((mode === "login") ? loginApp : ((mode === "register") ? registrationApp : $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), $m_sci_Nil$())))];
+      var array$16 = [jsx$3, jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15))];
+      return jsx$21.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16))
+    }
+  };
+  throw new $c_s_MatchError().init___O(x1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.AuthApp$Backend"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.AuthApp$Backend;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend: 0
+}, false, "com.pokeboston.client.scenes.auth.components.AuthApp$Backend", {
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Backend;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$ = this;
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("PassportPicker");
+  this.component$1 = b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2().backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$3 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = $as_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$3)).render__Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props__Ljapgolly_scalajs_react_vdom_TagOf($as_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O(x$3)));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype.apply__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(onClick) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props().init___F1(onClick);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.PassportPicker$", {
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$ = new $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype.buildButton__F1__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_vdom_TagOf = (function(onClick, passport) {
+  var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.key$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(passport.toString__T(), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtKeyS$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("button", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn btn-block shadow-sm btn-light", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod($as_F1(onClick.apply__O__O(passport)), null)];
+  var jsx$6 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var x1 = passport.logo__Lcom_pokeboston_client_lib_Logo$AppLogo();
+  if ($is_Lcom_pokeboston_client_lib_Logo$UrlLogo(x1)) {
+    var x2 = $as_Lcom_pokeboston_client_lib_Logo$UrlLogo(x1);
+    var url = x2.url$1;
+    var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    var this$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+    var jsx$2 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$6);
+    var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("32px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("32px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(url, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+    var jsx$1 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$2, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))
+  } else {
+    if ((!$is_Lcom_pokeboston_client_lib_Logo$CssLogo(x1))) {
+      throw new $c_s_MatchError().init___O(x1)
+    };
+    var x3 = $as_Lcom_pokeboston_client_lib_Logo$CssLogo(x1);
+    var css = x3.className$1;
+    var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(("mdi " + css), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+    var this$13 = $m_Lscalacss_ScalaCssReact$();
+    var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(5));
+    var array$2 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$13, s)];
+    var jsx$1 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))
+  };
+  var array$3 = [jsx$1];
+  return jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props__Ljapgolly_scalajs_react_vdom_TagOf = (function(props) {
+  if ((props !== null)) {
+    var onClick = props.onClick$1;
+    var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+    var jsx$9 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+    var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("text-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+    var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h4", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+    var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Choose a passport"))];
+    var jsx$6 = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+    var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    var this$13 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+    var jsx$4 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($f_Ljapgolly_scalajs_react_vdom_HtmlTags__hr__T(this$13), $m_sci_Nil$());
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var as = $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$().appPassports$1;
+    var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, onClick$1) {
+      return (function(p$2) {
+        var p = $as_s_Product(p$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var a = $this.buildButton__F1__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_vdom_TagOf(onClick$1, $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(p));
+        return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      })
+    })(this, onClick));
+    var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_VdomArray$().empty__Ljapgolly_scalajs_react_vdom_VdomArray().$$plus$plus$eq__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_VdomArray(as, f$1);
+    var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    var this$17 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+    var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($f_Ljapgolly_scalajs_react_vdom_HtmlTags__hr__T(this$17), $m_sci_Nil$());
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var as$1 = $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$().socialMediaPassports$1;
+    var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1, onClick$2) {
+      return (function(p$3$2) {
+        var p$3 = $as_s_Product(p$3$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var a$1 = this$2$1.buildButton__F1__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_vdom_TagOf(onClick$2, $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(p$3));
+        return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      })
+    })(this, onClick));
+    var array$3 = [jsx$6, jsx$4, jsx$3, jsx$1, $m_Ljapgolly_scalajs_react_vdom_VdomArray$().empty__Ljapgolly_scalajs_react_vdom_VdomArray().$$plus$plus$eq__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_VdomArray(as$1, f$3)];
+    return jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))
+  } else {
+    throw new $c_s_MatchError().init___O(props)
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.PassportPicker$Backend"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.PassportPicker$Backend;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend: 0
+}, false, "com.pokeboston.client.scenes.auth.components.PassportPicker$Backend", {
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Backend;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("RegistrationApp")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State().init___I(0)
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var jsx$1 = $as_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = jsx$1.render__Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O())
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$", {
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$ = new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
+  if ((state !== null)) {
+    var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+    var jsx$6 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var jsx$4 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
+    var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("marginBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("40px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+    var jsx$3 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1);
+    var jsx$2 = $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$();
+    var jsx$1 = $m_sc_Seq$();
+    var array$2 = [$m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$()];
+    var u = jsx$4.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$3, jsx$2, $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))));
+    var jsx$5 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+    $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+    var u$1 = $m_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$().apply__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+      return (function(passport$2) {
+        var passport = $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(passport$2);
+        return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, passport$1) {
+          return (function(e$2) {
+            return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this$1.onPassportSelect__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(passport$1, e$2))
+          })
+        })($this, passport))
+      })
+    })(this)));
+    var array$3 = [jsx$5, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+    return jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))
+  } else {
+    throw new $c_s_MatchError().init___O(state)
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype.onPassportSelect__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(passport, e) {
+  return $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.login.LoginApp$Backend"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.login.LoginApp$Backend;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend: 0
+}, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$Backend", {
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("RegistrationApp")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_s_None$())
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var jsx$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = jsx$1.render__Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O())
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.RegistrationApp$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend() {
+  $c_O.call(this);
+  this.$$$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__sci_Map__F0 = (function(e, step, content) {
+  return $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onPassportSelect__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(passport, e) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
+  var this$2 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, passport$1) {
+    return (function(s$2) {
+      $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(s$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), new $c_s_Some().init___O(passport$1))
+    })
+  })(this, passport));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$2.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
+  if ((state !== null)) {
+    var p2 = state.curr$1;
+    var x = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$();
+    if ((x === p2)) {
+      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$3 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
+      var jsx$2 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$();
+      var jsx$1 = $m_sc_Seq$();
+      var array$1 = [$m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$()];
+      var u = jsx$3.apply__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$2, $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))));
+      var jsx$4 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var u$1 = $m_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$().apply__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+        return (function(passport$2) {
+          var passport = $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(passport$2);
+          return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, passport$1) {
+            return (function(e$2) {
+              return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this$1.onPassportSelect__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(passport$1, e$2))
+            })
+          })($this, passport))
+        })
+      })(this)));
+      var array$2 = [jsx$4, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+      return jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))
+    }
+  };
+  if ((state !== null)) {
+    var step = state.curr$1;
+    var p4 = state.passport$1;
+    if ($is_s_Some(p4)) {
+      var x5 = $as_s_Some(p4);
+      var p6 = $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(x5.value$2);
+      var x$3 = $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$();
+      if ((x$3 === p6)) {
+        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var jsx$9 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
+        var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("marginBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("40px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4);
+        var jsx$7 = $m_sc_Seq$();
+        var array$5 = [$m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$()];
+        var u$2 = jsx$9.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, step, $as_sc_Seq(jsx$7.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5))));
+        var jsx$10 = u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var u$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$().apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(step, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+          return (function(e$2$1) {
+            return new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$2, e) {
+              return (function(step$2, content$2) {
+                var step$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(step$2);
+                var content = $as_sci_Map(content$2);
+                return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this$2.onSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__sci_Map__F0(e, step$1, content))
+              })
+            })(this$2$1, e$2$1))
+          })
+        })(this)));
+        var array$6 = [jsx$10, u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+        return jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))
+      }
+    }
+  };
+  throw new $c_s_MatchError().init___O(state)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  this.$$$1 = $$;
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.RegistrationApp$Backend"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.RegistrationApp$Backend;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.RegistrationApp$Backend", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend;
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep;", depth))
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("EmailRegistrationForm")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State().init___sci_Map__sci_Map($as_sci_Map($m_s_Predef$().Map$2.apply__sc_Seq__sc_GenMap($m_sci_Nil$())), $as_sci_Map($m_s_Predef$().Map$2.apply__sc_Seq__sc_GenMap($m_sci_Nil$())))
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var jsx$2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var jsx$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O(x$3));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = jsx$2.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_vdom_TagOf(jsx$1, $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(step, onSubmit) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1(step, onSubmit);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend() {
+  $c_O.call(this);
+  this.$$$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(props, state) {
+  var x1 = new $c_T2().init___O__O(props, state);
+  var p2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
+  var state$2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x1.$$und2$f);
+  if ((p2 !== null)) {
+    var p3 = p2.step$1;
+    var x = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$();
+    if ((x === p3)) {
+      var jsx$34 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$33 = jsx$34.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$31 = jsx$32.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+      var jsx$30 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$29 = jsx$30.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+      var jsx$28 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$27 = jsx$28.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+      var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var array$5 = [jsx$26.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+      var jsx$25 = jsx$27.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+      var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$25 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+      var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var array$6 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$25.name$1, "email"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("email", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+        return (function() {
+          return ""
+        })
+      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+        return (function(e$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$2$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$2))
+        })
+      })(this)), null)];
+      var array$7 = [jsx$25, jsx$24.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))];
+      var array$8 = [jsx$29.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
+      var jsx$23 = jsx$31.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+      var jsx$22 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$9 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$21 = jsx$22.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
+      var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+      var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
+      var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$12 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var array$13 = [jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
+      var jsx$15 = jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13));
+      var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$54 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+      var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var array$14 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$54.name$1, "password"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("password", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3$1) {
+        return (function() {
+          return ""
+        })
+      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
+        return (function(e$3$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$4$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$3$2))
+        })
+      })(this)), null)];
+      var array$15 = [jsx$15, jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14))];
+      var array$16 = [jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15))];
+      var jsx$13 = jsx$21.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16));
+      var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$17 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$17));
+      var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$18 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$9 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$18));
+      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$19 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$19));
+      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$20 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var array$21 = [jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20))];
+      var jsx$5 = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$21));
+      var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+      var this$83 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+      var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+      var array$22 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$83.name$1, "password_confirmation"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("password_confirmation", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$5$1) {
+        return (function() {
+          return ""
+        })
+      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
+        return (function(e$4$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$6$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$4$2))
+        })
+      })(this)), null)];
+      var array$23 = [jsx$5, jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22))];
+      var array$24 = [jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$23))];
+      var jsx$3 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$24));
+      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$25 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("submit", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("float-right btn btn-primary", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$25));
+      var array$26 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Register"))];
+      var array$27 = [jsx$23, jsx$13, jsx$3, jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$26))];
+      return jsx$33.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$27))
+    }
+  };
+  var p5 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
+  if ((p5 !== null)) {
+    var p6 = p5.step$1;
+    var x$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$();
+    if ((x$3 === p6)) {
+      var jsx$41 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$28 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$40 = jsx$41.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$28));
+      var jsx$39 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$29 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$38 = jsx$39.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29));
+      var jsx$37 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$30 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Verification Code"))];
+      var jsx$36 = jsx$37.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("label", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$30));
+      var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+      var array$31 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var array$32 = [jsx$36, jsx$35.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$31))];
+      var array$33 = [jsx$38.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$32))];
+      return jsx$40.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$33))
+    }
+  };
+  throw new $c_s_MatchError().init___O(x1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e + "\n"));
+  var value = $as_T(e.target.value);
+  var target = $as_T(e.target.name);
+  var this$9 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, e$1, value$1, target$1) {
+    return (function(s$2) {
+      var s = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(s$2);
+      var this$5 = $m_s_Console$();
+      var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
+      this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e$1 + "\n"));
+      var registrationState = s.registrationState$1.$$plus__T2__sci_Map(new $c_T2().init___O__O(target$1, value$1));
+      var verificationState = s.verificationState$1;
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State().init___sci_Map__sci_Map(registrationState, verificationState)
+    })
+  })(this, e, value, target));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$9.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  this.$$$1 = $$;
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Backend"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Backend;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Backend", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$() {
+  $c_O.call(this);
+  this.passports$1 = null;
+  this.x$1$1 = null;
+  this.appPassports$1 = null;
+  this.socialMediaPassports$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$ = this;
+  var jsx$1 = $m_sc_Seq$();
+  var array = [$m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$(), $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$(), $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$(), $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$(), $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$(), $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$()];
+  this.passports$1 = $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)));
+  var x1 = this.passports$1.partition__F1__T2(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(p$2) {
+      var p = $as_s_Product(p$2);
+      return $is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(p)
+    })
+  })(this)));
+  if ((x1 !== null)) {
+    var appPassports = $as_sc_Seq(x1.$$und1$f);
+    var socialMediaPassports = $as_sc_Seq(x1.$$und2$f);
+    var jsx$2 = new $c_T2().init___O__O(appPassports, socialMediaPassports)
+  } else {
+    var jsx$2;
+    throw new $c_s_MatchError().init___O(x1)
+  };
+  this.x$1$1 = jsx$2;
+  this.appPassports$1 = $as_sc_Seq(this.x$1$1.$$und1$f);
+  this.socialMediaPassports$1 = $as_sc_Seq(this.x$1$1.$$und2$f);
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$
+}
+function $is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.lib.passports.package$AppPassport"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.lib.passports.package$AppPassport;", depth))
 }
 /** @constructor */
 function $c_Lcom_pokeboston_client_scenes_home_HomeScene$() {
@@ -2563,179 +3654,6 @@ function $m_Lcom_pokeboston_client_scenes_home_HomeScene$() {
   return $n_Lcom_pokeboston_client_scenes_home_HomeScene$
 }
 /** @constructor */
-function $c_Lcom_pokeboston_client_scenes_login_LoginScene$() {
-  $c_O.call(this);
-  this.component$1 = null
-}
-$c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype = new $h_O();
-$c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_login_LoginScene$;
-/** @constructor */
-function $h_Lcom_pokeboston_client_scenes_login_LoginScene$() {
-  /*<skip>*/
-}
-$h_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype = $c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype;
-$c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.init___ = (function() {
-  $n_Lcom_pokeboston_client_scenes_login_LoginScene$ = this;
-  var jsx$53 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1;
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$52 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("w-100 h-100 d-flex flex-column", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("background")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("#fafafa", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$51 = jsx$52.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  var jsx$50 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  var this$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-  var jsx$49 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$6);
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("ml-auto mr-auto", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("https://fontmeme.com/permalink/180722/3fab27004af3568242bac9c333f8ffce.png", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("50px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("25px 0px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$48 = jsx$50.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$49, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
-  var jsx$47 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("container", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$46 = jsx$47.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
-  var jsx$45 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav nav-pills nav-justified justify-content-center bg-white", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin-bottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("25px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$44 = jsx$45.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-  var jsx$43 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-item", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$42 = jsx$43.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
-  var jsx$41 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
-  var array$5 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link active", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$40 = jsx$41.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
-  var array$6 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Login"))];
-  var array$7 = [jsx$40.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))];
-  var jsx$39 = jsx$42.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7));
-  var jsx$38 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$8 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-item", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$37 = jsx$38.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
-  var jsx$36 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
-  var array$9 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("nav-link", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$35 = jsx$36.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
-  var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Signup"))];
-  var array$11 = [jsx$35.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10))];
-  var array$12 = [jsx$39, jsx$37.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11))];
-  var jsx$34 = jsx$44.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12));
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$32 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
-  var jsx$31 = $m_sc_Seq$();
-  var array$13 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("1")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("2")), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("3"))];
-  var u = jsx$32.apply__I__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(0, $as_sc_Seq(jsx$31.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13))));
-  var jsx$33 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-  var jsx$30 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$14 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("40px 0px 50px 0px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$29 = jsx$30.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14));
-  var jsx$28 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$15 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("display-4 text-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$27 = jsx$28.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h4", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15));
-  var array$16 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Choose a Passport"))];
-  var jsx$26 = jsx$27.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16));
-  var jsx$25 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  var this$70 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-  var array$17 = [jsx$26, jsx$25.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($f_Ljapgolly_scalajs_react_vdom_HtmlTags__hr__T(this$70), $m_sci_Nil$())];
-  var jsx$24 = jsx$29.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$17));
-  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$18 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("d-flex flex-wrap justify-content-around", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$22 = jsx$23.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$18));
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$13 = $m_sc_Seq$();
-  var array$19 = ["https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg", "https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg", "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg", "https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg"];
-  var as = $as_sc_TraversableOnce(jsx$13.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$19)));
-  var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(imgUrl$2) {
-      var imgUrl = $as_T(imgUrl$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$20 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("col-md-4 col-lg-3 d-flex justify-content-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin-top")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("30px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$20 = jsx$21.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20));
-      var jsx$19 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$21 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card shadow", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("80%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("100px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("border")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("none", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$18 = jsx$19.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$21));
-      var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$22 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body d-flex justify-content-center align-items-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$16 = jsx$17.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22));
-      var jsx$15 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      var this$96 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-      var jsx$14 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$96);
-      var array$23 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("64px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("64px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(imgUrl, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var array$24 = [jsx$15.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$14, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$23))];
-      var array$25 = [jsx$16.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$24))];
-      var array$26 = [jsx$18.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$25))];
-      var a = jsx$20.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$26));
-      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-    })
-  })(this));
-  var array$27 = [$m_Ljapgolly_scalajs_react_vdom_VdomArray$().empty__Ljapgolly_scalajs_react_vdom_VdomArray().$$plus$plus$eq__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_VdomArray(as, f$1)];
-  var jsx$12 = jsx$22.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$27));
-  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$28 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("d-flex flex-wrap justify-content-around", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("margin-top")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("30px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$10 = jsx$11.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$28));
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$1 = $m_sc_Seq$();
-  var array$29 = ["mdi-email", "mdi-cellphone-android"];
-  var as$1 = $as_sc_TraversableOnce(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29)));
-  var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
-    return (function(logo$2) {
-      var logo = $as_T(logo$2);
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$30 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("col-md-4 col-lg-3 d-flex justify-content-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$8 = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$30));
-      var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$31 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card shadow", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("80%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("100px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("border")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("none", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$6 = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$31));
-      var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$32 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body d-flex justify-content-center align-items-center", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$4 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$32));
-      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(("mdi " + logo), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-      var this$136 = $m_Lscalacss_ScalaCssReact$();
-      var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(7));
-      var array$33 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$136, s)];
-      var array$34 = [jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$33))];
-      var array$35 = [jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$34))];
-      var array$36 = [jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$35))];
-      var a$1 = jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$36));
-      return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-    })
-  })(this));
-  var array$37 = [$m_Ljapgolly_scalajs_react_vdom_VdomArray$().empty__Ljapgolly_scalajs_react_vdom_VdomArray().$$plus$plus$eq__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_VdomArray(as$1, f$3)];
-  var array$38 = [jsx$34, jsx$33, jsx$24, jsx$12, jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$37))];
-  var array$39 = [jsx$48, jsx$46.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$38))];
-  var a$2 = jsx$51.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$39));
-  this.component$1 = jsx$53.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot("LoginScene", a$2.render__Ljapgolly_scalajs_react_vdom_VdomElement());
-  return this
-});
-$c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
-  var c = this.component$1;
-  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O())
-});
-var $d_Lcom_pokeboston_client_scenes_login_LoginScene$ = new $TypeData().initClass({
-  Lcom_pokeboston_client_scenes_login_LoginScene$: 0
-}, false, "com.pokeboston.client.scenes.login.LoginScene$", {
-  Lcom_pokeboston_client_scenes_login_LoginScene$: 1,
-  O: 1
-});
-$c_Lcom_pokeboston_client_scenes_login_LoginScene$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_login_LoginScene$;
-var $n_Lcom_pokeboston_client_scenes_login_LoginScene$ = (void 0);
-function $m_Lcom_pokeboston_client_scenes_login_LoginScene$() {
-  if ((!$n_Lcom_pokeboston_client_scenes_login_LoginScene$)) {
-    $n_Lcom_pokeboston_client_scenes_login_LoginScene$ = new $c_Lcom_pokeboston_client_scenes_login_LoginScene$().init___()
-  };
-  return $n_Lcom_pokeboston_client_scenes_login_LoginScene$
-}
-/** @constructor */
 function $c_Lcom_pokeboston_client_services_AppRouter$() {
   $c_O.call(this);
   this.component$1 = null
@@ -2749,12 +3667,12 @@ function $h_Lcom_pokeboston_client_services_AppRouter$() {
 $h_Lcom_pokeboston_client_services_AppRouter$.prototype = $c_Lcom_pokeboston_client_services_AppRouter$.prototype;
 $c_Lcom_pokeboston_client_services_AppRouter$.prototype.init___ = (function() {
   $n_Lcom_pokeboston_client_services_AppRouter$ = this;
-  var jsx$5 = $m_Ljapgolly_scalajs_react_extra_router_Router$();
+  var jsx$7 = $m_Ljapgolly_scalajs_react_extra_router_Router$();
   var this$1 = $m_Ljapgolly_scalajs_react_extra_router_BaseUrl$();
-  var jsx$4 = $as_Ljapgolly_scalajs_react_extra_router_BaseUrl(this$1.fromWindowOrigin__Ljapgolly_scalajs_react_extra_router_BaseUrl().endWith$und$div__Ljapgolly_scalajs_react_extra_router_PathLike());
+  var jsx$6 = $as_Ljapgolly_scalajs_react_extra_router_BaseUrl(this$1.fromWindowOrigin__Ljapgolly_scalajs_react_extra_router_BaseUrl().endWith$und$div__Ljapgolly_scalajs_react_extra_router_PathLike());
   new $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl$BuildInterface().init___();
   var arg1 = new $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl().init___();
-  var jsx$2 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule$().empty__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule();
+  var jsx$4 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule$().empty__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule();
   var r = new $c_Ljapgolly_scalajs_react_extra_router_Path().init___T("");
   var $$this = arg1.staticRoute__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__O__F1($m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$().literal__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(r.value$2).route__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route(), $m_Lcom_pokeboston_client_services_AppRouter$HomePage$());
   var a = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2$1, dsl) {
@@ -2773,30 +3691,49 @@ $c_Lcom_pokeboston_client_services_AppRouter$.prototype.init___ = (function() {
       })(this$2$1)))
     })
   })(this, arg1));
-  var jsx$1 = jsx$2.$$bar__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($as_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($$this.apply__O__O(a)));
-  var $$this$1 = arg1.staticRoute__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__O__F1($m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$().literal__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB("auth/login").route__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route(), $m_Lcom_pokeboston_client_services_AppRouter$LoginPage$());
-  var a$1 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$4$1, dsl$1) {
-    return (function() {
-      return dsl$1.render__F0__F1__Ljapgolly_scalajs_react_extra_router_Renderer(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1) {
-        return (function() {
-          return $m_Lcom_pokeboston_client_scenes_login_LoginScene$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot()
-        })
-      })(this$4$1)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$3) {
-        return (function(u$2$1) {
-          var u$1 = $as_Ljapgolly_scalajs_react_component_Generic$UnmountedWithRoot(u$2$1);
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
-        })
-      })(this$4$1)))
+  var jsx$3 = jsx$4.$$bar__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($as_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($$this.apply__O__O(a)));
+  var jsx$2 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$().literal__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB("auth");
+  var jsx$1 = arg1.string__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB("\\w+");
+  var this$7 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$();
+  var r$1 = $as_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(jsx$2.$$div__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(jsx$1, $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriMed__$$undtoA__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition(this$7)).xmap__F1__F1__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteCommon(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(mode$2) {
+      var mode = $as_T(mode$2);
+      return new $c_Lcom_pokeboston_client_services_AppRouter$AuthPage().init___T(mode)
     })
-  })(this, arg1));
-  var r$1 = jsx$1.$$bar__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($as_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($$this$1.apply__O__O(a$1)));
-  var jsx$3 = r$1.noFallback__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rules();
+  })(this)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
+    return (function(x$1$2) {
+      var x$1 = $as_Lcom_pokeboston_client_services_AppRouter$AuthPage(x$1$2);
+      return x$1.mode$1
+    })
+  })(this))));
+  var $$this$1 = arg1.dynamicRouteCT__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__s_reflect_ClassTag__F1(r$1.route__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route(), new $c_s_reflect_ClassTag$GenericClassTag().init___jl_Class($d_Lcom_pokeboston_client_services_AppRouter$AuthPage.getClassOf()));
+  var g = arg1.dynRenderR__F2__F1__F1(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$5$1) {
+    return (function(x0$1$2, x1$1$2) {
+      var x0$1 = $as_Lcom_pokeboston_client_services_AppRouter$AuthPage(x0$1$2);
+      var x1$1 = $as_Ljapgolly_scalajs_react_extra_router_RouterCtl(x1$1$2);
+      var x1 = new $c_T2().init___O__O(x0$1, x1$1);
+      var p2 = $as_Lcom_pokeboston_client_services_AppRouter$AuthPage(x1.$$und1$f);
+      var ctl$1 = $as_Ljapgolly_scalajs_react_extra_router_RouterCtl(x1.$$und2$f);
+      if ((p2 !== null)) {
+        var mode$1 = p2.mode$1;
+        return $m_Lcom_pokeboston_client_scenes_auth_AuthScene$().apply__Ljapgolly_scalajs_react_extra_router_RouterCtl__T__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(ctl$1, mode$1)
+      };
+      throw new $c_s_MatchError().init___O(x1)
+    })
+  })(this)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
+    return (function(u$2$1) {
+      var u$1 = $as_Ljapgolly_scalajs_react_component_Generic$UnmountedWithRoot(u$2$1);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this)));
+  var r$2 = jsx$3.$$bar__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($as_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule($$this$1.apply__O__O(g)));
+  var jsx$5 = r$2.noFallback__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rules();
   var page = $m_Lcom_pokeboston_client_services_AppRouter$HomePage$();
   var method = $m_Ljapgolly_scalajs_react_extra_router_Redirect$Push$();
-  this.component$1 = jsx$5.apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(jsx$4, jsx$3.notFound__F1__Ljapgolly_scalajs_react_extra_router_RouterConfig(arg1.$$undauto$undnotFound$undfrom$undparsed__O__F1__F1(new $c_Ljapgolly_scalajs_react_extra_router_RedirectToPage().init___O__Ljapgolly_scalajs_react_extra_router_Redirect$Method(page, method), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1, dsl$2) {
-    return (function(r$2) {
-      var r$3 = $as_Ljapgolly_scalajs_react_extra_router_Redirect(r$2);
+  this.component$1 = jsx$7.apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(jsx$6, jsx$5.notFound__F1__Ljapgolly_scalajs_react_extra_router_RouterConfig(arg1.$$undauto$undnotFound$undfrom$undparsed__O__F1__F1(new $c_Ljapgolly_scalajs_react_extra_router_RedirectToPage().init___O__Ljapgolly_scalajs_react_extra_router_Redirect$Method(page, method), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$7$1, dsl$1) {
+    return (function(r$2$1) {
+      var r$3 = $as_Ljapgolly_scalajs_react_extra_router_Redirect(r$2$1);
       $m_s_package$();
       return new $c_s_util_Left().init___O(r$3)
     })
@@ -3617,9 +4554,6 @@ $c_Ljapgolly_scalajs_react_component_Scala$.prototype.init___ = (function() {
   this.Lifecycle$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
   return this
 });
-$c_Ljapgolly_scalajs_react_component_Scala$.prototype.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(name, content) {
-  return this.builder$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4(name, content).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1))
-});
 var $d_Ljapgolly_scalajs_react_component_Scala$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_Scala$: 0
 }, false, "japgolly.scalajs.react.component.Scala$", {
@@ -3851,14 +4785,6 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.render$undP
     })
   })(this, r)))
 });
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
-  return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
-    return (function(x$5$2) {
-      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$5$2);
-      return r$1
-    })
-  })(this, r)))
-});
 var $d_Ljapgolly_scalajs_react_component_builder_Builder$Step3 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Builder$Step3: 0
 }, false, "japgolly.scalajs.react.component.builder.Builder$Step3", {
@@ -3882,18 +4808,6 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.shouldComponentUpdateConst__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(cb) {
-  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, cb$1) {
-    return (function(x$14$2) {
-      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(x$14$2);
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(cb$1)
-    })
-  })(this, cb));
-  return this.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().eitherCB$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.shouldComponentUpdateConst__Z__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(b) {
-  return this.shouldComponentUpdateConst__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_CallbackTo$().pure__O__F0(b))
-});
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle = (function(name, initStateFn, backendFn, renderFn, lifecycle) {
   this.name$1 = name;
   this.initStateFn$1 = initStateFn;
@@ -3946,11 +4860,6 @@ function $h_Ljapgolly_scalajs_react_component_builder_EntryPoint$() {
 $h_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype = $c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype.init___ = (function() {
   return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(displayName, content) {
-  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
-  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T(displayName);
-  return ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4(content).shouldComponentUpdateConst__Z__Ljapgolly_scalajs_react_component_builder_Builder$Step4(false)
 });
 var $d_Ljapgolly_scalajs_react_component_builder_EntryPoint$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_EntryPoint$: 0
@@ -4969,6 +5878,21 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.init___ = (fun
   })(this)));
   return this
 });
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.dynRenderR__F2__F1__F1 = (function(g, evidence$5) {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, g$1, evidence$5$1) {
+    return (function(p$2) {
+      return new $c_Ljapgolly_scalajs_react_extra_router_Renderer().init___F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, g$5, evidence$5$1$1, p) {
+        return (function(r$2) {
+          var r = $as_Ljapgolly_scalajs_react_extra_router_RouterCtl(r$2);
+          return $as_Ljapgolly_scalajs_react_vdom_VdomElement(evidence$5$1$1.apply__O__O(g$5.apply__O__O__O(p, r)))
+        })
+      })($this, g$1, evidence$5$1, p$2)))
+    })
+  })(this, g, evidence$5))
+});
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.string__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = (function(regex) {
+  return this.$$und$undstring1__p1__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB((("(" + regex) + ")"))
+});
 $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.$$undauto$undnotFound$undfrom$undparsed__O__F1__F1 = (function(a, evidence$8) {
   return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, a$1, evidence$8$1) {
     return (function(x$72$2) {
@@ -4976,6 +5900,14 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.$$undauto$undn
       return $as_s_util_Either(evidence$8$1.apply__O__O(a$1))
     })
   })(this, a, evidence$8))
+});
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.$$und$undstring1__p1__T__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = (function(regex) {
+  return new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB().init___T__I__F1__F1(regex, 1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(g$2) {
+      var g = $as_F1(g$2);
+      return new $c_s_Some().init___O(g.apply__O__O(0))
+    })
+  })(this)), $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1)
 });
 $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.onPage$1__p1__F1__O__F1__s_Option = (function(f, page, op$1) {
   var this$1 = $as_s_Option(op$1.apply__O__O(page));
@@ -4996,13 +5928,12 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.$$undauto$undp
     })
   })(this, a))
 });
-$c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.render__F0__F1__Ljapgolly_scalajs_react_extra_router_Renderer = (function(a, evidence$2) {
-  return new $c_Ljapgolly_scalajs_react_extra_router_Renderer().init___F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, a$1, evidence$2$1) {
-    return (function(x$69$2) {
-      $as_Ljapgolly_scalajs_react_extra_router_RouterCtl(x$69$2);
-      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(evidence$2$1.apply__O__O(a$1.apply__O()))
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.dynamicRouteCT__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__s_reflect_ClassTag__F1 = (function(r, ct) {
+  return this.dynamicRouteF__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__F1__F1(r, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, ct$1) {
+    return (function(x$2) {
+      return $f_s_reflect_ClassTag__unapply__O__s_Option(ct$1, x$2)
     })
-  })(this, a, evidence$2)))
+  })(this, ct)))
 });
 $c_Ljapgolly_scalajs_react_extra_router_RouterConfigDsl.prototype.staticRoute__Ljapgolly_scalajs_react_extra_router_StaticDsl$Route__O__F1 = (function(r, page) {
   var ev2 = $m_s_Predef$().scala$Predef$$singleton$und$eq$colon$eq$f;
@@ -11871,6 +12802,9 @@ $h_jl_Class.prototype = $c_jl_Class.prototype;
 $c_jl_Class.prototype.getName__T = (function() {
   return $as_T(this.data$1.name)
 });
+$c_jl_Class.prototype.getComponentType__jl_Class = (function() {
+  return $as_jl_Class(this.data$1.getComponentType())
+});
 $c_jl_Class.prototype.isPrimitive__Z = (function() {
   return $uZ(this.data$1.isPrimitive)
 });
@@ -11896,6 +12830,18 @@ $c_jl_Class.prototype.isArray__Z = (function() {
 $c_jl_Class.prototype.isInterface__Z = (function() {
   return $uZ(this.data$1.isInterface)
 });
+function $is_jl_Class(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_Class)))
+}
+function $as_jl_Class(obj) {
+  return (($is_jl_Class(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.Class"))
+}
+function $isArrayOf_jl_Class(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Class)))
+}
+function $asArrayOf_jl_Class(obj, depth) {
+  return (($isArrayOf_jl_Class(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Class;", depth))
+}
 var $d_jl_Class = new $TypeData().initClass({
   jl_Class: 0
 }, false, "java.lang.Class", {
@@ -13383,6 +14329,18 @@ function $m_s_Predef$any2stringadd$() {
     $n_s_Predef$any2stringadd$ = new $c_s_Predef$any2stringadd$().init___()
   };
   return $n_s_Predef$any2stringadd$
+}
+function $is_s_Product(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_Product)))
+}
+function $as_s_Product(obj) {
+  return (($is_s_Product(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.Product"))
+}
+function $isArrayOf_s_Product(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_Product)))
+}
+function $asArrayOf_s_Product(obj, depth) {
+  return (($isArrayOf_s_Product(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.Product;", depth))
 }
 /** @constructor */
 function $c_s_math_Ordered$() {
@@ -15686,18 +16644,6 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.pro
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
   return this.raw$1
 });
-function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate)))
-}
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ShouldComponentUpdate"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ShouldComponentUpdate;", depth))
-}
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate: 0
 }, false, "japgolly.scalajs.react.component.builder.Lifecycle$ShouldComponentUpdate", {
@@ -15875,6 +16821,13 @@ $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.pmap__F1__F1_
   var this$2 = this.build$2;
   return new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB().init___T__I__F1__F1(jsx$3, jsx$2, jsx$1, $f_F1__compose__F1__F1(this$2, a))
 });
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.$$div__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = (function(next, c) {
+  var next$1 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$().$$div$1;
+  var this$1 = $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$();
+  var c$1 = $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriMed__Ato$und__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition(this$1);
+  var this$2 = $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition__apply__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(c$1, this, next$1);
+  return $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition__apply__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(c, this$2, next)
+});
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.pmap__F1__F1__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteCommon = (function(b, a) {
   return this.pmap__F1__F1__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(b, a)
 });
@@ -15905,6 +16858,18 @@ $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.init___T__I__
   this.build$2 = build;
   return this
 });
+function $is_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB)))
+}
+function $as_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj) {
+  return (($is_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.extra.router.StaticDsl$RouteB"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.router.StaticDsl$RouteB;", depth))
+}
 var $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = new $TypeData().initClass({
   Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB: 0
 }, false, "japgolly.scalajs.react.extra.router.StaticDsl$RouteB", {
@@ -15913,6 +16878,64 @@ var $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = new $TypeData().i
   O: 1
 });
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.$classData = $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1() {
+  $c_O.call(this);
+  this.ga$1 = null;
+  this.gb$1 = null;
+  this.gc$1 = null
+}
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype;
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype.init___F1__F1__F2 = (function(a$1, b$1, c$1) {
+  this.ga$1 = a$1;
+  this.gb$1 = b$1;
+  this.gc$1 = c$1;
+  return this
+});
+var $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1: 0
+}, false, "japgolly.scalajs.react.extra.router.StaticDsl$RouteB$Composition$$anon$1", {
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition: 1
+});
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1;
+function $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriMed__$$undtoA__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition($thiz) {
+  var a = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$25$2) {
+      return (void 0)
+    })
+  })($thiz));
+  var b = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
+  var c = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$2) {
+    return (function(x$26$2, a$2) {
+      $asUnit(x$26$2);
+      return a$2
+    })
+  })($thiz));
+  return new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1().init___F1__F1__F2(a, b, c)
+}
+function $f_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriMed__Ato$und__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition($thiz) {
+  var a = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
+  var b = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$27$2) {
+      return (void 0)
+    })
+  })($thiz));
+  var c = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$2) {
+    return (function(a$2, x$28$2) {
+      $asUnit(x$28$2);
+      return a$2
+    })
+  })($thiz));
+  return new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$$anon$1().init___F1__F1__F2(a, b, c)
+}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_internal_Effect$$anon$1() {
   $c_Ljapgolly_scalajs_react_internal_Effect.call(this)
@@ -16187,6 +17210,17 @@ function $h_Ljapgolly_scalajs_react_vdom_HtmlTags$() {
 $h_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype;
 $c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.init___ = (function() {
   return this
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1 === null)) {
+    this.input$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.input$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$().init___Ljapgolly_scalajs_react_vdom_HtmlTags(this)
+  }
 });
 $c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$ = (function() {
   if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().a$module$1 === null)) {
@@ -18403,8 +19437,8 @@ $c_Lcom_pokeboston_client_Client$.prototype.delayedEndpoint$com$pokeboston$clien
   });
   var qual$1 = $m_Lcom_pokeboston_client_services_AppRouter$().apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot();
   var a = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().getElementById("app");
-  var x$2 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
-  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O(qual$1, a, x$2)
+  var x$3 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
+  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O(qual$1, a, x$3)
 });
 var $d_Lcom_pokeboston_client_Client$ = new $TypeData().initClass({
   Lcom_pokeboston_client_Client$: 0
@@ -18467,34 +19501,6 @@ function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$() {
 $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.init___ = (function() {
   return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens = (function() {
-  $m_Ljapgolly_scalajs_react_internal_Lens$();
-  var get = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$15$2) {
-      var x$15 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$15$2);
-      return x$15.shouldComponentUpdate$1
-    })
-  })(this));
-  var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
-    return (function(n$2) {
-      var n = $as_s_Option(n$2);
-      return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, n$1) {
-        return (function(x$16$2) {
-          var x$16 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$16$2);
-          var x$66 = x$16.componentDidMount$1;
-          var x$67 = x$16.componentDidUpdate$1;
-          var x$68 = x$16.componentWillMount$1;
-          var x$69 = x$16.componentWillReceiveProps$1;
-          var x$70 = x$16.componentWillUnmount$1;
-          var x$71 = x$16.componentWillUpdate$1;
-          var x$72 = x$16.componentDidCatch$1;
-          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$66, x$67, x$68, x$69, x$70, x$71, n$1, x$72)
-        })
-      })(this$2, n))
-    })
-  })(this));
-  return new $c_Ljapgolly_scalajs_react_internal_Lens().init___F1__F1(get, set)
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.componentDidUpdate__Ljapgolly_scalajs_react_internal_Lens = (function() {
   $m_Ljapgolly_scalajs_react_internal_Lens$();
@@ -19347,6 +20353,40 @@ var $d_Ljapgolly_scalajs_react_vdom_HtmlTags$a$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_TagMod: 1
 });
 $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlTags$a$;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$() {
+  $c_Ljapgolly_scalajs_react_vdom_TagOf.call(this);
+  this.type$2 = null;
+  this.checkbox$2 = null;
+  this.text$2 = null
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype = new $h_Ljapgolly_scalajs_react_vdom_TagOf();
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlTags$input$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlTags = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_TagOf.prototype.init___T__sci_List__T.call(this, "input", $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
+  this.type$2 = ($m_Ljapgolly_scalajs_react_vdom_Exports$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("type"));
+  this.checkbox$2 = this.withType__T__Ljapgolly_scalajs_react_vdom_TagOf("checkbox");
+  this.text$2 = this.withType__T__Ljapgolly_scalajs_react_vdom_TagOf("text");
+  return this
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.withType__T__Ljapgolly_scalajs_react_vdom_TagOf = (function(t) {
+  var array = [this.type$2.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(t, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().string$1)];
+  return this.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlTags$input$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlTags$input$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlTags$input$", {
+  Ljapgolly_scalajs_react_vdom_HtmlTags$input$: 1,
+  Ljapgolly_scalajs_react_vdom_TagOf: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_vdom_TagMod: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlTags$input$;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Namespace$() {
   $c_O.call(this);
@@ -20213,6 +21253,12 @@ var $d_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF = new $TypeData().in
   Lscalacss_internal_DslMacros$MStyleF2: 1
 });
 $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF.prototype.$classData = $d_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF;
+function $isArrayOf_jl_Boolean(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Boolean)))
+}
+function $asArrayOf_jl_Boolean(obj, depth) {
+  return (($isArrayOf_jl_Boolean(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Boolean;", depth))
+}
 var $d_jl_Boolean = new $TypeData().initClass({
   jl_Boolean: 0
 }, false, "java.lang.Boolean", {
@@ -22573,6 +23619,506 @@ var $d_sr_Nothing$ = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 /** @constructor */
+function $c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$() {
+  $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
+  this.kfanimExpand100$3 = null;
+  this.animExpand100$3 = null
+}
+$c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype = new $h_Lscalacss_internal_mutable_StyleSheet$Inline();
+$c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype.constructor = $c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype = $c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype;
+$c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype.init___ = (function() {
+  var this$1 = $m_Lscalacss_package$DevDefaults$();
+  $c_Lscalacss_internal_mutable_StyleSheet$Inline.prototype.init___Lscalacss_internal_mutable_Register.call(this, new $c_Lscalacss_internal_mutable_Register().init___Lscalacss_internal_mutable_Register$NameGen__Lscalacss_internal_mutable_Register$MacroName__Lscalacss_internal_mutable_Register$ErrorHandler__Lscalacss_internal_mutable_Mutex(this$1.cssRegisterNameGen$1, $m_Lscalacss_internal_mutable_Register$MacroName$Use$(), this$1.cssRegisterErrorHandler$1, $m_Lscalacss_internal_mutable_Mutex$().mutex$1));
+  $n_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$ = this;
+  var jsx$18 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfanimExpand100");
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this = 0;
+  var self = new $c_Lscalacss_internal_Percentage().init___O($$this);
+  var this$16 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfanimExpand100");
+  var jsx$15 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$14 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$15.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a.attr$3, "0")));
+  var jsx$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$1 = $m_Lscalacss_internal_Attrs$height$();
+  var array = [jsx$14, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1.attr$3, "0")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$17 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array.length) === 0)) {
+    var s1 = this$17.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$1 = [];
+    var x1 = $uI(array.length);
+    switch (x1) {
+      case (-1): {
+        break
+      }
+    };
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      var x$9 = $as_Lscalacss_internal_DslBase$ToStyle(arg1).s$1;
+      array$1.push(x$9);
+      i = ((1 + i) | 0)
+    };
+    var f = (function(this$2$1, c$1) {
+      return (function(x$10$2, x$11$2) {
+        var x$10 = $as_Lscalacss_internal_StyleS(x$10$2);
+        var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
+        return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
+      })
+    })(this$17, c);
+    if (($uI(array$1.length) > 0)) {
+      var start = 1;
+      var end = $uI(array$1.length);
+      var z = array$1[0];
+      var start$1 = start;
+      var z$1 = z;
+      var jsx$16;
+      _foldl: while (true) {
+        if ((start$1 !== end)) {
+          var temp$start = ((1 + start$1) | 0);
+          var arg1$1 = z$1;
+          var index$1 = start$1;
+          var arg2 = array$1[index$1];
+          var temp$z = f(arg1$1, arg2);
+          start$1 = temp$start;
+          z$1 = temp$z;
+          continue _foldl
+        };
+        var jsx$16 = z$1;
+        break
+      }
+    } else {
+      if (($uI(array$1.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1 = false;
+      elem$1 = true;
+      var elem$1$1 = null;
+      elem$1$1 = 0;
+      var i$1 = 0;
+      var len$1 = $uI(array$1.length);
+      while ((i$1 < len$1)) {
+        var index$2 = i$1;
+        var arg1$2 = array$1[index$2];
+        if (elem$1) {
+          elem$1$1 = arg1$2;
+          elem$1 = false
+        } else {
+          var arg1$3 = elem$1$1;
+          elem$1$1 = f(arg1$3, arg1$2)
+        };
+        i$1 = ((1 + i$1) | 0)
+      };
+      var jsx$16 = elem$1$1
+    };
+    var s1 = $as_Lscalacss_internal_StyleS(jsx$16)
+  };
+  var s2 = this$16.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$16.name$1, s1, this$16.$$outer$1.classNameHint$1);
+  var y = this$16.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$16.$$outer$1.classNameHint$1);
+  var jsx$17 = new $c_T2().init___O__O(self, y);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$1 = 74;
+  var self$1 = new $c_Lscalacss_internal_Percentage().init___O($$this$1);
+  var this$37 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfanimExpand100");
+  var jsx$10 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$2 = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$9 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$10.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$2.attr$3, "0")));
+  var jsx$8 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$3 = $m_Lscalacss_internal_Attrs$height$();
+  var array$2 = [jsx$9, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$8.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$3.attr$3, "0")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c$2 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$38 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$2.length) === 0)) {
+    var s1$1 = this$38.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$3 = [];
+    var x1$1 = $uI(array$2.length);
+    switch (x1$1) {
+      case (-1): {
+        break
+      }
+    };
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$3 = i$2;
+      var arg1$4 = array$2[index$3];
+      var x$9$1 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$4).s$1;
+      array$3.push(x$9$1);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var f$1 = (function(this$2$2, c$3) {
+      return (function(x$10$2$1, x$11$2$1) {
+        var x$10$1 = $as_Lscalacss_internal_StyleS(x$10$2$1);
+        var x$11$1 = $as_Lscalacss_internal_StyleS(x$11$2$1);
+        return c$3.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$1, x$11$1)
+      })
+    })(this$38, c$2);
+    if (($uI(array$3.length) > 0)) {
+      var start$2 = 1;
+      var end$1 = $uI(array$3.length);
+      var z$2 = array$3[0];
+      var start$3 = start$2;
+      var z$3 = z$2;
+      var jsx$11;
+      _foldl$1: while (true) {
+        if ((start$3 !== end$1)) {
+          var temp$start$1 = ((1 + start$3) | 0);
+          var arg1$5 = z$3;
+          var index$4 = start$3;
+          var arg2$1 = array$3[index$4];
+          var temp$z$1 = f$1(arg1$5, arg2$1);
+          start$3 = temp$start$1;
+          z$3 = temp$z$1;
+          continue _foldl$1
+        };
+        var jsx$11 = z$3;
+        break
+      }
+    } else {
+      if (($uI(array$3.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$2 = false;
+      elem$1$2 = true;
+      var elem$1$3 = null;
+      elem$1$3 = 0;
+      var i$3 = 0;
+      var len$3 = $uI(array$3.length);
+      while ((i$3 < len$3)) {
+        var index$5 = i$3;
+        var arg1$6 = array$3[index$5];
+        if (elem$1$2) {
+          elem$1$3 = arg1$6;
+          elem$1$2 = false
+        } else {
+          var arg1$7 = elem$1$3;
+          elem$1$3 = f$1(arg1$7, arg1$6)
+        };
+        i$3 = ((1 + i$3) | 0)
+      };
+      var jsx$11 = elem$1$3
+    };
+    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$11)
+  };
+  var s2$1 = this$37.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$37.name$1, s1$1, this$37.$$outer$1.classNameHint$1);
+  var y$1 = this$37.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$37.$$outer$1.classNameHint$1);
+  var jsx$12 = new $c_T2().init___O__O(self$1, y$1);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$2 = 75;
+  var self$2 = new $c_Lscalacss_internal_Percentage().init___O($$this$2);
+  var this$58 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfanimExpand100");
+  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$4 = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$4.attr$3, "0")));
+  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$5 = $m_Lscalacss_internal_Attrs$height$();
+  var array$4 = [jsx$4, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$5.attr$3, "1rem")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c$4 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$59 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$4.length) === 0)) {
+    var s1$2 = this$59.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$5 = [];
+    var x1$2 = $uI(array$4.length);
+    switch (x1$2) {
+      case (-1): {
+        break
+      }
+    };
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$6 = i$4;
+      var arg1$8 = array$4[index$6];
+      var x$9$2 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$8).s$1;
+      array$5.push(x$9$2);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var f$2 = (function(this$2$3, c$5) {
+      return (function(x$10$2$2, x$11$2$2) {
+        var x$10$3 = $as_Lscalacss_internal_StyleS(x$10$2$2);
+        var x$11$3 = $as_Lscalacss_internal_StyleS(x$11$2$2);
+        return c$5.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$3, x$11$3)
+      })
+    })(this$59, c$4);
+    if (($uI(array$5.length) > 0)) {
+      var start$4 = 1;
+      var end$2 = $uI(array$5.length);
+      var z$4 = array$5[0];
+      var start$5 = start$4;
+      var z$5 = z$4;
+      var jsx$6;
+      _foldl$2: while (true) {
+        if ((start$5 !== end$2)) {
+          var temp$start$2 = ((1 + start$5) | 0);
+          var arg1$9 = z$5;
+          var index$7 = start$5;
+          var arg2$2 = array$5[index$7];
+          var temp$z$2 = f$2(arg1$9, arg2$2);
+          start$5 = temp$start$2;
+          z$5 = temp$z$2;
+          continue _foldl$2
+        };
+        var jsx$6 = z$5;
+        break
+      }
+    } else {
+      if (($uI(array$5.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$4 = false;
+      elem$1$4 = true;
+      var elem$1$5 = null;
+      elem$1$5 = 0;
+      var i$5 = 0;
+      var len$5 = $uI(array$5.length);
+      while ((i$5 < len$5)) {
+        var index$8 = i$5;
+        var arg1$10 = array$5[index$8];
+        if (elem$1$4) {
+          elem$1$5 = arg1$10;
+          elem$1$4 = false
+        } else {
+          var arg1$11 = elem$1$5;
+          elem$1$5 = f$2(arg1$11, arg1$10)
+        };
+        i$5 = ((1 + i$5) | 0)
+      };
+      var jsx$6 = elem$1$5
+    };
+    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$6)
+  };
+  var s2$2 = this$58.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$58.name$1, s1$2, this$58.$$outer$1.classNameHint$1);
+  var y$2 = this$58.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$58.$$outer$1.classNameHint$1);
+  var jsx$7 = new $c_T2().init___O__O(self$2, y$2);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$3 = 100;
+  var self$3 = new $c_Lscalacss_internal_Percentage().init___O($$this$3);
+  var this$75 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfanimExpand100");
+  var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$6 = $m_Lscalacss_internal_Attrs$width$();
+  var array$6 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$6.attr$3, "100%")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c$6 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$76 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$6.length) === 0)) {
+    var s1$3 = this$76.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$7 = [];
+    var x1$3 = $uI(array$6.length);
+    switch (x1$3) {
+      case (-1): {
+        break
+      }
+    };
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$9 = i$6;
+      var arg1$12 = array$6[index$9];
+      var x$9$3 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$12).s$1;
+      array$7.push(x$9$3);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var f$3 = (function(this$2$4, c$7) {
+      return (function(x$10$2$3, x$11$2$3) {
+        var x$10$4 = $as_Lscalacss_internal_StyleS(x$10$2$3);
+        var x$11$4 = $as_Lscalacss_internal_StyleS(x$11$2$3);
+        return c$7.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$4, x$11$4)
+      })
+    })(this$76, c$6);
+    if (($uI(array$7.length) > 0)) {
+      var start$6 = 1;
+      var end$3 = $uI(array$7.length);
+      var z$6 = array$7[0];
+      var start$7 = start$6;
+      var z$7 = z$6;
+      var jsx$2;
+      _foldl$3: while (true) {
+        if ((start$7 !== end$3)) {
+          var temp$start$3 = ((1 + start$7) | 0);
+          var arg1$13 = z$7;
+          var index$10 = start$7;
+          var arg2$3 = array$7[index$10];
+          var temp$z$3 = f$3(arg1$13, arg2$3);
+          start$7 = temp$start$3;
+          z$7 = temp$z$3;
+          continue _foldl$3
+        };
+        var jsx$2 = z$7;
+        break
+      }
+    } else {
+      if (($uI(array$7.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$6 = false;
+      elem$1$6 = true;
+      var elem$1$7 = null;
+      elem$1$7 = 0;
+      var i$7 = 0;
+      var len$7 = $uI(array$7.length);
+      while ((i$7 < len$7)) {
+        var index$11 = i$7;
+        var arg1$14 = array$7[index$11];
+        if (elem$1$6) {
+          elem$1$7 = arg1$14;
+          elem$1$6 = false
+        } else {
+          var arg1$15 = elem$1$7;
+          elem$1$7 = f$3(arg1$15, arg1$14)
+        };
+        i$7 = ((1 + i$7) | 0)
+      };
+      var jsx$2 = elem$1$7
+    };
+    var s1$3 = $as_Lscalacss_internal_StyleS(jsx$2)
+  };
+  var s2$3 = this$75.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$75.name$1, s1$3, this$75.$$outer$1.classNameHint$1);
+  var y$3 = this$75.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$3, this$75.$$outer$1.classNameHint$1);
+  var array$8 = [jsx$17, jsx$12, jsx$7, new $c_T2().init___O__O(self$3, y$3)];
+  this.kfanimExpand100$3 = jsx$18.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+  var this$92 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "animExpand100");
+  var jsx$20 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfanimExpand100$3)));
+  var jsx$19 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$7 = $m_Lscalacss_internal_Attrs$animationDuration$();
+  var array$9 = [jsx$20, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$19.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$7.attr$3, "2s")))];
+  $m_Lscalacss_package$DevDefaults$();
+  var c$8 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$93 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$9.length) === 0)) {
+    var s1$4 = this$93.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$10 = [];
+    var x1$4 = $uI(array$9.length);
+    switch (x1$4) {
+      case (-1): {
+        break
+      }
+    };
+    var i$8 = 0;
+    var len$8 = $uI(array$9.length);
+    while ((i$8 < len$8)) {
+      var index$12 = i$8;
+      var arg1$16 = array$9[index$12];
+      var x$9$4 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$16).s$1;
+      array$10.push(x$9$4);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var f$4 = (function(this$2$5, c$9) {
+      return (function(x$10$2$4, x$11$2$4) {
+        var x$10$5 = $as_Lscalacss_internal_StyleS(x$10$2$4);
+        var x$11$5 = $as_Lscalacss_internal_StyleS(x$11$2$4);
+        return c$9.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$5, x$11$5)
+      })
+    })(this$93, c$8);
+    if (($uI(array$10.length) > 0)) {
+      var start$8 = 1;
+      var end$4 = $uI(array$10.length);
+      var z$8 = array$10[0];
+      var start$9 = start$8;
+      var z$9 = z$8;
+      var jsx$21;
+      _foldl$4: while (true) {
+        if ((start$9 !== end$4)) {
+          var temp$start$4 = ((1 + start$9) | 0);
+          var arg1$17 = z$9;
+          var index$13 = start$9;
+          var arg2$4 = array$10[index$13];
+          var temp$z$4 = f$4(arg1$17, arg2$4);
+          start$9 = temp$start$4;
+          z$9 = temp$z$4;
+          continue _foldl$4
+        };
+        var jsx$21 = z$9;
+        break
+      }
+    } else {
+      if (($uI(array$10.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$8 = false;
+      elem$1$8 = true;
+      var elem$1$9 = null;
+      elem$1$9 = 0;
+      var i$9 = 0;
+      var len$9 = $uI(array$10.length);
+      while ((i$9 < len$9)) {
+        var index$14 = i$9;
+        var arg1$18 = array$10[index$14];
+        if (elem$1$8) {
+          elem$1$9 = arg1$18;
+          elem$1$8 = false
+        } else {
+          var arg1$19 = elem$1$9;
+          elem$1$9 = f$4(arg1$19, arg1$18)
+        };
+        i$9 = ((1 + i$9) | 0)
+      };
+      var jsx$21 = elem$1$9
+    };
+    var s1$4 = $as_Lscalacss_internal_StyleS(jsx$21)
+  };
+  var s2$4 = this$92.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$92.name$1, s1$4, this$92.$$outer$1.classNameHint$1);
+  this.animExpand100$3 = this$92.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$4, this$92.$$outer$1.classNameHint$1);
+  return this
+});
+var $d_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$: 0
+}, false, "com.pokeboston.client.components.progress.stylings.HorizontalProgressStylings$", {
+  Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$: 1,
+  Lscalacss_internal_mutable_StyleSheet$Inline: 1,
+  Lscalacss_internal_mutable_StyleSheet$Base: 1,
+  O: 1,
+  Lscalacss_internal_Macros$Dsl$Mixin: 1
+});
+$c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$.prototype.$classData = $d_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$;
+var $n_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$ = (void 0);
+function $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$() {
+  if ((!$n_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$)) {
+    $n_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$ = new $c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$().init___()
+  };
+  return $n_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressStylings$
+}
+/** @constructor */
 function $c_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$() {
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
   this.Progress$3 = null;
@@ -24033,21 +25579,26 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
   var y$9 = this$172.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$9, this$172.$$outer$1.classNameHint$1);
   var array$22 = [jsx$31, jsx$28, jsx$25, jsx$22, jsx$19, jsx$16, jsx$13, jsx$10, jsx$7, new $c_T2().init___O__O(self$9, y$9)];
   this.kfTeeter$3 = jsx$32.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22));
-  var jsx$41 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
+  var jsx$45 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MKeyframes().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var $$this$10 = 0;
   var self$10 = new $c_Lscalacss_internal_Percentage().init___O($$this$10);
-  var this$191 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
-  var jsx$38 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$195 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
+  var jsx$42 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a$11 = $m_Lscalacss_internal_Attrs$width$();
-  var array$23 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$38.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$11.attr$3, "0")))];
+  var jsx$41 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$42.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$11.attr$3, "0")));
+  var jsx$40 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$12 = $m_Lscalacss_internal_Attrs$height$();
+  var array$23 = [jsx$41, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$40.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$12.attr$3, "0")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$22 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$192 = $m_Lscalacss_internal_Dsl$();
+  var this$196 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$23.length) === 0)) {
-    var s1$10 = this$192.StyleS$3.empty$1
+    var s1$10 = this$196.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -24073,14 +25624,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$12 = $as_Lscalacss_internal_StyleS(x$11$2$11);
         return c$23.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$12, x$11$12)
       })
-    })(this$192, c$22);
+    })(this$196, c$22);
     if (($uI(array$24.length) > 0)) {
       var start$22 = 1;
       var end$11 = $uI(array$24.length);
       var z$22 = array$24[0];
       var start$23 = start$22;
       var z$23 = z$22;
-      var jsx$39;
+      var jsx$43;
       _foldl$11: while (true) {
         if ((start$23 !== end$11)) {
           var temp$start$11 = ((1 + start$23) | 0);
@@ -24092,7 +25643,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$23 = temp$z$11;
           continue _foldl$11
         };
-        var jsx$39 = z$23;
+        var jsx$43 = z$23;
         break
       }
     } else {
@@ -24117,27 +25668,32 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$23 = ((1 + i$23) | 0)
       };
-      var jsx$39 = elem$1$23
+      var jsx$43 = elem$1$23
     };
-    var s1$10 = $as_Lscalacss_internal_StyleS(jsx$39)
+    var s1$10 = $as_Lscalacss_internal_StyleS(jsx$43)
   };
-  var s2$10 = this$191.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$191.name$1, s1$10, this$191.$$outer$1.classNameHint$1);
-  var y$10 = this$191.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$10, this$191.$$outer$1.classNameHint$1);
-  var jsx$40 = new $c_T2().init___O__O(self$10, y$10);
+  var s2$10 = this$195.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$195.name$1, s1$10, this$195.$$outer$1.classNameHint$1);
+  var y$10 = this$195.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$10, this$195.$$outer$1.classNameHint$1);
+  var jsx$44 = new $c_T2().init___O__O(self$10, y$10);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var $$this$11 = 75;
   var self$11 = new $c_Lscalacss_internal_Percentage().init___O($$this$11);
-  var this$208 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
+  var this$216 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
+  var jsx$37 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$13 = $m_Lscalacss_internal_Attrs$width$();
+  var jsx$36 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$37.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$13.attr$3, "0")));
   var jsx$35 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$12 = $m_Lscalacss_internal_Attrs$width$();
-  var array$25 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$35.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$12.attr$3, "0")))];
+  var a$14 = $m_Lscalacss_internal_Attrs$height$();
+  var array$25 = [jsx$36, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$35.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$14.attr$3, "1rem")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$24 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$209 = $m_Lscalacss_internal_Dsl$();
+  var this$217 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$25.length) === 0)) {
-    var s1$11 = this$209.StyleS$3.empty$1
+    var s1$11 = this$217.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -24163,14 +25719,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$13 = $as_Lscalacss_internal_StyleS(x$11$2$12);
         return c$25.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$13, x$11$13)
       })
-    })(this$209, c$24);
+    })(this$217, c$24);
     if (($uI(array$26.length) > 0)) {
       var start$24 = 1;
       var end$12 = $uI(array$26.length);
       var z$24 = array$26[0];
       var start$25 = start$24;
       var z$25 = z$24;
-      var jsx$36;
+      var jsx$38;
       _foldl$12: while (true) {
         if ((start$25 !== end$12)) {
           var temp$start$12 = ((1 + start$25) | 0);
@@ -24182,7 +25738,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$25 = temp$z$12;
           continue _foldl$12
         };
-        var jsx$36 = z$25;
+        var jsx$38 = z$25;
         break
       }
     } else {
@@ -24207,27 +25763,27 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$25 = ((1 + i$25) | 0)
       };
-      var jsx$36 = elem$1$25
+      var jsx$38 = elem$1$25
     };
-    var s1$11 = $as_Lscalacss_internal_StyleS(jsx$36)
+    var s1$11 = $as_Lscalacss_internal_StyleS(jsx$38)
   };
-  var s2$11 = this$208.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$208.name$1, s1$11, this$208.$$outer$1.classNameHint$1);
-  var y$11 = this$208.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$11, this$208.$$outer$1.classNameHint$1);
-  var jsx$37 = new $c_T2().init___O__O(self$11, y$11);
+  var s2$11 = this$216.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$216.name$1, s1$11, this$216.$$outer$1.classNameHint$1);
+  var y$11 = this$216.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$11, this$216.$$outer$1.classNameHint$1);
+  var jsx$39 = new $c_T2().init___O__O(self$11, y$11);
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var $$this$12 = 100;
   var self$12 = new $c_Lscalacss_internal_Percentage().init___O($$this$12);
-  var this$225 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
+  var this$233 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "kfExpandW_100");
   var jsx$33 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$13 = $m_Lscalacss_internal_Attrs$width$();
-  var array$27 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$33.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$13.attr$3, "100%")))];
+  var a$15 = $m_Lscalacss_internal_Attrs$width$();
+  var array$27 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$33.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$15.attr$3, "100%")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$26 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$226 = $m_Lscalacss_internal_Dsl$();
+  var this$234 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$27.length) === 0)) {
-    var s1$12 = this$226.StyleS$3.empty$1
+    var s1$12 = this$234.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -24253,7 +25809,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$14 = $as_Lscalacss_internal_StyleS(x$11$2$13);
         return c$27.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$14, x$11$14)
       })
-    })(this$226, c$26);
+    })(this$234, c$26);
     if (($uI(array$28.length) > 0)) {
       var start$26 = 1;
       var end$13 = $uI(array$28.length);
@@ -24301,22 +25857,22 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
     };
     var s1$12 = $as_Lscalacss_internal_StyleS(jsx$34)
   };
-  var s2$12 = this$225.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$225.name$1, s1$12, this$225.$$outer$1.classNameHint$1);
-  var y$12 = this$225.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$12, this$225.$$outer$1.classNameHint$1);
-  var array$29 = [jsx$40, jsx$37, new $c_T2().init___O__O(self$12, y$12)];
-  this.kfExpandW$und100$3 = jsx$41.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29));
-  var this$242 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "Teeter");
-  var jsx$43 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfTeeter$3)));
-  var jsx$42 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var s2$12 = this$233.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$233.name$1, s1$12, this$233.$$outer$1.classNameHint$1);
+  var y$12 = this$233.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$12, this$233.$$outer$1.classNameHint$1);
+  var array$29 = [jsx$44, jsx$39, new $c_T2().init___O__O(self$12, y$12)];
+  this.kfExpandW$und100$3 = jsx$45.apply__sc_Seq__Lscalacss_internal_Keyframes(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29));
+  var this$250 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "Teeter");
+  var jsx$47 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfTeeter$3)));
+  var jsx$46 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$14 = $m_Lscalacss_internal_Attrs$animationDuration$();
-  var array$30 = [jsx$43, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$42.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$14.attr$3, "5s")))];
+  var a$16 = $m_Lscalacss_internal_Attrs$animationDuration$();
+  var array$30 = [jsx$47, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$46.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$16.attr$3, "5s")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$28 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$243 = $m_Lscalacss_internal_Dsl$();
+  var this$251 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$30.length) === 0)) {
-    var s1$13 = this$243.StyleS$3.empty$1
+    var s1$13 = this$251.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -24342,14 +25898,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$15 = $as_Lscalacss_internal_StyleS(x$11$2$14);
         return c$29.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$15, x$11$15)
       })
-    })(this$243, c$28);
+    })(this$251, c$28);
     if (($uI(array$31.length) > 0)) {
       var start$28 = 1;
       var end$14 = $uI(array$31.length);
       var z$28 = array$31[0];
       var start$29 = start$28;
       var z$29 = z$28;
-      var jsx$44;
+      var jsx$48;
       _foldl$14: while (true) {
         if ((start$29 !== end$14)) {
           var temp$start$14 = ((1 + start$29) | 0);
@@ -24361,7 +25917,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$29 = temp$z$14;
           continue _foldl$14
         };
-        var jsx$44 = z$29;
+        var jsx$48 = z$29;
         break
       }
     } else {
@@ -24386,24 +25942,24 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$29 = ((1 + i$29) | 0)
       };
-      var jsx$44 = elem$1$29
+      var jsx$48 = elem$1$29
     };
-    var s1$13 = $as_Lscalacss_internal_StyleS(jsx$44)
+    var s1$13 = $as_Lscalacss_internal_StyleS(jsx$48)
   };
-  var s2$13 = this$242.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$242.name$1, s1$13, this$242.$$outer$1.classNameHint$1);
-  this.Teeter$3 = this$242.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$13, this$242.$$outer$1.classNameHint$1);
-  var this$256 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ExpandW_100");
-  var jsx$46 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfExpandW$und100$3)));
-  var jsx$45 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var s2$13 = this$250.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$250.name$1, s1$13, this$250.$$outer$1.classNameHint$1);
+  this.Teeter$3 = this$250.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$13, this$250.$$outer$1.classNameHint$1);
+  var this$264 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ExpandW_100");
+  var jsx$50 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS((this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$(), $m_Lscalacss_internal_Attrs$animationName$()).apply__Lscalacss_internal_Keyframes__Lscalacss_internal_AV(this.kfExpandW$und100$3)));
+  var jsx$49 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var a$15 = $m_Lscalacss_internal_Attrs$animationDuration$();
-  var array$32 = [jsx$46, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$45.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$15.attr$3, "2s")))];
+  var a$17 = $m_Lscalacss_internal_Attrs$animationDuration$();
+  var array$32 = [jsx$50, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$49.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$17.attr$3, "2s")))];
   $m_Lscalacss_package$DevDefaults$();
   var c$30 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$257 = $m_Lscalacss_internal_Dsl$();
+  var this$265 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$32.length) === 0)) {
-    var s1$14 = this$257.StyleS$3.empty$1
+    var s1$14 = this$265.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -24429,14 +25985,14 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         var x$11$16 = $as_Lscalacss_internal_StyleS(x$11$2$15);
         return c$31.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$16, x$11$16)
       })
-    })(this$257, c$30);
+    })(this$265, c$30);
     if (($uI(array$33.length) > 0)) {
       var start$30 = 1;
       var end$15 = $uI(array$33.length);
       var z$30 = array$33[0];
       var start$31 = start$30;
       var z$31 = z$30;
-      var jsx$47;
+      var jsx$51;
       _foldl$15: while (true) {
         if ((start$31 !== end$15)) {
           var temp$start$15 = ((1 + start$31) | 0);
@@ -24448,7 +26004,7 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
           z$31 = temp$z$15;
           continue _foldl$15
         };
-        var jsx$47 = z$31;
+        var jsx$51 = z$31;
         break
       }
     } else {
@@ -24473,12 +26029,12 @@ $c_Lcom_pokeboston_client_stylings_AppAnimations$.prototype.init___ = (function(
         };
         i$31 = ((1 + i$31) | 0)
       };
-      var jsx$47 = elem$1$31
+      var jsx$51 = elem$1$31
     };
-    var s1$14 = $as_Lscalacss_internal_StyleS(jsx$47)
+    var s1$14 = $as_Lscalacss_internal_StyleS(jsx$51)
   };
-  var s2$14 = this$256.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$256.name$1, s1$14, this$256.$$outer$1.classNameHint$1);
-  this.ExpandW$und100$3 = this$256.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$14, this$256.$$outer$1.classNameHint$1);
+  var s2$14 = this$264.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$264.name$1, s1$14, this$264.$$outer$1.classNameHint$1);
+  this.ExpandW$und100$3 = this$264.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$14, this$264.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lcom_pokeboston_client_stylings_AppAnimations$ = new $TypeData().initClass({
@@ -25635,6 +27191,37 @@ function $asArrayOf_Ljapgolly_scalajs_react_extra_router_Action(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_router_Action(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.router.Action;", depth))
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype.constructor = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype;
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype.init___ = (function() {
+  return this
+});
+var $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$: 0
+}, false, "japgolly.scalajs.react.extra.router.StaticDsl$RouteB$Composition$", {
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriMed: 1,
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriLow: 1,
+  Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$undPriLowest: 1
+});
+$c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$.prototype.$classData = $d_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$;
+var $n_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$ = (void 0);
+function $m_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$() {
+  if ((!$n_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$)) {
+    $n_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$ = new $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB$Composition$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$() {
   $c_O.call(this);
   this.backgroundAttachment$module$1 = null;
@@ -26191,6 +27778,12 @@ var $d_jl_AssertionError = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_jl_AssertionError.prototype.$classData = $d_jl_AssertionError;
+function $isArrayOf_jl_Byte(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Byte)))
+}
+function $asArrayOf_jl_Byte(obj, depth) {
+  return (($isArrayOf_jl_Byte(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Byte;", depth))
+}
 var $d_jl_Byte = new $TypeData().initClass({
   jl_Byte: 0
 }, false, "java.lang.Byte", {
@@ -26244,6 +27837,12 @@ var $d_jl_Double = new $TypeData().initClass({
 }, (void 0), (void 0), (function(x) {
   return ((typeof x) === "number")
 }));
+function $isArrayOf_jl_Float(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Float)))
+}
+function $asArrayOf_jl_Float(obj, depth) {
+  return (($isArrayOf_jl_Float(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Float;", depth))
+}
 var $d_jl_Float = new $TypeData().initClass({
   jl_Float: 0
 }, false, "java.lang.Float", {
@@ -26314,6 +27913,12 @@ var $d_jl_RuntimeException = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_jl_RuntimeException.prototype.$classData = $d_jl_RuntimeException;
+function $isArrayOf_jl_Short(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Short)))
+}
+function $asArrayOf_jl_Short(obj, depth) {
+  return (($isArrayOf_jl_Short(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Short;", depth))
+}
 var $d_jl_Short = new $TypeData().initClass({
   jl_Short: 0
 }, false, "java.lang.Short", {
@@ -27959,8 +29564,9 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgress$Props.prototype
 /** @constructor */
 function $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props() {
   $c_O.call(this);
-  this.progress$1 = 0;
-  this.steps$1 = null
+  this.curr$1 = null;
+  this.steps$1 = null;
+  this.tags$1 = null
 }
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype = new $h_O();
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.constructor = $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props;
@@ -27969,26 +29575,30 @@ function $h_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBre
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype = $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype;
-$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.init___I__sc_Seq = (function(progress, steps) {
-  this.progress$1 = progress;
-  this.steps$1 = steps;
-  return this
-});
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.productPrefix__T = (function() {
   return "Props"
 });
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.productArity__I = (function() {
-  return 2
+  return 3
 });
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.equals__O__Z = (function(x$1) {
   if ((this === x$1)) {
     return true
   } else if ($is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props(x$1)) {
     var Props$1 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props(x$1);
-    if ((this.progress$1 === Props$1.progress$1)) {
-      var x = this.steps$1;
-      var x$2 = Props$1.steps$1;
-      return ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+    var x = this.curr$1;
+    var x$2 = Props$1.curr$1;
+    if ((x === x$2)) {
+      var x$3 = this.steps$1;
+      var x$4 = Props$1.steps$1;
+      var jsx$1 = ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var x$5 = this.tags$1;
+      var x$6 = Props$1.tags$1;
+      return ((x$5 === null) ? (x$6 === null) : x$5.equals__O__Z(x$6))
     } else {
       return false
     }
@@ -27999,11 +29609,15 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
-      return this.progress$1;
+      return this.curr$1;
       break
     }
     case 1: {
       return this.steps$1;
+      break
+    }
+    case 2: {
+      return this.tags$1;
       break
     }
     default: {
@@ -28014,11 +29628,15 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.toString__T = (function() {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
 });
+$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq = (function(curr, steps, tags) {
+  this.curr$1 = curr;
+  this.steps$1 = steps;
+  this.tags$1 = tags;
+  return this
+});
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.hashCode__I = (function() {
-  var acc = (-889275714);
-  acc = $m_sr_Statics$().mix__I__I__I(acc, this.progress$1);
-  acc = $m_sr_Statics$().mix__I__I__I(acc, $m_sr_Statics$().anyHash__O__I(this.steps$1));
-  return $m_sr_Statics$().finalizeHash__I__I__I(acc, 2)
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
 });
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
@@ -28124,6 +29742,697 @@ var $d_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$Props = new
   Ljava_io_Serializable: 1
 });
 $c_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$Props.prototype.$classData = $d_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props() {
+  $c_O.call(this);
+  this.ctl$1 = null;
+  this.mode$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_AuthScene$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(x$1);
+    var x = this.ctl$1;
+    var x$2 = Props$1.ctl$1;
+    if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
+      return (this.mode$1 === Props$1.mode$1)
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.ctl$1;
+      break
+    }
+    case 1: {
+      return this.mode$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.init___Ljapgolly_scalajs_react_extra_router_RouterCtl__T = (function(ctl, mode) {
+  this.ctl$1 = ctl;
+  this.mode$1 = mode;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_AuthScene$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.AuthScene$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_AuthScene$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_AuthScene$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.AuthScene$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_AuthScene$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_AuthScene$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.AuthScene$Props", {
+  Lcom_pokeboston_client_scenes_auth_AuthScene$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_AuthScene$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_AuthScene$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props() {
+  $c_O.call(this);
+  this.ctl$1 = null;
+  this.mode$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(x$1);
+    var x = this.ctl$1;
+    var x$2 = Props$1.ctl$1;
+    if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
+      return (this.mode$1 === Props$1.mode$1)
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.ctl$1;
+      break
+    }
+    case 1: {
+      return this.mode$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.init___Ljapgolly_scalajs_react_extra_router_RouterCtl__T = (function(ctl, mode) {
+  this.ctl$1 = ctl;
+  this.mode$1 = mode;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.AuthApp$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.AuthApp$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.components.AuthApp$Props", {
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State() {
+  $c_O.call(this);
+  this.loginApp$1 = null;
+  this.registrationApp$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(x$1)) {
+    var State$1 = $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(x$1);
+    var x = this.loginApp$1;
+    var x$2 = State$1.loginApp$1;
+    if ((x === x$2)) {
+      var x$3 = this.registrationApp$1;
+      var x$4 = State$1.registrationApp$1;
+      return (x$3 === x$4)
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.loginApp$1;
+      break
+    }
+    case 1: {
+      return this.registrationApp$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.init___Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_vdom_VdomElement = (function(loginApp, registrationApp) {
+  this.loginApp$1 = loginApp;
+  this.registrationApp$1 = registrationApp;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$State)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.AuthApp$State"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_AuthApp$State)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.AuthApp$State;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$State: 0
+}, false, "com.pokeboston.client.scenes.auth.components.AuthApp$State", {
+  Lcom_pokeboston_client_scenes_auth_components_AuthApp$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_AuthApp$State;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props() {
+  $c_O.call(this);
+  this.onClick$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(x$1);
+    var x = this.onClick$1;
+    var x$2 = Props$1.onClick$1;
+    return ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.onClick$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.init___F1 = (function(onClick) {
+  this.onClick$1 = onClick;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.PassportPicker$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.PassportPicker$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.components.PassportPicker$Props", {
+  Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State() {
+  $c_O.call(this);
+  this.progress$1 = 0
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(x$1)) {
+    var State$1 = $as_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(x$1);
+    return (this.progress$1 === State$1.progress$1)
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.progress$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.init___I = (function(progress) {
+  this.progress$1 = progress;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.hashCode__I = (function() {
+  var acc = (-889275714);
+  acc = $m_sr_Statics$().mix__I__I__I(acc, this.progress$1);
+  return $m_sr_Statics$().finalizeHash__I__I__I(acc, 1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.login.LoginApp$State"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.login.LoginApp$State;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State: 0
+}, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$State", {
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State() {
+  $c_O.call(this);
+  this.curr$1 = null;
+  this.passport$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option = (function(curr, passport) {
+  this.curr$1 = curr;
+  this.passport$1 = passport;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(x$1)) {
+    var State$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(x$1);
+    var x = this.curr$1;
+    var x$2 = State$1.curr$1;
+    if ((x === x$2)) {
+      var x$3 = this.passport$1;
+      var x$4 = State$1.passport$1;
+      return ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.curr$1;
+      break
+    }
+    case 1: {
+      return this.passport$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.RegistrationApp$State"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.RegistrationApp$State;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.RegistrationApp$State", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props() {
+  $c_O.call(this);
+  this.step$1 = null;
+  this.onSubmit$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x$1);
+    var x = this.step$1;
+    var x$2 = Props$1.step$1;
+    if ((x === x$2)) {
+      var x$3 = this.onSubmit$1;
+      var x$4 = Props$1.onSubmit$1;
+      return ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.step$1;
+      break
+    }
+    case 1: {
+      return this.onSubmit$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1 = (function(step, onSubmit) {
+  this.step$1 = step;
+  this.onSubmit$1 = onSubmit;
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$Props", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State() {
+  $c_O.call(this);
+  this.registrationState$1 = null;
+  this.verificationState$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x$1)) {
+    var State$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x$1);
+    var x = this.registrationState$1;
+    var x$2 = State$1.registrationState$1;
+    if (((x === null) ? (x$2 === null) : $f_sc_GenMapLike__equals__O__Z(x, x$2))) {
+      var x$3 = this.verificationState$1;
+      var x$4 = State$1.verificationState$1;
+      return ((x$3 === null) ? (x$4 === null) : $f_sc_GenMapLike__equals__O__Z(x$3, x$4))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.registrationState$1;
+      break
+    }
+    case 1: {
+      return this.verificationState$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.init___sci_Map__sci_Map = (function(registrationState, verificationState) {
+  this.registrationState$1 = registrationState;
+  this.verificationState$1 = verificationState;
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$State"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$State;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.strategies.EmailRegistrationStrategy$State", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_CtorType$Mod() {
   $c_O.call(this);
@@ -31760,6 +34069,38 @@ var $d_s_StringContext = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_s_StringContext.prototype.$classData = $d_s_StringContext;
+function $f_s_reflect_ClassTag__equals__O__Z($thiz, x) {
+  if ($is_s_reflect_ClassTag(x)) {
+    var x$2 = $thiz.runtimeClass__jl_Class();
+    var x$3 = $as_s_reflect_ClassTag(x).runtimeClass__jl_Class();
+    return (x$2 === x$3)
+  } else {
+    return false
+  }
+}
+function $f_s_reflect_ClassTag__unapply__O__s_Option($thiz, x) {
+  return (((x !== null) && ((((((((($thiz.runtimeClass__jl_Class().isInstance__O__Z(x) || ($isByte(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_B.getClassOf()))) || ($isShort(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_S.getClassOf()))) || ($is_jl_Character(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_C.getClassOf()))) || ($isInt(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_I.getClassOf()))) || ($is_sjsr_RuntimeLong(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_J.getClassOf()))) || ($isFloat(x) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_F.getClassOf()))) || (((typeof x) === "number") && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_D.getClassOf()))) || (((typeof x) === "boolean") && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_Z.getClassOf()))) || ((x === (void 0)) && $thiz.runtimeClass__jl_Class().isAssignableFrom__jl_Class__Z($d_V.getClassOf())))) ? new $c_s_Some().init___O(x) : $m_s_None$())
+}
+function $f_s_reflect_ClassTag__prettyprint$1__ps_reflect_ClassTag__jl_Class__T($thiz, clazz) {
+  if (clazz.isArray__Z()) {
+    var clazz$1 = clazz.getComponentType__jl_Class();
+    return (("Array[" + $f_s_reflect_ClassTag__prettyprint$1__ps_reflect_ClassTag__jl_Class__T($thiz, clazz$1)) + "]")
+  } else {
+    return clazz.getName__T()
+  }
+}
+function $is_s_reflect_ClassTag(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_reflect_ClassTag)))
+}
+function $as_s_reflect_ClassTag(obj) {
+  return (($is_s_reflect_ClassTag(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.reflect.ClassTag"))
+}
+function $isArrayOf_s_reflect_ClassTag(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_reflect_ClassTag)))
+}
+function $asArrayOf_s_reflect_ClassTag(obj, depth) {
+  return (($isArrayOf_s_reflect_ClassTag(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.reflect.ClassTag;", depth))
+}
 /** @constructor */
 function $c_s_util_Either() {
   $c_O.call(this)
@@ -33079,6 +35420,361 @@ var $d_sr_ScalaRunTime$$anon$1 = new $TypeData().initClass({
 });
 $c_sr_ScalaRunTime$$anon$1.prototype.$classData = $d_sr_ScalaRunTime$$anon$1;
 /** @constructor */
+function $c_Lcom_pokeboston_client_lib_Logo$CssLogo() {
+  $c_O.call(this);
+  this.className$1 = null
+}
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype = new $h_O();
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.constructor = $c_Lcom_pokeboston_client_lib_Logo$CssLogo;
+/** @constructor */
+function $h_Lcom_pokeboston_client_lib_Logo$CssLogo() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype = $c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype;
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.productPrefix__T = (function() {
+  return "CssLogo"
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_lib_Logo$CssLogo(x$1)) {
+    var CssLogo$1 = $as_Lcom_pokeboston_client_lib_Logo$CssLogo(x$1);
+    return (this.className$1 === CssLogo$1.className$1)
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.className$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.init___T = (function(className) {
+  this.className$1 = className;
+  return this
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_lib_Logo$CssLogo(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_lib_Logo$CssLogo)))
+}
+function $as_Lcom_pokeboston_client_lib_Logo$CssLogo(obj) {
+  return (($is_Lcom_pokeboston_client_lib_Logo$CssLogo(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.lib.Logo$CssLogo"))
+}
+function $isArrayOf_Lcom_pokeboston_client_lib_Logo$CssLogo(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_lib_Logo$CssLogo)))
+}
+function $asArrayOf_Lcom_pokeboston_client_lib_Logo$CssLogo(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_lib_Logo$CssLogo(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.lib.Logo$CssLogo;", depth))
+}
+var $d_Lcom_pokeboston_client_lib_Logo$CssLogo = new $TypeData().initClass({
+  Lcom_pokeboston_client_lib_Logo$CssLogo: 0
+}, false, "com.pokeboston.client.lib.Logo$CssLogo", {
+  Lcom_pokeboston_client_lib_Logo$CssLogo: 1,
+  O: 1,
+  Lcom_pokeboston_client_lib_Logo$AppLogo: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_lib_Logo$CssLogo.prototype.$classData = $d_Lcom_pokeboston_client_lib_Logo$CssLogo;
+/** @constructor */
+function $c_Lcom_pokeboston_client_lib_Logo$UrlLogo() {
+  $c_O.call(this);
+  this.url$1 = null
+}
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype = new $h_O();
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.constructor = $c_Lcom_pokeboston_client_lib_Logo$UrlLogo;
+/** @constructor */
+function $h_Lcom_pokeboston_client_lib_Logo$UrlLogo() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype = $c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype;
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.productPrefix__T = (function() {
+  return "UrlLogo"
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_lib_Logo$UrlLogo(x$1)) {
+    var UrlLogo$1 = $as_Lcom_pokeboston_client_lib_Logo$UrlLogo(x$1);
+    return (this.url$1 === UrlLogo$1.url$1)
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.url$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.init___T = (function(url) {
+  this.url$1 = url;
+  return this
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_lib_Logo$UrlLogo)))
+}
+function $as_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj) {
+  return (($is_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.lib.Logo$UrlLogo"))
+}
+function $isArrayOf_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_lib_Logo$UrlLogo)))
+}
+function $asArrayOf_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_lib_Logo$UrlLogo(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.lib.Logo$UrlLogo;", depth))
+}
+var $d_Lcom_pokeboston_client_lib_Logo$UrlLogo = new $TypeData().initClass({
+  Lcom_pokeboston_client_lib_Logo$UrlLogo: 0
+}, false, "com.pokeboston.client.lib.Logo$UrlLogo", {
+  Lcom_pokeboston_client_lib_Logo$UrlLogo: 1,
+  O: 1,
+  Lcom_pokeboston_client_lib_Logo$AppLogo: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_lib_Logo$UrlLogo.prototype.$classData = $d_Lcom_pokeboston_client_lib_Logo$UrlLogo;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.productPrefix__T = (function() {
+  return "LoginStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.toString__T = (function() {
+  return "LoginStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-lock-open", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.hashCode__I = (function() {
+  return 284667317
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$LoginStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.productPrefix__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.toString__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-passport", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.hashCode__I = (function() {
+  return 1431372318
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$PassportStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_services_AppRouter$AuthPage() {
+  $c_O.call(this);
+  this.mode$1 = null
+}
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype = new $h_O();
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.constructor = $c_Lcom_pokeboston_client_services_AppRouter$AuthPage;
+/** @constructor */
+function $h_Lcom_pokeboston_client_services_AppRouter$AuthPage() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype = $c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype;
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.productPrefix__T = (function() {
+  return "AuthPage"
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_services_AppRouter$AuthPage(x$1)) {
+    var AuthPage$1 = $as_Lcom_pokeboston_client_services_AppRouter$AuthPage(x$1);
+    return (this.mode$1 === AuthPage$1.mode$1)
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.mode$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.init___T = (function(mode) {
+  this.mode$1 = mode;
+  return this
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_services_AppRouter$AuthPage)))
+}
+function $as_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj) {
+  return (($is_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.services.AppRouter$AuthPage"))
+}
+function $isArrayOf_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_services_AppRouter$AuthPage)))
+}
+function $asArrayOf_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_services_AppRouter$AuthPage(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.services.AppRouter$AuthPage;", depth))
+}
+var $d_Lcom_pokeboston_client_services_AppRouter$AuthPage = new $TypeData().initClass({
+  Lcom_pokeboston_client_services_AppRouter$AuthPage: 0
+}, false, "com.pokeboston.client.services.AppRouter$AuthPage", {
+  Lcom_pokeboston_client_services_AppRouter$AuthPage: 1,
+  O: 1,
+  Lcom_pokeboston_client_services_AppRouter$AppPage: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_services_AppRouter$AuthPage.prototype.$classData = $d_Lcom_pokeboston_client_services_AppRouter$AuthPage;
+/** @constructor */
 function $c_Lcom_pokeboston_client_services_AppRouter$HomePage$() {
   $c_O.call(this)
 }
@@ -33128,57 +35824,6 @@ function $m_Lcom_pokeboston_client_services_AppRouter$HomePage$() {
     $n_Lcom_pokeboston_client_services_AppRouter$HomePage$ = new $c_Lcom_pokeboston_client_services_AppRouter$HomePage$().init___()
   };
   return $n_Lcom_pokeboston_client_services_AppRouter$HomePage$
-}
-/** @constructor */
-function $c_Lcom_pokeboston_client_services_AppRouter$LoginPage$() {
-  $c_O.call(this)
-}
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype = new $h_O();
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.constructor = $c_Lcom_pokeboston_client_services_AppRouter$LoginPage$;
-/** @constructor */
-function $h_Lcom_pokeboston_client_services_AppRouter$LoginPage$() {
-  /*<skip>*/
-}
-$h_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype = $c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype;
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.init___ = (function() {
-  return this
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.productPrefix__T = (function() {
-  return "LoginPage"
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.productArity__I = (function() {
-  return 0
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.productElement__I__O = (function(x$1) {
-  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.toString__T = (function() {
-  return "LoginPage"
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.hashCode__I = (function() {
-  return 284559736
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $d_Lcom_pokeboston_client_services_AppRouter$LoginPage$ = new $TypeData().initClass({
-  Lcom_pokeboston_client_services_AppRouter$LoginPage$: 0
-}, false, "com.pokeboston.client.services.AppRouter$LoginPage$", {
-  Lcom_pokeboston_client_services_AppRouter$LoginPage$: 1,
-  O: 1,
-  Lcom_pokeboston_client_services_AppRouter$AppPage: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Lcom_pokeboston_client_services_AppRouter$LoginPage$.prototype.$classData = $d_Lcom_pokeboston_client_services_AppRouter$LoginPage$;
-var $n_Lcom_pokeboston_client_services_AppRouter$LoginPage$ = (void 0);
-function $m_Lcom_pokeboston_client_services_AppRouter$LoginPage$() {
-  if ((!$n_Lcom_pokeboston_client_services_AppRouter$LoginPage$)) {
-    $n_Lcom_pokeboston_client_services_AppRouter$LoginPage$ = new $c_Lcom_pokeboston_client_services_AppRouter$LoginPage$().init___()
-  };
-  return $n_Lcom_pokeboston_client_services_AppRouter$LoginPage$
 }
 /** @constructor */
 function $c_Lcom_pokeboston_client_stylings_AppColoring$Cinnabar$() {
@@ -37727,6 +40372,16 @@ function $f_sc_TraversableLike__filterImpl__F1__Z__O($thiz, p, isFlipped) {
   })($thiz, p, isFlipped, b)));
   return b.result__O()
 }
+function $f_sc_TraversableLike__partition__F1__T2($thiz, p) {
+  var l = $thiz.newBuilder__scm_Builder();
+  var r = $thiz.newBuilder__scm_Builder();
+  $thiz.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, p$1, l$1, r$1) {
+    return (function(x$2) {
+      return ($uZ(p$1.apply__O__O(x$2)) ? l$1 : r$1).$$plus$eq__O__scm_Builder(x$2)
+    })
+  })($thiz, p, l, r)));
+  return new $c_T2().init___O__O(l.result__O(), r.result__O())
+}
 function $f_sc_TraversableLike__$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O($thiz, that, bf) {
   var b = bf.apply__O__scm_Builder($thiz.repr__O());
   if ($is_sc_IndexedSeqLike(that)) {
@@ -38317,6 +40972,525 @@ var $d_sjsr_UndefinedBehaviorError = new $TypeData().initClass({
   s_util_control_NoStackTrace: 1
 });
 $c_sjsr_UndefinedBehaviorError.prototype.$classData = $d_sjsr_UndefinedBehaviorError;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productPrefix__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.toString__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-passport", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.hashCode__I = (function() {
+  return 1431372318
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$PassportStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productPrefix__T = (function() {
+  return "RegistrationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.toString__T = (function() {
+  return "RegistrationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.hashCode__I = (function() {
+  return (-747986107)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productPrefix__T = (function() {
+  return "VerificationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.toString__T = (function() {
+  return "VerificationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-check", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.hashCode__I = (function() {
+  return (-200077401)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$VerificationStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.productPrefix__T = (function() {
+  return "EmailPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.toString__T = (function() {
+  return "EmailPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$CssLogo().init___T("mdi-email")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.hashCode__I = (function() {
+  return 100339630
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$EmailPassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.productPrefix__T = (function() {
+  return "FacebookPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.toString__T = (function() {
+  return "FacebookPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$UrlLogo().init___T("https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.hashCode__I = (function() {
+  return (-562386664)
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$FacebookPassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SocialMediaPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$FacebookPassport$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.productPrefix__T = (function() {
+  return "GooglePassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.toString__T = (function() {
+  return "GooglePassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$UrlLogo().init___T("https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.hashCode__I = (function() {
+  return 666489227
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$GooglePassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SocialMediaPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$GooglePassport$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.productPrefix__T = (function() {
+  return "MicrosoftPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.toString__T = (function() {
+  return "MicrosoftPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$UrlLogo().init___T("https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.hashCode__I = (function() {
+  return 1542886144
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$MicrosoftPassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SocialMediaPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$MicrosoftPassport$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.productPrefix__T = (function() {
+  return "SMSPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.toString__T = (function() {
+  return "SMSPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$CssLogo().init___T("mdi-cellphone-android")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.hashCode__I = (function() {
+  return 516810859
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$SMSPassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AppPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$SMSPassport$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype = $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.productPrefix__T = (function() {
+  return "TwitterPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.toString__T = (function() {
+  return "TwitterPassport"
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.logo__Lcom_pokeboston_client_lib_Logo$AppLogo = (function() {
+  return new $c_Lcom_pokeboston_client_lib_Logo$UrlLogo().init___T("https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg")
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.hashCode__I = (function() {
+  return (-171364475)
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$: 0
+}, false, "com.pokeboston.client.scenes.auth.lib.passports.package$TwitterPassport$", {
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$SocialMediaPassport: 1,
+  Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$;
+var $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$ = new $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_lib_passports_package$TwitterPassport$
+}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_extra_router_RedirectToPage() {
   $c_O.call(this);
@@ -39125,6 +42299,48 @@ var $d_ju_UnknownFormatConversionException = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_ju_UnknownFormatConversionException.prototype.$classData = $d_ju_UnknownFormatConversionException;
+/** @constructor */
+function $c_s_reflect_ClassTag$GenericClassTag() {
+  $c_O.call(this);
+  this.runtimeClass$1 = null
+}
+$c_s_reflect_ClassTag$GenericClassTag.prototype = new $h_O();
+$c_s_reflect_ClassTag$GenericClassTag.prototype.constructor = $c_s_reflect_ClassTag$GenericClassTag;
+/** @constructor */
+function $h_s_reflect_ClassTag$GenericClassTag() {
+  /*<skip>*/
+}
+$h_s_reflect_ClassTag$GenericClassTag.prototype = $c_s_reflect_ClassTag$GenericClassTag.prototype;
+$c_s_reflect_ClassTag$GenericClassTag.prototype.equals__O__Z = (function(x) {
+  return $f_s_reflect_ClassTag__equals__O__Z(this, x)
+});
+$c_s_reflect_ClassTag$GenericClassTag.prototype.toString__T = (function() {
+  var clazz = this.runtimeClass$1;
+  return $f_s_reflect_ClassTag__prettyprint$1__ps_reflect_ClassTag__jl_Class__T(this, clazz)
+});
+$c_s_reflect_ClassTag$GenericClassTag.prototype.runtimeClass__jl_Class = (function() {
+  return this.runtimeClass$1
+});
+$c_s_reflect_ClassTag$GenericClassTag.prototype.init___jl_Class = (function(runtimeClass) {
+  this.runtimeClass$1 = runtimeClass;
+  return this
+});
+$c_s_reflect_ClassTag$GenericClassTag.prototype.hashCode__I = (function() {
+  return $m_sr_Statics$().anyHash__O__I(this.runtimeClass$1)
+});
+var $d_s_reflect_ClassTag$GenericClassTag = new $TypeData().initClass({
+  s_reflect_ClassTag$GenericClassTag: 0
+}, false, "scala.reflect.ClassTag$GenericClassTag", {
+  s_reflect_ClassTag$GenericClassTag: 1,
+  O: 1,
+  s_reflect_ClassTag: 1,
+  s_reflect_ClassManifestDeprecatedApis: 1,
+  s_reflect_OptManifest: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1,
+  s_Equals: 1
+});
+$c_s_reflect_ClassTag$GenericClassTag.prototype.$classData = $d_s_reflect_ClassTag$GenericClassTag;
 function $is_sc_GenIterable(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_GenIterable)))
 }
@@ -40046,6 +43262,9 @@ $c_s_reflect_ManifestFactory$BooleanManifest$.prototype.init___ = (function() {
   this.toString$1 = "Boolean";
   return this
 });
+$c_s_reflect_ManifestFactory$BooleanManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_Z.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$BooleanManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$BooleanManifest$: 0
 }, false, "scala.reflect.ManifestFactory$BooleanManifest$", {
@@ -40082,6 +43301,9 @@ $h_s_reflect_ManifestFactory$ByteManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$ByteManifest$.prototype.init___ = (function() {
   this.toString$1 = "Byte";
   return this
+});
+$c_s_reflect_ManifestFactory$ByteManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_B.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$ByteManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ByteManifest$: 0
@@ -40120,6 +43342,9 @@ $c_s_reflect_ManifestFactory$CharManifest$.prototype.init___ = (function() {
   this.toString$1 = "Char";
   return this
 });
+$c_s_reflect_ManifestFactory$CharManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_C.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$CharManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$CharManifest$: 0
 }, false, "scala.reflect.ManifestFactory$CharManifest$", {
@@ -40156,6 +43381,9 @@ $h_s_reflect_ManifestFactory$DoubleManifest$.prototype = $c_s_reflect_ManifestFa
 $c_s_reflect_ManifestFactory$DoubleManifest$.prototype.init___ = (function() {
   this.toString$1 = "Double";
   return this
+});
+$c_s_reflect_ManifestFactory$DoubleManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_D.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$DoubleManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$DoubleManifest$: 0
@@ -40194,6 +43422,9 @@ $c_s_reflect_ManifestFactory$FloatManifest$.prototype.init___ = (function() {
   this.toString$1 = "Float";
   return this
 });
+$c_s_reflect_ManifestFactory$FloatManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_F.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$FloatManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$FloatManifest$: 0
 }, false, "scala.reflect.ManifestFactory$FloatManifest$", {
@@ -40231,6 +43462,9 @@ $c_s_reflect_ManifestFactory$IntManifest$.prototype.init___ = (function() {
   this.toString$1 = "Int";
   return this
 });
+$c_s_reflect_ManifestFactory$IntManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_I.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$IntManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$IntManifest$: 0
 }, false, "scala.reflect.ManifestFactory$IntManifest$", {
@@ -40267,6 +43501,9 @@ $h_s_reflect_ManifestFactory$LongManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$LongManifest$.prototype.init___ = (function() {
   this.toString$1 = "Long";
   return this
+});
+$c_s_reflect_ManifestFactory$LongManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_J.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$LongManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$LongManifest$: 0
@@ -40326,6 +43563,9 @@ $c_s_reflect_ManifestFactory$ShortManifest$.prototype.init___ = (function() {
   this.toString$1 = "Short";
   return this
 });
+$c_s_reflect_ManifestFactory$ShortManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_S.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$ShortManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ShortManifest$: 0
 }, false, "scala.reflect.ManifestFactory$ShortManifest$", {
@@ -40362,6 +43602,9 @@ $h_s_reflect_ManifestFactory$UnitManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$UnitManifest$.prototype.init___ = (function() {
   this.toString$1 = "Unit";
   return this
+});
+$c_s_reflect_ManifestFactory$UnitManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_V.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$UnitManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$UnitManifest$: 0
@@ -40537,6 +43780,15 @@ $c_sci_Stream$.prototype.from__I__I__sci_Stream = (function(start, step) {
     })
   })(this, start, step));
   return new $c_sci_Stream$Cons().init___O__F0(start, tl)
+});
+$c_sci_Stream$.prototype.filteredTail__sci_Stream__F1__Z__sci_Stream$Cons = (function(stream, p, isFlipped) {
+  var hd = stream.head__O();
+  var tl = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, stream$1, p$1, isFlipped$1) {
+    return (function() {
+      return $as_sci_Stream(stream$1.tail__O()).filterImpl__F1__Z__sci_Stream(p$1, isFlipped$1)
+    })
+  })(this, stream, p, isFlipped));
+  return new $c_sci_Stream$Cons().init___O__F0(hd, tl)
 });
 $c_sci_Stream$.prototype.empty__sc_GenTraversable = (function() {
   return $m_sci_Stream$Empty$()
@@ -40811,12 +44063,12 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototy
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.toString__T = (function() {
   return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
 });
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.setState__O__F0__O = (function(newState, callback) {
+  return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0(this, newState, callback))
+});
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
   this.raw$1 = raw;
   return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.setState__O__F0__O = (function(newState, callback) {
-  return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0(this, newState, callback))
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.hashCode__I = (function() {
   var $$this = this.raw$1;
@@ -40970,6 +44222,9 @@ $c_s_reflect_ManifestFactory$AnyManifest$.prototype.init___ = (function() {
   this.typeArguments$1 = typeArguments;
   return this
 });
+$c_s_reflect_ManifestFactory$AnyManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_O.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$AnyManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$AnyManifest$: 0
 }, false, "scala.reflect.ManifestFactory$AnyManifest$", {
@@ -41012,6 +44267,9 @@ $c_s_reflect_ManifestFactory$AnyValManifest$.prototype.init___ = (function() {
   this.runtimeClass1$1 = $d_O.getClassOf();
   this.typeArguments$1 = typeArguments;
   return this
+});
+$c_s_reflect_ManifestFactory$AnyValManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_O.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$AnyValManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$AnyValManifest$: 0
@@ -41056,6 +44314,9 @@ $c_s_reflect_ManifestFactory$NothingManifest$.prototype.init___ = (function() {
   this.typeArguments$1 = typeArguments;
   return this
 });
+$c_s_reflect_ManifestFactory$NothingManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_sr_Nothing$.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$NothingManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$NothingManifest$: 0
 }, false, "scala.reflect.ManifestFactory$NothingManifest$", {
@@ -41099,6 +44360,9 @@ $c_s_reflect_ManifestFactory$NullManifest$.prototype.init___ = (function() {
   this.typeArguments$1 = typeArguments;
   return this
 });
+$c_s_reflect_ManifestFactory$NullManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_sr_Null$.getClassOf()
+});
 var $d_s_reflect_ManifestFactory$NullManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$NullManifest$: 0
 }, false, "scala.reflect.ManifestFactory$NullManifest$", {
@@ -41141,6 +44405,9 @@ $c_s_reflect_ManifestFactory$ObjectManifest$.prototype.init___ = (function() {
   this.runtimeClass1$1 = $d_O.getClassOf();
   this.typeArguments$1 = typeArguments;
   return this
+});
+$c_s_reflect_ManifestFactory$ObjectManifest$.prototype.runtimeClass__jl_Class = (function() {
+  return $d_O.getClassOf()
 });
 var $d_s_reflect_ManifestFactory$ObjectManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ObjectManifest$: 0
@@ -41278,6 +44545,9 @@ $c_sc_AbstractTraversable.prototype.size__I = (function() {
 $c_sc_AbstractTraversable.prototype.mkString__T = (function() {
   return this.mkString__T__T("")
 });
+$c_sc_AbstractTraversable.prototype.partition__F1__T2 = (function(p) {
+  return $f_sc_TraversableLike__partition__F1__T2(this, p)
+});
 $c_sc_AbstractTraversable.prototype.sizeHintIfCheap__I = (function() {
   return (-1)
 });
@@ -41352,6 +44622,13 @@ function $f_sc_SeqLike__$$plus$colon__O__scg_CanBuildFrom__O($thiz, elem, bf) {
   b.$$plus$eq__O__scm_Builder(elem);
   b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($thiz.thisCollection__sc_Seq());
   return b.result__O()
+}
+function $f_sc_SeqLike__contains__O__Z($thiz, elem) {
+  return $thiz.exists__F1__Z(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, elem$1) {
+    return (function(x$12$2) {
+      return $m_sr_BoxesRunTime$().equals__O__O__Z(x$12$2, elem$1)
+    })
+  })($thiz, elem)))
 }
 function $is_sc_SeqLike(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_SeqLike)))
@@ -41579,11 +44856,11 @@ $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState__F1__F0__O
 $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.setState__O__F0__O = (function(newState, callback) {
   this.setState__O__F0__V(newState, callback)
 });
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
-  return this.x$1$2.state__O().a
-});
 $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.propsChildren__O = (function() {
   return new $c_Ljapgolly_scalajs_react_PropsChildren().init___sjs_js_Any(this.propsChildren__sjs_js_Any())
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
+  return this.x$1$2.state__O().a
 });
 $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(x$1) {
   this.x$1$2 = x$1;
@@ -41750,6 +45027,17 @@ function $f_sc_IndexedSeqOptimized__slice__I__I__O($thiz, from, until) {
   };
   return b.result__O()
 }
+function $f_sc_IndexedSeqOptimized__zipWithIndex__scg_CanBuildFrom__O($thiz, bf) {
+  var b = bf.apply__O__scm_Builder($thiz.repr__O());
+  var len = $thiz.length__I();
+  b.sizeHint__I__V(len);
+  var i = 0;
+  while ((i < len)) {
+    b.$$plus$eq__O__scm_Builder(new $c_T2().init___O__O($thiz.apply__I__O(i), i));
+    i = ((1 + i) | 0)
+  };
+  return b.result__O()
+}
 function $f_sc_IndexedSeqOptimized__foldr__psc_IndexedSeqOptimized__I__I__O__F2__O($thiz, start, end, z, op) {
   _foldr: while (true) {
     if ((start === end)) {
@@ -41762,17 +45050,6 @@ function $f_sc_IndexedSeqOptimized__foldr__psc_IndexedSeqOptimized__I__I__O__F2_
       continue _foldr
     }
   }
-}
-function $f_sc_IndexedSeqOptimized__zipWithIndex__scg_CanBuildFrom__O($thiz, bf) {
-  var b = bf.apply__O__scm_Builder($thiz.repr__O());
-  var len = $thiz.length__I();
-  b.sizeHint__I__V(len);
-  var i = 0;
-  while ((i < len)) {
-    b.$$plus$eq__O__scm_Builder(new $c_T2().init___O__O($thiz.apply__I__O(i), i));
-    i = ((1 + i) | 0)
-  };
-  return b.result__O()
 }
 function $f_sc_IndexedSeqOptimized__tail__O($thiz) {
   return ($f_sc_IndexedSeqOptimized__isEmpty__Z($thiz) ? $f_sc_TraversableLike__tail__O($thiz) : $thiz.slice__I__I__O(1, $thiz.length__I()))
@@ -41899,6 +45176,16 @@ function $f_sc_LinearSeqOptimized__last__O($thiz) {
     nx = $as_sc_LinearSeqOptimized(nx.tail__O())
   };
   return these.head__O()
+}
+function $f_sc_LinearSeqOptimized__contains__O__Z($thiz, elem) {
+  var these = $thiz;
+  while ((!these.isEmpty__Z())) {
+    if ($m_sr_BoxesRunTime$().equals__O__O__Z(these.head__O(), elem)) {
+      return true
+    };
+    these = $as_sc_LinearSeqOptimized(these.tail__O())
+  };
+  return false
 }
 function $f_sc_LinearSeqOptimized__isDefinedAt__I__Z($thiz, x) {
   return ((x >= 0) && ($f_sc_LinearSeqOptimized__lengthCompare__I__I($thiz, x) > 0))
@@ -42697,6 +45984,9 @@ $c_sc_AbstractSeq.prototype.size__I = (function() {
 });
 $c_sc_AbstractSeq.prototype.$$plus$colon__O__scg_CanBuildFrom__O = (function(elem, bf) {
   return $f_sc_SeqLike__$$plus$colon__O__scg_CanBuildFrom__O(this, elem, bf)
+});
+$c_sc_AbstractSeq.prototype.contains__O__Z = (function(elem) {
+  return $f_sc_SeqLike__contains__O__Z(this, elem)
 });
 $c_sc_AbstractSeq.prototype.thisCollection__sc_Seq = (function() {
   return this
@@ -46335,6 +49625,18 @@ $c_sci_Stream.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
 $c_sci_Stream.prototype.equals__O__Z = (function(that) {
   return ((this === that) || $f_sc_GenSeqLike__equals__O__Z(this, that))
 });
+$c_sci_Stream.prototype.filterImpl__F1__Z__sci_Stream = (function(p, isFlipped) {
+  var rest = this;
+  while (((!rest.isEmpty__Z()) && ($uZ(p.apply__O__O(rest.head__O())) === isFlipped))) {
+    rest = $as_sci_Stream(rest.tail__O())
+  };
+  var this$1 = rest;
+  if ($f_sc_TraversableOnce__nonEmpty__Z(this$1)) {
+    return $m_sci_Stream$().filteredTail__sci_Stream__F1__Z__sci_Stream$Cons(rest, p, isFlipped)
+  } else {
+    return $m_sci_Stream$Empty$()
+  }
+});
 $c_sci_Stream.prototype.drop__I__sc_LinearSeqOptimized = (function(n) {
   return this.drop__I__sci_Stream(n)
 });
@@ -46398,6 +49700,10 @@ $c_sci_Stream.prototype.$$plus$colon__O__scg_CanBuildFrom__O = (function(elem, b
 $c_sci_Stream.prototype.iterator__sc_Iterator = (function() {
   return new $c_sci_StreamIterator().init___sci_Stream(this)
 });
+$c_sci_Stream.prototype.zipWithIndex__scg_CanBuildFrom__O = (function(bf) {
+  var this$1 = $m_sci_Stream$();
+  return this.zip__sc_GenIterable__scg_CanBuildFrom__O(this$1.from__I__I__sci_Stream(0, 1), bf)
+});
 $c_sci_Stream.prototype.length__I = (function() {
   var len = 0;
   var left = this;
@@ -46407,15 +49713,25 @@ $c_sci_Stream.prototype.length__I = (function() {
   };
   return len
 });
-$c_sci_Stream.prototype.zipWithIndex__scg_CanBuildFrom__O = (function(bf) {
-  var this$1 = $m_sci_Stream$();
-  return this.zip__sc_GenIterable__scg_CanBuildFrom__O(this$1.from__I__I__sci_Stream(0, 1), bf)
-});
 $c_sci_Stream.prototype.mkString__T = (function() {
   return this.mkString__T__T__T__T("", "", "")
 });
 $c_sci_Stream.prototype.seq__sc_Seq = (function() {
   return this
+});
+$c_sci_Stream.prototype.partition__F1__T2 = (function(p) {
+  var p$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, p$1) {
+    return (function(x$1$2) {
+      return $uZ(p$1.apply__O__O(x$1$2))
+    })
+  })(this, p));
+  var jsx$1 = this.filterImpl__F1__Z__sci_Stream(p$2, false);
+  var p$4 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, p$3) {
+    return (function(x$2$2) {
+      return $uZ(p$3.apply__O__O(x$2$2))
+    })
+  })(this, p));
+  return new $c_T2().init___O__O(jsx$1, this.filterImpl__F1__Z__sci_Stream(p$4, true))
 });
 $c_sci_Stream.prototype.toStream__sci_Stream = (function() {
   return this
@@ -46436,6 +49752,9 @@ $c_sci_Stream.prototype.drop__I__sci_Stream = (function(n) {
       continue _drop
     }
   }
+});
+$c_sci_Stream.prototype.contains__O__Z = (function(elem) {
+  return $f_sc_LinearSeqOptimized__contains__O__Z(this, elem)
 });
 $c_sci_Stream.prototype.thisCollection__sc_Seq = (function() {
   return this
@@ -47310,6 +50629,9 @@ $c_sci_List.prototype.toStream__sci_Stream = (function() {
 });
 $c_sci_List.prototype.drop__I__O = (function(n) {
   return this.drop__I__sci_List(n)
+});
+$c_sci_List.prototype.contains__O__Z = (function(elem) {
+  return $f_sc_LinearSeqOptimized__contains__O__Z(this, elem)
 });
 $c_sci_List.prototype.thisCollection__sc_Seq = (function() {
   return this
@@ -49045,6 +52367,10 @@ $c_scm_ListBuffer.prototype.reduceLengthBy__p6__I__V = (function(num) {
   if ((this.len$6 <= 0)) {
     this.last0$6 = null
   }
+});
+$c_scm_ListBuffer.prototype.contains__O__Z = (function(elem) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $f_sc_LinearSeqOptimized__contains__O__Z(this$1, elem)
 });
 $c_scm_ListBuffer.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
