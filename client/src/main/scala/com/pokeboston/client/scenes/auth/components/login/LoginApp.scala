@@ -13,10 +13,10 @@ import japgolly.scalajs.react.vdom.html_<^._
 import scalacss.ScalaCssReact._
 
 object LoginApp {
-  case object PassportStep extends HorizontalProgressWithBreadCrumbs.Step {
+  case object PassportStep extends HorizontalProgressWithBreadCrumbs.ProgressStep {
     def asBreadCrumb = <.i(^.className := "mdi mdi-passport", AppTypography.fSize(3))
   }
-  case object LoginStep extends HorizontalProgressWithBreadCrumbs.Step {
+  case object LoginStep extends HorizontalProgressWithBreadCrumbs.ProgressStep {
     def asBreadCrumb = <.i(^.className := "mdi mdi-lock-open", AppTypography.fSize(3))
   }
   case class State(progress: Int)

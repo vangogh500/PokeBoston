@@ -5,84 +5,54 @@ package components
 package registration
 package strategies
 
+import forms._
 import steps._
-import lib.passports._
-
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.vdom.html_<^._
+import scalacss.ScalaCssReact._
 
 object EmailRegistrationStrategy {
-  case class State(registrationState: Map[String, String], verificationState: Map[String, String])
-  case class Props(step: RegistrationAppStep, onSubmit: ReactEvent => (RegistrationAppStep, Map[String,String]) => Callback)
+  case class State(
+    registrationState: Map[String, String],
+    verificationState: Map[String, String])
+
+  case class Props(step: RegistrationAppStep, onStepChange: RegistrationAppStep => Callback)
+
   class Backend($: BackendScope[Props, State]) {
     def onRegistrationChange(e: ReactEventFromInput) = {
-      println(e)
       val value = e.target.value
       val target = e.target.name
-      $.modState {s =>
-        println(e)
-        s.copy(
-          registrationState = s.registrationState + (target -> value)
-        )
-      }
+      e.preventDefaultCB >> $.modState(s =>
+        s.copy(registrationState = s.registrationState + (target -> value))
+      )
     }
+    def onRegistrationSubmit(onStepChange: RegistrationAppStep => Callback)(e: ReactEvent) = {
+      e.preventDefaultCB >> onStepChange(VerificationStep)
+    }
+    def onVerificationChange(e: ReactEventFromInput) = {
+      val value = e.target.value
+      val target = e.target.name
+      e.preventDefaultCB >> $.modState(s =>
+        s.copy(verificationState = s.verificationState + (target -> value))
+      )
+    }
+    def onVerificationSubmit(onStepChange: RegistrationAppStep => Callback)(e: ReactEvent) = {
+      e.preventDefaultCB
+    }
+
     def render(props: Props, state: State) = (props, state) match {
-      case (Props(RegistrationStep, _), state) =>
-        <.form(^.className := "animated slideInRight")(
-          <.div(^.className := "form-group")(
-            <.div(^.className := "input-group")(
-              <.div(^.className := "input-group-prepend")(
-                <.i(^.className := "input-group-text mdi mdi-email")
-              ),
-              <.input(
-                ^.name := "email",
-                ^.`type` := "email",
-                ^.className := "form-control",
-                ^.value := state.registrationState.getOrElse("email", ""),
-                ^.onChange ==> onRegistrationChange)
-            )
-          ),
-          <.div(^.className := "form-group")(
-            <.div(^.className := "input-group")(
-              <.div(^.className := "input-group-prepend")(
-                <.i(^.className := "input-group-text mdi mdi-lock")
-              ),
-              <.input(
-                ^.name := "password",
-                ^.`type` := "password",
-                ^.className := "form-control",
-                ^.value := state.registrationState.getOrElse("password", ""),
-                ^.onChange ==> onRegistrationChange)
-            )
-          ),
-          <.div(^.className := "form-group")(
-            <.div(^.className := "input-group")(
-              <.div(^.className := "input-group-prepend")(
-                <.i(^.className := "input-group-text mdi mdi-lock-plus")
-              ),
-              <.input(
-                ^.name := "password_confirmation",
-                ^.`type` := "password",
-                ^.className := "form-control",
-                ^.value := state.registrationState.getOrElse("password_confirmation", ""),
-                ^.onChange ==> onRegistrationChange)
-            )
-          ),
-          <.button(^.`type` := "submit", ^.className := "float-right btn btn-primary")("Register")
-        )
-      case (Props(VerificationStep, _), state) =>
-        <.form(^.className := "animated slideInRight")(
-          <.div(^.className := "form-group")(
-            <.label("Verification Code"),
-            <.input(^.`type` := "password", ^.className := "form-control")
-          )
-        )
+      case (Props(RegistrationStep, onStepChange), State(formState, _)) =>
+        EmailRegistrationForm(formState, onRegistrationChange, onRegistrationSubmit(onStepChange))
+      case (Props(VerificationStep, onStepChange), State(_, formState)) =>
+        EmailVerificationForm(formState, onVerificationChange, onVerificationSubmit(onStepChange))
     }
   }
-  val component = ScalaComponent.builder[Props]("EmailRegistrationForm")
+
+  private val component = ScalaComponent.builder[Props]("EmailRegistrationStrategy")
     .initialState(State(Map(), Map()))
     .renderBackend[Backend]
     .build
-  def apply(step: RegistrationAppStep, onSubmit: ReactEvent => (RegistrationAppStep, Map[String,String]) => Callback) =
-    component(Props(step, onSubmit))
+
+  def apply(step: RegistrationAppStep, onStepChange: RegistrationAppStep => Callback) =
+    component(Props(step, onStepChange))
 }

@@ -14,15 +14,16 @@ import stylings.{HorizontalProgressWithBreadCrumbStylings => Stylings, Horizonta
  * Horizontal progress with bread crumbs
  */
 object HorizontalProgressWithBreadCrumbs {
-  trait Step {
+  trait ProgressStep {
     def asBreadCrumb: VdomElement
+    def onClick(e: ReactEvent) = e.preventDefaultCB
   }
   /**
    * Component props
    * @param progress A representation of progress by number of steps completed
    * @param steps A seq of dom labels for each step
    */
-  case class Props(curr: Step, steps: Seq[Step], tags: TagMod*)
+  case class Props(curr: ProgressStep, steps: Seq[ProgressStep], tags: TagMod*)
   private val component = ScalaComponent.builder[Props]("HorizontalProgressWithBreadCrumbs")
     .render_P {
       case Props(curr, steps, tags @ _*) if steps.contains(curr) =>
@@ -38,11 +39,25 @@ object HorizontalProgressWithBreadCrumbs {
             <.div(^.className := "w-100 d-flex justify-content-between", AppLayout.zindex(2))(
               steps.zipWithIndex.toTagMod {
                 case (step, i) if i < index =>
-                  ProgressBreadCrumb(Stylings.PastStep, AppAnimations.Teeter, ^.className := "animated infinite slower")()
+                  ProgressBreadCrumb(
+                    Stylings.PastStep,
+                    AppAnimations.Teeter,
+                    ^.onClick ==> step.onClick,
+                    ^.className := "animated infinite slower")()
                 case (step, i) if i == index =>
-                  ProgressBreadCrumb(Stylings.FutureStep, AppAnimations.animDelay(i), ^.className := "animated bounceIn")(step.asBreadCrumb)
+                  ProgressBreadCrumb(
+                    Stylings.FutureStep,
+                    AppAnimations.animDelay(i),
+                    ^.onClick ==> step.onClick,
+                    ^.className := "animated bounceIn")(
+                      step.asBreadCrumb)
                 case (step, i) if i > index =>
-                  ProgressBreadCrumb(Stylings.FutureStep, AppAnimations.animDelay(i), ^.className := "animated bounceIn")(step.asBreadCrumb)
+                  ProgressBreadCrumb(
+                    Stylings.FutureStep,
+                    AppAnimations.animDelay(i),
+                    ^.onClick ==> step.onClick,
+                    ^.className := "animated bounceIn")(
+                      step.asBreadCrumb)
               }
             )
           )
@@ -54,6 +69,6 @@ object HorizontalProgressWithBreadCrumbs {
    * @param progress A representation of progress by number of steps completed
    * @param steps A seq of dom labels for each step
    */
-  def apply(tags: TagMod*)(curr: Step, steps: Seq[Step]) = component(Props(curr, steps, tags:_*))
-  def apply(curr: Step, steps: Seq[Step]) = component(Props(curr, steps))
+  def apply(tags: TagMod*)(curr: ProgressStep, steps: Seq[ProgressStep]) = component(Props(curr, steps, tags:_*))
+  def apply(curr: ProgressStep, steps: Seq[ProgressStep]) = component(Props(curr, steps))
 }

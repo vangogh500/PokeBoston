@@ -1131,17 +1131,32 @@ function $isArrayOf_F2(obj, depth) {
 function $asArrayOf_F2(obj, depth) {
   return (($isArrayOf_F2(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.Function2;", depth))
 }
-function $is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step)))
+function $f_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0($thiz, e) {
+  return $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))
 }
-function $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) {
-  return (($is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$Step"))
+function $is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep)))
 }
-function $isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step)))
+function $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj) {
+  return (($is_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$ProgressStep"))
 }
-function $asArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) {
-  return (($isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$Step;", depth))
+function $isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep)))
+}
+function $asArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.components.progress.HorizontalProgressWithBreadCrumbs$ProgressStep;", depth))
+}
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep;", depth))
 }
 function $is_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport)))
@@ -2353,6 +2368,7 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
             return (function(x0$2$2) {
               var x0$2 = $as_T2(x0$2$2);
               if ((x0$2 !== null)) {
+                var step = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(x0$2.$$und1$f);
                 var i = $uI(x0$2.$$und2$f);
                 if ((i < index$1)) {
                   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
@@ -2362,43 +2378,55 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
                   var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$26, s$3);
                   var this$27 = $m_Lscalacss_ScalaCssReact$();
                   var s$4 = $m_Lcom_pokeboston_client_stylings_AppAnimations$().Teeter$3;
-                  var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$27, s$4), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var array$4 = [jsx$2, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$27, s$4), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, step$1) {
+                    return (function(e$2) {
+                      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(step$1.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$2))
+                    })
+                  })($this, step)), null), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated infinite slower", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
                   var u$1 = jsx$3.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4), $m_sci_Nil$());
                   return u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
                 }
               };
               if ((x0$2 !== null)) {
-                var step = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(x0$2.$$und1$f);
+                var step$2 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(x0$2.$$und1$f);
                 var i$2 = $uI(x0$2.$$und2$f);
                 if ((i$2 === index$1)) {
                   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
                   var jsx$6 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                  var this$32 = $m_Lscalacss_ScalaCssReact$();
-                  var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                  var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$32, s$5);
                   var this$33 = $m_Lscalacss_ScalaCssReact$();
+                  var s$5 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
+                  var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$33, s$5);
+                  var this$34 = $m_Lscalacss_ScalaCssReact$();
                   var s$6 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$2));
-                  var array$5 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$33, s$6), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var array$5 = [jsx$4, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$34, s$6), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$2, step$2$1) {
+                    return (function(e$3$2) {
+                      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(step$2$1.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$3$2))
+                    })
+                  })($this, step$2)), null), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
                   var jsx$5 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5);
-                  var array$6 = [step.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
+                  var array$6 = [step$2.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
                   var u$2 = jsx$6.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$5, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
                   return u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
                 }
               };
               if ((x0$2 !== null)) {
-                var step$2 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step(x0$2.$$und1$f);
+                var step$3 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(x0$2.$$und1$f);
                 var i$3 = $uI(x0$2.$$und2$f);
                 if ((i$3 > index$1)) {
                   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
                   var jsx$9 = $m_Lcom_pokeboston_client_components_progress_ProgressBreadCrumb$();
-                  var this$40 = $m_Lscalacss_ScalaCssReact$();
+                  var this$42 = $m_Lscalacss_ScalaCssReact$();
                   var s$7 = $m_Lcom_pokeboston_client_components_progress_stylings_HorizontalProgressWithBreadCrumbStylings$().FutureStep$3;
-                  var jsx$7 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$40, s$7);
-                  var this$41 = $m_Lscalacss_ScalaCssReact$();
+                  var jsx$7 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$42, s$7);
+                  var this$43 = $m_Lscalacss_ScalaCssReact$();
                   var s$8 = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppAnimations$().animDelay$3.apply__O__O(i$3));
-                  var array$7 = [jsx$7, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$41, s$8), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+                  var array$7 = [jsx$7, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$43, s$8), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1, step$3$1) {
+                    return (function(e$4$2) {
+                      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(step$3$1.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$4$2))
+                    })
+                  })($this, step$3)), null), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated bounceIn", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
                   var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7);
-                  var array$8 = [step$2.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
+                  var array$8 = [step$3.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement()];
                   var u$3 = jsx$9.apply__sc_Seq__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
                   return u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
                 }
@@ -2417,18 +2445,11 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
   return this
 });
-$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(tags, curr, steps) {
+$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(tags, curr, steps) {
   var c = this.component$1;
   var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
-  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq(curr, steps, tags);
+  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__sc_Seq__sc_Seq(curr, steps, tags);
   return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
-});
-$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$.prototype.apply__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(curr, steps) {
-  var c = this.component$1;
-  var this$4 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
-  var array = [];
-  var props = new $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props().init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq(curr, steps, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$4.construct$2.apply__O__O__O(props, this$4.mods$2))
 });
 var $d_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ = new $TypeData().initClass({
   Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$: 0
@@ -3030,7 +3051,7 @@ $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Backend.prototyp
     var jsx$2 = $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$();
     var jsx$1 = $m_sc_Seq$();
     var array$2 = [$m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$()];
-    var u = jsx$4.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$3, jsx$2, $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))));
+    var u = jsx$4.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$3, jsx$2, $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))));
     var jsx$5 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
     $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
     var u$1 = $m_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$().apply__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
@@ -3131,7 +3152,9 @@ function $m_Lcom_pokeboston_client_scenes_auth_components_registration_Registrat
 /** @constructor */
 function $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend() {
   $c_O.call(this);
-  this.$$$1 = null
+  this.$$$1 = null;
+  this.steps$1 = null;
+  this.stepMap$1 = null
 }
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype = new $h_O();
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend;
@@ -3140,37 +3163,45 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_registration_Registrat
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__sci_Map__F0 = (function(e, step, content) {
-  return $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.renderProgress__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(step) {
+  var jsx$3 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("marginBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("40px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$2 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array);
+  var jsx$1 = $as_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(this.stepMap$1.apply__O__O(step));
+  var this$4 = this.stepMap$1;
+  var this$5 = new $c_sc_MapLike$DefaultValuesIterable().init___sc_MapLike(this$4);
+  return jsx$3.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$2, jsx$1, this$5.$$outer$3.valuesIterator__sc_Iterator().toStream__sci_Stream())
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onPassportSelect__Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(passport, e) {
   var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
   var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
   var this$2 = this.$$$1;
-  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, passport$1) {
+  var newState = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), new $c_s_Some().init___O(passport));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$2.setState__O__F0__O(newState, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onStepChange__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F0 = (function(target) {
+  var this$1 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, target$1) {
     return (function(s$2) {
-      $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(s$2);
-      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), new $c_s_Some().init___O(passport$1))
+      var s = $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(s$2);
+      var passport = s.passport$1;
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option(target$1, passport)
     })
-  })(this, passport));
-  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$2.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+  })(this, target));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$1.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
   if ((state !== null)) {
-    var p2 = state.curr$1;
+    var p2 = state.step$1;
     var x = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$();
     if ((x === p2)) {
-      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
       var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$3 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
-      var jsx$2 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$();
-      var jsx$1 = $m_sc_Seq$();
-      var array$1 = [$m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$()];
-      var u = jsx$3.apply__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$2, $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))));
-      var jsx$4 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+      var u = this.renderProgress__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$());
+      var jsx$1 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
       var u$1 = $m_Lcom_pokeboston_client_scenes_auth_components_PassportPicker$().apply__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
         return (function(passport$2) {
@@ -3182,51 +3213,73 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Ba
           })($this, passport))
         })
       })(this)));
-      var array$2 = [jsx$4, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
-      return jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))
+      var array$1 = [jsx$1, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+      return jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))
     }
   };
   if ((state !== null)) {
-    var step = state.curr$1;
+    var step = state.step$1;
     var p4 = state.passport$1;
     if ($is_s_Some(p4)) {
-      var x5 = $as_s_Some(p4);
-      var p6 = $as_Lcom_pokeboston_client_scenes_auth_lib_passports_package$AuthPassport(x5.value$2);
-      var x$3 = $m_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$();
-      if ((x$3 === p6)) {
-        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var jsx$9 = $m_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$();
-        var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("marginBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("40px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-        var jsx$8 = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4);
-        var jsx$7 = $m_sc_Seq$();
-        var array$5 = [$m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$()];
-        var u$2 = jsx$9.apply__sc_Seq__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$8, step, $as_sc_Seq(jsx$7.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5))));
-        var jsx$10 = u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
-        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-        var u$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$().apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(step, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
-          return (function(e$2$1) {
-            return new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$2, e) {
-              return (function(step$2, content$2) {
-                var step$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(step$2);
-                var content = $as_sci_Map(content$2);
-                return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this$2.onSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__sci_Map__F0(e, step$1, content))
-              })
-            })(this$2$1, e$2$1))
-          })
-        })(this)));
-        var array$6 = [jsx$10, u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
-        return jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))
-      }
+      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("card-body", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("overflowX")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("hidden", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var u$2 = this.renderProgress__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(step);
+      var jsx$4 = u$2.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var u$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$().apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(step, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+        return (function(target$2) {
+          var target = $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(target$2);
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$2$1.onStepChange__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F0(target))
+        })
+      })(this)));
+      var array$3 = [jsx$4, u$3.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+      return jsx$5.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))
     }
   };
   throw new $c_s_MatchError().init___O(state)
 });
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.onStepSelect__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(target, e) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
+  var this$2 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, target$1) {
+    return (function(s$2) {
+      var s = $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(s$2);
+      if ((s !== null)) {
+        var curr = s.step$1;
+        if (($this.steps$1.indexOf__O__I(target$1) < $this.steps$1.indexOf__O__I(curr))) {
+          var passport = s.passport$1;
+          return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option(target$1, passport)
+        }
+      };
+      return s
+    })
+  })(this, target));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$2.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+});
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
   this.$$$1 = $$;
+  var jsx$1 = $m_sc_Seq$();
+  var array = [$m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$(), $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$()];
+  this.steps$1 = $as_sc_Seq(jsx$1.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)));
+  var jsx$4 = $m_sci_ListMap$();
+  var jsx$3 = this.steps$1;
+  var jsx$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(step$2) {
+      var step = $as_s_Product(step$2);
+      var y = $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(step).asProgressStep__F1__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, step$1) {
+        return (function(e$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this$1.onStepSelect__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0($as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(step$1), e$2))
+        })
+      })($this, step)));
+      return new $c_T2().init___O__O(step, y)
+    })
+  })(this));
+  var this$5 = $m_sc_Seq$();
+  this.stepMap$1 = $as_sci_ListMap(jsx$4.apply__sc_Seq__sc_GenMap($as_sc_Seq(jsx$3.map__F1__scg_CanBuildFrom__O(jsx$2, this$5.ReusableCBFInstance$2))));
   return this
 });
 function $is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend(obj) {
@@ -3248,17 +3301,287 @@ var $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationAp
   O: 1
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$Backend;
-function $is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$() {
+  $c_O.call(this);
+  this.component$1 = null
 }
-function $as_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) {
-  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep"))
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$() {
+  /*<skip>*/
 }
-function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep)))
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$ = this;
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("EmailRegistrationForm");
+  this.component$1 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x0$1$2) {
+      var x0$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(x0$1$2);
+      if ((x0$1 !== null)) {
+        var state = x0$1.state$1;
+        var onChange = x0$1.onChange$1;
+        var onSubmit = x0$1.onSubmit$1;
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var jsx$44 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onSubmit")).$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onSubmit, null)];
+        var jsx$43 = jsx$44.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+        var jsx$42 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$41 = jsx$42.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+        var jsx$40 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$39 = jsx$40.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+        var jsx$38 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$37 = jsx$38.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+        var jsx$36 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$5 = [jsx$36.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+        var jsx$35 = jsx$37.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+        var jsx$34 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$31 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+        var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var jsx$33 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$31.name$1, "email");
+        var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var jsx$31 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$35 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("placeholder");
+        var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var array$6 = [jsx$33, jsx$32, jsx$31, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$35.name$1, "Email"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state.getOrElse__O__F0__O("email", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+          return (function() {
+            return ""
+          })
+        })(this$2$1))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onChange, null)];
+        var array$7 = [jsx$35, jsx$34.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))];
+        var array$8 = [jsx$39.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
+        var jsx$30 = jsx$41.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+        var jsx$29 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$9 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$28 = jsx$29.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
+        var jsx$27 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$26 = jsx$27.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+        var jsx$25 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$24 = jsx$25.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
+        var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$12 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$13 = [jsx$23.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
+        var jsx$22 = jsx$24.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13));
+        var jsx$21 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$63 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+        var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$63.name$1, "password");
+        var jsx$19 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var jsx$18 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$67 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("placeholder");
+        var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var array$14 = [jsx$20, jsx$19, jsx$18, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$67.name$1, "Password"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state.getOrElse__O__F0__O("password", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2$2) {
+          return (function() {
+            return ""
+          })
+        })(this$2$1))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onChange, null)];
+        var array$15 = [jsx$22, jsx$21.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14))];
+        var array$16 = [jsx$26.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15))];
+        var jsx$17 = jsx$28.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16));
+        var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$17 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$15 = jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$17));
+        var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$18 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$13 = jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$18));
+        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$19 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$19));
+        var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$20 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$21 = [jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20))];
+        var jsx$9 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$21));
+        var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$95 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+        var t$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$4, this$95.name$1, "password_confirmation");
+        var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$99 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("placeholder");
+        var t$5 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var array$22 = [jsx$7, jsx$6, jsx$5, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$5, this$99.name$1, "Confirm password"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state.getOrElse__O__F0__O("password_confirmation", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3$1) {
+          return (function() {
+            return ""
+          })
+        })(this$2$1))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onChange, null)];
+        var array$23 = [jsx$9, jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22))];
+        var array$24 = [jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$23))];
+        var jsx$4 = jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$24));
+        var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$25 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("submit", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("float-right btn btn-lg btn-primary btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$25));
+        var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$26 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$27 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$26)), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" Register"))];
+        var array$28 = [jsx$30, jsx$17, jsx$4, jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$27))];
+        var a = jsx$43.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$28));
+        return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      } else {
+        throw new $c_s_MatchError().init___O(x0$1)
+      }
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype.apply__sci_Map__F1__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(state, onChange, onSubmit) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props().init___sci_Map__F1__F1(state, onChange, onSubmit);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailRegistrationForm$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$
 }
-function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) {
-  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationAppStep;", depth))
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype.init___ = (function() {
+  $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$ = this;
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("EmailVerification");
+  this.component$1 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x0$1$2) {
+      var x0$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(x0$1$2);
+      if ((x0$1 !== null)) {
+        var state = x0$1.state$1;
+        var onChange = x0$1.onChange$1;
+        var onSubmit = x0$1.onSubmit$1;
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onSubmit")).$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onSubmit, null)];
+        var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+        var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$15 = jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+        var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$13 = jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+        var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+        var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-unlock", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$5 = [jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+        var jsx$9 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+        var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$31 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
+        var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$31.name$1, "verification_code");
+        var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+        var this$35 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("placeholder");
+        var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+        var array$6 = [jsx$7, jsx$6, jsx$5, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$35.name$1, "Verification code"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state.getOrElse__O__F0__O("verification_code", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+          return (function() {
+            return ""
+          })
+        })(this$2$1))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(onChange, null)];
+        var array$7 = [jsx$9, jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))];
+        var array$8 = [jsx$13.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
+        var jsx$4 = jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+        var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$9 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("submit", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("float-right btn btn-lg btn-primary btn-block", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
+        var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+        var array$11 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10)), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" Verify"))];
+        var array$12 = [jsx$4, jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11))];
+        var a = jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12));
+        return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      } else {
+        throw new $c_s_MatchError().init___O(x0$1)
+      }
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype.apply__sci_Map__F1__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(state, onChange, onSubmit) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props().init___sci_Map__F1__F1(state, onChange, onSubmit);
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailVerificationForm$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$: 1,
+  O: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$
 }
 /** @constructor */
 function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$() {
@@ -3274,7 +3597,7 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategie
 $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype;
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.init___ = (function() {
   $n_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = this;
-  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("EmailRegistrationForm")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("EmailRegistrationStrategy")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
     return (function() {
       return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State().init___sci_Map__sci_Map($as_sci_Map($m_s_Predef$().Map$2.apply__sc_Seq__sc_GenMap($m_sci_Nil$())), $as_sci_Map($m_s_Predef$().Map$2.apply__sc_Seq__sc_GenMap($m_sci_Nil$())))
     })
@@ -3291,16 +3614,16 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRe
       var jsx$2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
       var jsx$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O(x$3));
       var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
-      var a = jsx$2.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_vdom_TagOf(jsx$1, $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
-      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+      var u = jsx$2.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(jsx$1, $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
   return this
 });
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(step, onSubmit) {
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$.prototype.apply__Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(step, onStepChange) {
   var c = this.component$1;
   var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
-  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1(step, onSubmit);
+  var props = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props().init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1(step, onStepChange);
   return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
 });
 var $d_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$ = new $TypeData().initClass({
@@ -3329,174 +3652,85 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategie
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(props, state) {
-  var x1 = new $c_T2().init___O__O(props, state);
-  var p2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
-  var state$2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x1.$$und2$f);
-  if ((p2 !== null)) {
-    var p3 = p2.step$1;
-    var x = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$();
-    if ((x === p3)) {
-      var jsx$34 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$33 = jsx$34.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-      var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$31 = jsx$32.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
-      var jsx$30 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$29 = jsx$30.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
-      var jsx$28 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$27 = jsx$28.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-      var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var array$5 = [jsx$26.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
-      var jsx$25 = jsx$27.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
-      var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$25 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
-      var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var array$6 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$25.name$1, "email"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("email", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("email", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-        return (function() {
-          return ""
-        })
-      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
-        return (function(e$2) {
-          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$2$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$2))
-        })
-      })(this)), null)];
-      var array$7 = [jsx$25, jsx$24.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6))];
-      var array$8 = [jsx$29.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
-      var jsx$23 = jsx$31.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
-      var jsx$22 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$9 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$21 = jsx$22.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
-      var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$19 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
-      var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$17 = jsx$18.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11));
-      var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$12 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var array$13 = [jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
-      var jsx$15 = jsx$17.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13));
-      var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$54 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
-      var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var array$14 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$54.name$1, "password"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("password", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3$1) {
-        return (function() {
-          return ""
-        })
-      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
-        return (function(e$3$2) {
-          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$4$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$3$2))
-        })
-      })(this)), null)];
-      var array$15 = [jsx$15, jsx$14.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14))];
-      var array$16 = [jsx$19.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$15))];
-      var jsx$13 = jsx$21.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$16));
-      var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$17 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$11 = jsx$12.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$17));
-      var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$18 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$9 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$18));
-      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$19 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-prepend", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$19));
-      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$20 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("input-group-text mdi mdi-lock-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var array$21 = [jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$20))];
-      var jsx$5 = jsx$7.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$21));
-      var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-      var this$83 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("name");
-      var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-      var array$22 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$83.name$1, "password_confirmation"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.value$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(state$2.registrationState$1.getOrElse__O__F0__O("password_confirmation", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$5$1) {
-        return (function() {
-          return ""
-        })
-      })(this))), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onChange$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
-        return (function(e$4$2) {
-          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$6$1.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$4$2))
-        })
-      })(this)), null)];
-      var array$23 = [jsx$5, jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$22))];
-      var array$24 = [jsx$9.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$23))];
-      var jsx$3 = jsx$11.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$24));
-      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$25 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("submit", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("float-right btn btn-primary", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$1 = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$25));
-      var array$26 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Register"))];
-      var array$27 = [jsx$23, jsx$13, jsx$3, jsx$1.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$26))];
-      return jsx$33.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$27))
-    }
-  };
-  var p5 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
-  if ((p5 !== null)) {
-    var p6 = p5.step$1;
-    var x$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$();
-    if ((x$3 === p6)) {
-      var jsx$41 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$28 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("animated slideInRight", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$40 = jsx$41.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$28));
-      var jsx$39 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$29 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-group", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var jsx$38 = jsx$39.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$29));
-      var jsx$37 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var array$30 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Verification Code"))];
-      var jsx$36 = jsx$37.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("label", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$30));
-      var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.input__Ljapgolly_scalajs_react_vdom_HtmlTags$input$();
-      var array$31 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.type$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("password", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("form-control", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-      var array$32 = [jsx$36, jsx$35.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$31))];
-      var array$33 = [jsx$38.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$32))];
-      return jsx$40.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$33))
-    }
-  };
-  throw new $c_s_MatchError().init___O(x1)
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.onVerificationSubmit__F1__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(onStepChange, e) {
+  return $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.onRegistrationSubmit__F1__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(onStepChange, e) {
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e)), $as_Ljapgolly_scalajs_react_CallbackTo(onStepChange.apply__O__O($m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$())).japgolly$scalajs$react$CallbackTo$$f$1)
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
-  var this$2 = $m_s_Console$();
-  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e + "\n"));
   var value = $as_T(e.target.value);
   var target = $as_T(e.target.name);
-  var this$9 = this.$$$1;
-  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, e$1, value$1, target$1) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
+  var this$4 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, value$1, target$1) {
     return (function(s$2) {
       var s = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(s$2);
-      var this$5 = $m_s_Console$();
-      var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-      this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e$1 + "\n"));
       var registrationState = s.registrationState$1.$$plus__T2__sci_Map(new $c_T2().init___O__O(target$1, value$1));
       var verificationState = s.verificationState$1;
       return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State().init___sci_Map__sci_Map(registrationState, verificationState)
     })
-  })(this, e, value, target));
-  return $as_Ljapgolly_scalajs_react_CallbackTo(this$9.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
+  })(this, value, target));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$4.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.onVerificationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  var value = $as_T(e.target.value);
+  var target = $as_T(e.target.name);
+  var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
+  var this$4 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, value$1, target$1) {
+    return (function(s$2) {
+      var s = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(s$2);
+      var x$1 = s.verificationState$1.$$plus__T2__sci_Map(new $c_T2().init___O__O(target$1, value$1));
+      var x$2 = s.registrationState$1;
+      return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State().init___sci_Map__sci_Map(x$2, x$1)
+    })
+  })(this, value, target));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$4.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.render__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props__Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props, state) {
+  var x1 = new $c_T2().init___O__O(props, state);
+  var p2 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
+  var p3 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x1.$$und2$f);
+  if ((p2 !== null)) {
+    var p4 = p2.step$1;
+    var onStepChange = p2.onStepChange$1;
+    var x = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$();
+    if (((x === p4) && (p3 !== null))) {
+      var formState = p3.registrationState$1;
+      return $m_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$().apply__sci_Map__F1__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(formState, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+        return (function(e$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this.onRegistrationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$2))
+        })
+      })(this)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, onStepChange$1) {
+        return (function(e$3$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$2.onRegistrationSubmit__F1__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(onStepChange$1, e$3$2))
+        })
+      })(this, onStepChange)))
+    }
+  };
+  var p6 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(x1.$$und1$f);
+  var p7 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$State(x1.$$und2$f);
+  if ((p6 !== null)) {
+    var p8 = p6.step$1;
+    var onStepChange$2 = p6.onStepChange$1;
+    var x$3 = $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$();
+    if (((x$3 === p8) && (p7 !== null))) {
+      var formState$2 = p7.verificationState$1;
+      return $m_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$().apply__sci_Map__F1__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(formState$2, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+        return (function(e$4$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$3.onVerificationChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$4$2))
+        })
+      })(this)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4, onStepChange$2$1) {
+        return (function(e$5$2) {
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(this$4.onVerificationSubmit__F1__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(onStepChange$2$1, e$5$2))
+        })
+      })(this, onStepChange$2)))
+    }
+  };
+  throw new $c_s_MatchError().init___O(x1)
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
   this.$$$1 = $$;
@@ -16133,6 +16367,120 @@ function $m_sr_Statics$() {
   };
   return $n_sr_Statics$
 }
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1() {
+  $c_O.call(this);
+  this.handleClick$1$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this.handleClick$1$1.apply__O__O(e)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-passport", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype.init___F1 = (function(handleClick$1) {
+  this.handleClick$1$1 = handleClick$1;
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1 = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$PassportStep$$anon$1", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1: 1,
+  O: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2() {
+  $c_O.call(this);
+  this.handleClick$2$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this.handleClick$2$1.apply__O__O(e)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype.init___F1 = (function(handleClick$2) {
+  this.handleClick$2$1 = handleClick$2;
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2 = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationStep$$anon$2", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2: 1,
+  O: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3() {
+  $c_O.call(this);
+  this.handleClick$3$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this.handleClick$3$1.apply__O__O(e)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-check", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$3 = $m_Lscalacss_ScalaCssReact$();
+  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
+  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
+  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype.init___F1 = (function(handleClick$3) {
+  this.handleClick$3$1 = handleClick$3;
+  return this
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3 = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$VerificationStep$$anon$3", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3: 1,
+  O: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_CtorType$Nullary() {
   $c_Ljapgolly_scalajs_react_CtorType.call(this);
@@ -29606,6 +29954,12 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
     return false
   }
 });
+$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__sc_Seq__sc_Seq = (function(curr, steps, tags) {
+  this.curr$1 = curr;
+  this.steps$1 = steps;
+  this.tags$1 = tags;
+  return this
+});
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
@@ -29627,12 +29981,6 @@ $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$
 });
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.toString__T = (function() {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
-});
-$c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.init___Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step__sc_Seq__sc_Seq = (function(curr, steps, tags) {
-  this.curr$1 = curr;
-  this.steps$1 = steps;
-  this.tags$1 = tags;
-  return this
 });
 $c_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Props.prototype.hashCode__I = (function() {
   var this$2 = $m_s_util_hashing_MurmurHash3$();
@@ -30166,7 +30514,7 @@ $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$State.prototype.
 /** @constructor */
 function $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State() {
   $c_O.call(this);
-  this.curr$1 = null;
+  this.step$1 = null;
   this.passport$1 = null
 }
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype = new $h_O();
@@ -30176,8 +30524,8 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_registration_Registrat
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option = (function(curr, passport) {
-  this.curr$1 = curr;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__s_Option = (function(step, passport) {
+  this.step$1 = step;
   this.passport$1 = passport;
   return this
 });
@@ -30192,8 +30540,8 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$St
     return true
   } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(x$1)) {
     var State$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State(x$1);
-    var x = this.curr$1;
-    var x$2 = State$1.curr$1;
+    var x = this.step$1;
+    var x$2 = State$1.step$1;
     if ((x === x$2)) {
       var x$3 = this.passport$1;
       var x$4 = State$1.passport$1;
@@ -30208,7 +30556,7 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$St
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
-      return this.curr$1;
+      return this.step$1;
       break
     }
     case 1: {
@@ -30254,10 +30602,216 @@ var $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationAp
 });
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_RegistrationApp$State;
 /** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props() {
+  $c_O.call(this);
+  this.state$1 = null;
+  this.onChange$1 = null;
+  this.onSubmit$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.productArity__I = (function() {
+  return 3
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(x$1);
+    var x = this.state$1;
+    var x$2 = Props$1.state$1;
+    if (((x === null) ? (x$2 === null) : $f_sc_GenMapLike__equals__O__Z(x, x$2))) {
+      var x$3 = this.onChange$1;
+      var x$4 = Props$1.onChange$1;
+      var jsx$1 = ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var x$5 = this.onSubmit$1;
+      var x$6 = Props$1.onSubmit$1;
+      return ((x$5 === null) ? (x$6 === null) : x$5.equals__O__Z(x$6))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.state$1;
+      break
+    }
+    case 1: {
+      return this.onChange$1;
+      break
+    }
+    case 2: {
+      return this.onSubmit$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.init___sci_Map__F1__F1 = (function(state, onChange, onSubmit) {
+  this.state$1 = state;
+  this.onChange$1 = onChange;
+  this.onSubmit$1 = onSubmit;
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailRegistrationForm$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.forms.EmailRegistrationForm$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailRegistrationForm$Props", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailRegistrationForm$Props;
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props() {
+  $c_O.call(this);
+  this.state$1 = null;
+  this.onChange$1 = null;
+  this.onSubmit$1 = null
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.productArity__I = (function() {
+  return 3
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(x$1)) {
+    var Props$1 = $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(x$1);
+    var x = this.state$1;
+    var x$2 = Props$1.state$1;
+    if (((x === null) ? (x$2 === null) : $f_sc_GenMapLike__equals__O__Z(x, x$2))) {
+      var x$3 = this.onChange$1;
+      var x$4 = Props$1.onChange$1;
+      var jsx$1 = ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var x$5 = this.onSubmit$1;
+      var x$6 = Props$1.onSubmit$1;
+      return ((x$5 === null) ? (x$6 === null) : x$5.equals__O__Z(x$6))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.state$1;
+      break
+    }
+    case 1: {
+      return this.onChange$1;
+      break
+    }
+    case 2: {
+      return this.onSubmit$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.init___sci_Map__F1__F1 = (function(state, onChange, onSubmit) {
+  this.state$1 = state;
+  this.onChange$1 = onChange;
+  this.onSubmit$1 = onSubmit;
+  return this
+});
+function $is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props)))
+}
+function $as_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj) {
+  return (($is_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailVerificationForm$Props"))
+}
+function $isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props)))
+}
+function $asArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj, depth) {
+  return (($isArrayOf_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lcom.pokeboston.client.scenes.auth.components.registration.forms.EmailVerificationForm$Props;", depth))
+}
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.forms.EmailVerificationForm$Props", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_forms_EmailVerificationForm$Props;
+/** @constructor */
 function $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props() {
   $c_O.call(this);
   this.step$1 = null;
-  this.onSubmit$1 = null
+  this.onStepChange$1 = null
 }
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype = new $h_O();
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props;
@@ -30280,8 +30834,8 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRe
     var x = this.step$1;
     var x$2 = Props$1.step$1;
     if ((x === x$2)) {
-      var x$3 = this.onSubmit$1;
-      var x$4 = Props$1.onSubmit$1;
+      var x$3 = this.onStepChange$1;
+      var x$4 = Props$1.onStepChange$1;
       return ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
     } else {
       return false
@@ -30297,7 +30851,7 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRe
       break
     }
     case 1: {
-      return this.onSubmit$1;
+      return this.onStepChange$1;
       break
     }
     default: {
@@ -30315,9 +30869,9 @@ $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRe
 $c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1 = (function(step, onSubmit) {
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props.prototype.init___Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep__F1 = (function(step, onStepChange) {
   this.step$1 = step;
-  this.onSubmit$1 = onSubmit;
+  this.onStepChange$1 = onStepChange;
   return this
 });
 function $is_Lcom_pokeboston_client_scenes_auth_components_registration_strategies_EmailRegistrationStrategy$Props(obj) {
@@ -35584,6 +36138,9 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginSt
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  return $f_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(this, e)
+});
 $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$.prototype.init___ = (function() {
   return this
 });
@@ -35621,7 +36178,7 @@ var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$ =
 }, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$LoginStep$", {
   Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$LoginStep$: 1,
   O: 1,
-  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
@@ -35646,6 +36203,9 @@ function $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Passpor
   /*<skip>*/
 }
 $h_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  return $f_Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep__onClick__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(this, e)
+});
 $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$.prototype.init___ = (function() {
   return this
 });
@@ -35683,7 +36243,7 @@ var $d_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep
 }, false, "com.pokeboston.client.scenes.auth.components.login.LoginApp$PassportStep$", {
   Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$: 1,
   O: 1,
-  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
+  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
@@ -35696,6 +36256,168 @@ function $m_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$Passpor
     $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$().init___()
   };
   return $n_Lcom_pokeboston_client_scenes_auth_components_login_LoginApp$PassportStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productPrefix__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.asProgressStep__F1__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep = (function(handleClick) {
+  return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$$anon$1().init___F1(handleClick)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.toString__T = (function() {
+  return "PassportStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.hashCode__I = (function() {
+  return 1431372318
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$PassportStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productPrefix__T = (function() {
+  return "RegistrationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.asProgressStep__F1__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep = (function(handleClick) {
+  return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$$anon$2().init___F1(handleClick)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.toString__T = (function() {
+  return "RegistrationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.hashCode__I = (function() {
+  return (-747986107)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$
+}
+/** @constructor */
+function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  $c_O.call(this)
+}
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = new $h_O();
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
+/** @constructor */
+function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  /*<skip>*/
+}
+$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype;
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.init___ = (function() {
+  return this
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productPrefix__T = (function() {
+  return "VerificationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.asProgressStep__F1__Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$ProgressStep = (function(handleClick) {
+  return new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$$anon$3().init___F1(handleClick)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.toString__T = (function() {
+  return "VerificationStep"
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.hashCode__I = (function() {
+  return (-200077401)
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $TypeData().initClass({
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 0
+}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$VerificationStep$", {
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 1,
+  O: 1,
+  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
+var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = (void 0);
+function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
+  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$)) {
+    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$().init___()
+  };
+  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$
 }
 /** @constructor */
 function $c_Lcom_pokeboston_client_services_AppRouter$AuthPage() {
@@ -40604,6 +41326,42 @@ var $d_sci_HashSet$HashTrieSet$$anon$1 = new $TypeData().initClass({
 });
 $c_sci_HashSet$HashTrieSet$$anon$1.prototype.$classData = $d_sci_HashSet$HashTrieSet$$anon$1;
 /** @constructor */
+function $c_sci_ListMap$() {
+  $c_scg_ImmutableMapFactory.call(this)
+}
+$c_sci_ListMap$.prototype = new $h_scg_ImmutableMapFactory();
+$c_sci_ListMap$.prototype.constructor = $c_sci_ListMap$;
+/** @constructor */
+function $h_sci_ListMap$() {
+  /*<skip>*/
+}
+$h_sci_ListMap$.prototype = $c_sci_ListMap$.prototype;
+$c_sci_ListMap$.prototype.init___ = (function() {
+  return this
+});
+$c_sci_ListMap$.prototype.empty__sc_GenMap = (function() {
+  return $m_sci_ListMap$EmptyListMap$()
+});
+var $d_sci_ListMap$ = new $TypeData().initClass({
+  sci_ListMap$: 0
+}, false, "scala.collection.immutable.ListMap$", {
+  sci_ListMap$: 1,
+  scg_ImmutableMapFactory: 1,
+  scg_MapFactory: 1,
+  scg_GenMapFactory: 1,
+  O: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_sci_ListMap$.prototype.$classData = $d_sci_ListMap$;
+var $n_sci_ListMap$ = (void 0);
+function $m_sci_ListMap$() {
+  if ((!$n_sci_ListMap$)) {
+    $n_sci_ListMap$ = new $c_sci_ListMap$().init___()
+  };
+  return $n_sci_ListMap$
+}
+/** @constructor */
 function $c_sci_Set$() {
   $c_scg_ImmutableSetFactory.call(this)
 }
@@ -40972,195 +41730,6 @@ var $d_sjsr_UndefinedBehaviorError = new $TypeData().initClass({
   s_util_control_NoStackTrace: 1
 });
 $c_sjsr_UndefinedBehaviorError.prototype.$classData = $d_sjsr_UndefinedBehaviorError;
-/** @constructor */
-function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
-  $c_O.call(this)
-}
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = new $h_O();
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
-/** @constructor */
-function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
-  /*<skip>*/
-}
-$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.init___ = (function() {
-  return this
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productPrefix__T = (function() {
-  return "PassportStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productArity__I = (function() {
-  return 0
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productElement__I__O = (function(x$1) {
-  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.toString__T = (function() {
-  return "PassportStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-passport", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var this$3 = $m_Lscalacss_ScalaCssReact$();
-  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
-  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
-  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.hashCode__I = (function() {
-  return 1431372318
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $TypeData().initClass({
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 0
-}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$PassportStep$", {
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$: 1,
-  O: 1,
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
-  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$;
-var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = (void 0);
-function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$() {
-  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$)) {
-    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$().init___()
-  };
-  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$PassportStep$
-}
-/** @constructor */
-function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
-  $c_O.call(this)
-}
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = new $h_O();
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
-/** @constructor */
-function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
-  /*<skip>*/
-}
-$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.init___ = (function() {
-  return this
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productPrefix__T = (function() {
-  return "RegistrationStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productArity__I = (function() {
-  return 0
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productElement__I__O = (function(x$1) {
-  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.toString__T = (function() {
-  return "RegistrationStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-plus", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var this$3 = $m_Lscalacss_ScalaCssReact$();
-  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
-  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
-  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.hashCode__I = (function() {
-  return (-747986107)
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $TypeData().initClass({
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 0
-}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$RegistrationStep$", {
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$: 1,
-  O: 1,
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
-  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$;
-var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = (void 0);
-function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$() {
-  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$)) {
-    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$().init___()
-  };
-  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationStep$
-}
-/** @constructor */
-function $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
-  $c_O.call(this)
-}
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = new $h_O();
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.constructor = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
-/** @constructor */
-function $h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
-  /*<skip>*/
-}
-$h_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype = $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype;
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.init___ = (function() {
-  return this
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productPrefix__T = (function() {
-  return "VerificationStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productArity__I = (function() {
-  return 0
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productElement__I__O = (function(x$1) {
-  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.toString__T = (function() {
-  return "VerificationStep"
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.asBreadCrumb__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("mdi mdi-account-check", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var this$3 = $m_Lscalacss_ScalaCssReact$();
-  var s = $as_Lscalacss_internal_StyleA($m_Lcom_pokeboston_client_stylings_AppTypography$().fSize$3.apply__O__O(3));
-  var array = [jsx$1, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$3, s)];
-  var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("i", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.hashCode__I = (function() {
-  return (-200077401)
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.productIterator__sc_Iterator = (function() {
-  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
-});
-var $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $TypeData().initClass({
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 0
-}, false, "com.pokeboston.client.scenes.auth.components.registration.steps.package$VerificationStep$", {
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$: 1,
-  O: 1,
-  Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$RegistrationAppStep: 1,
-  Lcom_pokeboston_client_components_progress_HorizontalProgressWithBreadCrumbs$Step: 1,
-  s_Product: 1,
-  s_Equals: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$.prototype.$classData = $d_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$;
-var $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = (void 0);
-function $m_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$() {
-  if ((!$n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$)) {
-    $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$ = new $c_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$().init___()
-  };
-  return $n_Lcom_pokeboston_client_scenes_auth_components_registration_steps_package$VerificationStep$
-}
 /** @constructor */
 function $c_Lcom_pokeboston_client_scenes_auth_lib_passports_package$EmailPassport$() {
   $c_O.call(this)
@@ -46047,22 +46616,22 @@ $c_sc_AbstractMap.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBui
 $c_sc_AbstractMap.prototype.isDefinedAt__O__Z = (function(key) {
   return this.contains__O__Z(key)
 });
+$c_sc_AbstractMap.prototype.applyOrElse__O__F1__O = (function(x, $default) {
+  return $f_sc_MapLike__applyOrElse__O__F1__O(this, x, $default)
+});
 $c_sc_AbstractMap.prototype.hashCode__I = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
   var xs = this.seq__sc_Map();
   return this$1.unorderedHash__sc_TraversableOnce__I__I(xs, this$1.mapSeed$2)
 });
-$c_sc_AbstractMap.prototype.applyOrElse__O__F1__O = (function(x, $default) {
-  return $f_sc_MapLike__applyOrElse__O__F1__O(this, x, $default)
-});
 $c_sc_AbstractMap.prototype.andThen__F1__F1 = (function(g) {
   return new $c_s_PartialFunction$AndThen().init___s_PartialFunction__F1(this, g)
 });
-$c_sc_AbstractMap.prototype.stringPrefix__T = (function() {
-  return "Map"
-});
 $c_sc_AbstractMap.prototype.newBuilder__scm_Builder = (function() {
   return new $c_scm_MapBuilder().init___sc_GenMap(this.empty__sc_Map())
+});
+$c_sc_AbstractMap.prototype.stringPrefix__T = (function() {
+  return "Map"
 });
 /** @constructor */
 function $c_sc_AbstractSet() {
@@ -49120,11 +49689,11 @@ $c_sci_ListMap$Node.prototype.removeInternal__p6__O__sci_ListMap__sci_List__sci_
 $c_sci_ListMap$Node.prototype.apply__O__O = (function(k) {
   return this.applyInternal__p6__sci_ListMap__O__O(this, k)
 });
-$c_sci_ListMap$Node.prototype.value__O = (function() {
-  return this.value$6
-});
 $c_sci_ListMap$Node.prototype.$$minus__O__scg_Subtractable = (function(elem) {
   return this.removeInternal__p6__O__sci_ListMap__sci_List__sci_ListMap(elem, this, $m_sci_Nil$())
+});
+$c_sci_ListMap$Node.prototype.value__O = (function() {
+  return this.value$6
 });
 $c_sci_ListMap$Node.prototype.isEmpty__Z = (function() {
   return false
@@ -49196,9 +49765,6 @@ $c_sci_ListMap$Node.prototype.$$minus__O__sci_ListMap = (function(k) {
 $c_sci_ListMap$Node.prototype.get__O__s_Option = (function(k) {
   return this.getInternal__p6__sci_ListMap__O__s_Option(this, k)
 });
-$c_sci_ListMap$Node.prototype.contains__O__Z = (function(k) {
-  return this.containsInternal__p6__sci_ListMap__O__Z(this, k)
-});
 $c_sci_ListMap$Node.prototype.init___sci_ListMap__O__O = (function($$outer, key, value) {
   this.key$6 = key;
   this.value$6 = value;
@@ -49208,6 +49774,9 @@ $c_sci_ListMap$Node.prototype.init___sci_ListMap__O__O = (function($$outer, key,
     this.$$outer$6 = $$outer
   };
   return this
+});
+$c_sci_ListMap$Node.prototype.contains__O__Z = (function(k) {
+  return this.containsInternal__p6__sci_ListMap__O__Z(this, k)
 });
 $c_sci_ListMap$Node.prototype.containsInternal__p6__sci_ListMap__O__Z = (function(cur, k) {
   _containsInternal: while (true) {
@@ -51020,11 +51589,11 @@ $c_sci_Vector.prototype.apply__I__O = (function(index) {
 $c_sci_Vector.prototype.thisCollection__sc_Iterable = (function() {
   return this
 });
-$c_sci_Vector.prototype.depth__I = (function() {
-  return this.depth$4
-});
 $c_sci_Vector.prototype.lengthCompare__I__I = (function(len) {
   return ((this.length__I() - len) | 0)
+});
+$c_sci_Vector.prototype.depth__I = (function() {
+  return this.depth$4
 });
 $c_sci_Vector.prototype.apply__O__O = (function(v1) {
   return this.apply__I__O($uI(v1))
@@ -51099,11 +51668,11 @@ $c_sci_Vector.prototype.cleanLeftEdge__p4__I__V = (function(cutIndex) {
 $c_sci_Vector.prototype.display0__AO = (function() {
   return this.display0$4
 });
-$c_sci_Vector.prototype.display2$und$eq__AO__V = (function(x$1) {
-  this.display2$4 = x$1
-});
 $c_sci_Vector.prototype.display4__AO = (function() {
   return this.display4$4
+});
+$c_sci_Vector.prototype.display2$und$eq__AO__V = (function(x$1) {
+  this.display2$4 = x$1
 });
 $c_sci_Vector.prototype.shiftTopLevel__p4__I__I__V = (function(oldLeft, newLeft) {
   var x1 = (((-1) + this.depth$4) | 0);
@@ -51262,6 +51831,9 @@ $c_sci_Vector.prototype.iterator__sc_Iterator = (function() {
 $c_sci_Vector.prototype.display1$und$eq__AO__V = (function(x$1) {
   this.display1$4 = x$1
 });
+$c_sci_Vector.prototype.length__I = (function() {
+  return ((this.endIndex$4 - this.startIndex$4) | 0)
+});
 $c_sci_Vector.prototype.$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O = (function(that, bf) {
   if ((((bf === ($m_sci_IndexedSeq$(), $m_sc_IndexedSeq$().ReusableCBF$6)) || (bf === $m_sci_Seq$().ReusableCBFInstance$2)) || (bf === $m_sc_Seq$().ReusableCBFInstance$2))) {
     if (that.isEmpty__Z()) {
@@ -51297,14 +51869,11 @@ $c_sci_Vector.prototype.$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O 
     return $f_sc_TraversableLike__$$plus$plus__sc_GenTraversableOnce__scg_CanBuildFrom__O(this, that.seq__sc_TraversableOnce(), bf)
   }
 });
-$c_sci_Vector.prototype.length__I = (function() {
-  return ((this.endIndex$4 - this.startIndex$4) | 0)
+$c_sci_Vector.prototype.display4$und$eq__AO__V = (function(x$1) {
+  this.display4$4 = x$1
 });
 $c_sci_Vector.prototype.seq__sc_Seq = (function() {
   return this
-});
-$c_sci_Vector.prototype.display4$und$eq__AO__V = (function(x$1) {
-  this.display4$4 = x$1
 });
 $c_sci_Vector.prototype.gotoFreshPosWritable__p4__I__I__I__V = (function(oldIndex, newIndex, xor) {
   if (this.dirty$4) {
@@ -51320,17 +51889,22 @@ $c_sci_Vector.prototype.sizeHintIfCheap__I = (function() {
 $c_sci_Vector.prototype.display1__AO = (function() {
   return this.display1$4
 });
+$c_sci_Vector.prototype.display5__AO = (function() {
+  return this.display5$4
+});
 $c_sci_Vector.prototype.drop__I__O = (function(n) {
   return this.drop__I__sci_Vector(n)
 });
-$c_sci_Vector.prototype.display5__AO = (function() {
-  return this.display5$4
+$c_sci_Vector.prototype.thisCollection__sc_Seq = (function() {
+  return this
 });
 $c_sci_Vector.prototype.tail__O = (function() {
   return this.tail__sci_Vector()
 });
-$c_sci_Vector.prototype.thisCollection__sc_Seq = (function() {
-  return this
+$c_sci_Vector.prototype.iterator__sci_VectorIterator = (function() {
+  var s = new $c_sci_VectorIterator().init___I__I(this.startIndex$4, this.endIndex$4);
+  this.initIterator__sci_VectorIterator__V(s);
+  return s
 });
 $c_sci_Vector.prototype.requiredDepth__p4__I__I = (function(xor) {
   if ((xor < 32)) {
@@ -51348,11 +51922,6 @@ $c_sci_Vector.prototype.requiredDepth__p4__I__I = (function(xor) {
   } else {
     throw new $c_jl_IllegalArgumentException().init___()
   }
-});
-$c_sci_Vector.prototype.iterator__sci_VectorIterator = (function() {
-  var s = new $c_sci_VectorIterator().init___I__I(this.startIndex$4, this.endIndex$4);
-  this.initIterator__sci_VectorIterator__V(s);
-  return s
 });
 $c_sci_Vector.prototype.isDefinedAt__O__Z = (function(x) {
   var idx = $uI(x);
@@ -51390,6 +51959,16 @@ $c_sci_Vector.prototype.dropFront0__p4__I__sci_Vector = (function(cutIndex) {
 });
 $c_sci_Vector.prototype.display0$und$eq__AO__V = (function(x$1) {
   this.display0$4 = x$1
+});
+$c_sci_Vector.prototype.drop__I__sci_Vector = (function(n) {
+  if ((n <= 0)) {
+    return this
+  } else if ((this.startIndex$4 < ((this.endIndex$4 - n) | 0))) {
+    return this.dropFront0__p4__I__sci_Vector(((this.startIndex$4 + n) | 0))
+  } else {
+    var this$1 = $m_sci_Vector$();
+    return this$1.NIL$6
+  }
 });
 $c_sci_Vector.prototype.appendFront__O__sci_Vector = (function(value) {
   if ((this.endIndex$4 !== this.startIndex$4)) {
@@ -51460,16 +52039,6 @@ $c_sci_Vector.prototype.appendFront__O__sci_Vector = (function(value) {
     s$6.depth$4 = 1;
     s$6.display0$4 = elems;
     return s$6
-  }
-});
-$c_sci_Vector.prototype.drop__I__sci_Vector = (function(n) {
-  if ((n <= 0)) {
-    return this
-  } else if ((this.startIndex$4 < ((this.endIndex$4 - n) | 0))) {
-    return this.dropFront0__p4__I__sci_Vector(((this.startIndex$4 + n) | 0))
-  } else {
-    var this$1 = $m_sci_Vector$();
-    return this$1.NIL$6
   }
 });
 $c_sci_Vector.prototype.copyRight__p4__AO__I__AO = (function(array, left) {
@@ -52055,11 +52624,11 @@ $c_scm_HashMap.prototype.foreach__F1__V = (function(f) {
     }
   }
 });
-$c_scm_HashMap.prototype.empty__sc_Map = (function() {
-  return new $c_scm_HashMap().init___()
-});
 $c_scm_HashMap.prototype.keysIterator__sc_Iterator = (function() {
   return new $c_scm_HashMap$$anon$3().init___scm_HashMap(this)
+});
+$c_scm_HashMap.prototype.empty__sc_Map = (function() {
+  return new $c_scm_HashMap().init___()
 });
 $c_scm_HashMap.prototype.size__I = (function() {
   return this.tableSize$5
